@@ -1,0 +1,61 @@
+{
+  "index": {
+    "welcome": "Vraťte se do pohybu.",
+    "welcome-subtitle": "Bez omezení.",
+    "description": "Jsme tým certifikovaných fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
+    "order-consultation": "Objednat se na konzultaci",
+    "our-services": "Naše služby",
+    "our-services-title": "Komplexní péče o vaše tělo",
+    "our-services-subtitle": "Co nabízíme",
+    "our-services-item-1": "Individuální fyzioterapie",
+    "our-services-item-1-description": "Osobní plán sestavený na míru vašim potřebám pro maximální efektivitu léčby.",
+    "our-services-item-2": "Skupinová cvičení",
+    "our-services-item-2-description": "Energetizující lekce pro zdravá záda, správné držení těla a celkovou kondici.",
+    "our-services-item-3": "Sportovní masáže",
+    "our-services-item-3-description": "Masáže pro zdraví a relaxaci, které pomáhají zbavit se bolesti a zlepšit pohyb.",
+    "our-philosophy-title": "Naše filozofie",
+    "our-philosophy-subtitle": "Péče, které můžete věřit",
+    "our-philosophy-item-1": "✓ Moderní vybavení a techniky",
+    "our-philosophy-item-1-description": "Využíváme nejnovější diagnostické a terapeutické přístroje pro vaši rychlou úlevu.",
+    "our-philosophy-item-2": "✓ Zkušení a certifikovaní terapeuti",
+    "our-philosophy-item-2-description": "Náš tým se neustále vzdělává, abychom vám mohli nabídnout tu nejlepší péči.",
+    "our-philosophy-item-3": "✓ Důraz na dlouhodobé výsledky",
+    "our-philosophy-item-3-description": "Neléčíme jen symptomy, ale hledáme příčinu vašich potíží a učíme vás, jak jim předcházet.",
+    "our-clients-title": "Co o nás říkají naši klienti",
+    "our-clients-item-1-quote": "Po letech marného boje s bolestí zad jsem konečně našel pomoc. Profesionální přístup a skvělé výsledky. FyzioPro mohu jen doporučit!",
+    "our-clients-item-1-author": "Petr Novák",
+    "our-clients-item-1-author-specialization": "léčba vyhřezlé ploténky",
+    "our-clients-item-2-quote": "Skupinová cvičení na zdravá záda jsou skvělá. Příjemné prostředí a lektorka, která všemu rozumí a umí poradit. Cítím se mnohem lépe.",
+    "our-clients-item-2-author": "Jana Dvořáková",
+    "our-clients-item-2-author-specialization": "účastnice kurzů",
+    "our-clients-item-3-quote": "Jako aktivní sportovec oceňuji rychlou a efektivní pomoc po zranění kolene. Díky nim jsem byl zpět na hřišti dříve, než jsem doufal.",
+    "our-clients-item-3-author": "Martin Svoboda",
+    "our-clients-item-3-author-specialization": "sportovní fyzioterapie",
+    "our-clients-item-4-quote": "Jste připraveni udělat první krok ke zdraví?",
+    "our-clients-item-4-description": "Neodkládejte úlevu od bolesti. Objednejte se na vstupní konzultaci a společně najdeme řešení vašich potíží.",
+    "our-clients-item-4-button": "Chci se objednat"
+  },
+  "navigation": {
+    "services": {
+      "title": "Služby",
+      "individual-therapy": "Individuální fyzioterapie",
+      "group-exercises": "Skupinová cvičení",
+      "sports-massages": "Sportovní a rekondiční masáže",
+      "prevention": "Prevence a ergonomie",
+      "online-consultations": "Online konzultace"
+    },
+    "about": "O nás",
+    "contact": "Kontakt",
+    "home": "Domů",
+    "blog": "Blog",
+    "open-menu": "Otevřít hlavní menu"
+  },
+  "footer": {
+    "quick-links": "Rychlé odkazy",
+    "follow-us": "Sledujte nás",
+    "description": "Pomáháme vám na cestě ke zdravému pohybu a životu bez bolesti.",
+    "all-rights-reserved": "Všechna práva vyhrazena.",
+    "terms-and-conditions": "Obchodní podmínky",
+    "privacy-policy": "Ochrana údajů"
+  }
+}
