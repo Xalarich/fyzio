@@ -20,6 +20,17 @@ export default defineNuxtConfig({
   tailwindcss: {
     viewer: true,
     cssPath: './assets/css/tailwind.css',
+    config: {
+      content: [
+        './components/**/*.{js,vue,ts}',
+        './layouts/**/*.vue',
+        './pages/**/*.vue',
+        './plugins/**/*.{js,ts}',
+        './content/**/*.md',
+        './app.vue',
+        './error.vue',
+      ],
+    },
   },
   vite: {
     server: {

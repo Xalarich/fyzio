@@ -2,9 +2,9 @@
   <header class="bg-white text-zinc-800 shadow-md border-b border-zinc-200 sticky top-0 z-50">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
-        <div class="flex-shrink-0">
-          <a href="/" class="text-2xl font-bold tracking-wider text-zinc-800">
-            FYZIO<span class="text-indigo-600">PRO</span>
+        <div class="flex-shrink-0 group">
+          <a href="/" class="text-2xl font-bold tracking-wider text-zinc-800 group-hover:text-indigo-600 transition-colors duration-300 ease-in-out text-shadow-sm hover:text-shadow-lg">
+            MAREK<span class="text-indigo-600 group-hover:text-zinc-800 transition-colors duration-300 ease-in-out text-shadow-sm hover:text-shadow-lg">CÓN</span>
           </a>
         </div>
 
@@ -44,7 +44,7 @@
 
           <a href="/blogs" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">{{ $t('navigation.blog') }}</a>
           <a href="/about" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">{{ $t('navigation.about') }}</a>
-          <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105">{{ $t('navigation.contact') }}</a>
+          <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-2 px-5 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105">{{ $t('navigation.contact') }}</a>
         </nav>
 
         <div class="md:hidden flex items-center">

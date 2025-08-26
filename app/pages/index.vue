@@ -14,7 +14,7 @@
                 {{ $t('index.description') }}
               </p>
               <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105">
+                <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105">
                   {{ $t('index.order-consultation') }}
                 </a>
                 <a href="#nase-sluzby" class="bg-zinc-100 hover:bg-zinc-200 text-zinc-800 font-bold py-4 px-8 rounded-lg text-lg transition-colors duration-300">
@@ -141,12 +141,11 @@
 </template>
 
 <script setup lang="ts">
-
-const { locales, setLocale } = useI18n()
+const { t } = useI18n()
 
 useSeoMeta({
-  title: 'Fyzioterapie Marek Cón',
-  description: 'Moderní fyzioterapie FyzioPro v centru Prahy vám pomůže zbavit se bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.'
+  title: t('index.title'),
+  description: t('index.description-seo')
 })
 
 </script>

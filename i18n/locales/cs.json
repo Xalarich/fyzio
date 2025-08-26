@@ -1,5 +1,7 @@
 {
   "index": {
+    "title": "Fyzioterapie Marek Cón",
+    "description-seo": "Moderní fyzioterapie FyzioPro v centru Prahy vám pomůže zbavit se bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
     "welcome": "Vraťte se do pohybu.",
     "welcome-subtitle": "Bez omezení.",
     "description": "Jsme tým certifikovaných fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
@@ -57,5 +59,86 @@
     "all-rights-reserved": "Všechna práva vyhrazena.",
     "terms-and-conditions": "Obchodní podmínky",
     "privacy-policy": "Ochrana údajů"
+  },
+  "about": {
+    "title": "O nás - Fyzioterapie Marek Cón",
+    "description": "Seznamte se s naším týmem zkušených fyzioterapeutů. Specializujeme se na rehabilitaci, prevenci a léčbu pohybového aparátu s individuálním přístupem.",
+    "ourReviews": "Naše recenze",
+    "skills": {
+      "title": "Dovednosti"
+    },
+    "senior": {
+      "name": "Marek Cón starší",
+      "bio": "Jsem zkušený fyzioterapeut s více než 35 lety praxe, specializující se na rehabilitaci, prevenci a léčbu pohybového aparátu. Během své kariéry jsem působil jak ve vrcholovém sportu, tak ve zdravotnických zařízeních a soukromé praxi.",
+      "experience": "Moje odborné zkušenosti zahrnují práci s veslařskou reprezentací Československa, působení v nemocnicích na odděleních chirurgie, ortopedie, traumatologie a neurochirurgie, a více než 15 let praxe v soukromém zdravotnictví.",
+      "practice": "Jako vedoucí fyzioterapeut na klinice Medicover (2007–2016) jsem vedl tým odborníků a zaměřoval se na komplexní rehabilitační péči. Od roku 2016 se plně věnuji soukromé praxi, kde spolupracuji s renomovanými firmami a věnuji se také vzdělávací činnosti v oblasti propojení fyzického a psychického zdraví.",
+      "skill1": "Fyzioterapie a rehabilitace – široké spektrum zkušeností od sportovní medicíny po nemocniční péči.",
+      "skill2": "Manuální terapie a diagnostika – odborné metody k obnovení pohybových funkcí.",
+      "skill3": "Vzdělávání a osvěta – přednášky a školení v oblasti fyzického a psychického zdraví.",
+      "skill4": "Spolupráce s psychology a firmami – komplexní přístup ke zdraví zaměstnanců.",
+      "skill5": "Individuální přístup k pacientům – celostním pohledem na zdraví a prevenci zdravotních potíží."
+    },
+    "junior": {
+      "name": "Marek Cón mladší",
+      "bio": "Vystudoval jsem magisterské studium fyzioterapie na Univerzitě Karlově. Jsem fyzioterapeut se specializací na muskuloskeletální poruchy a disponuji zkušenostmi v podpoře elitních sportovců v prostředí vrcholového sportu. Pomáhám při rehabilitaci po úrazech, zvyšování výkonu a v rámci individuálně přizpůsobených regeneračních programů.",
+      "practiceTitle": "Klinická praxe",
+      "practice": "V mé klinické praxi kombinuji ověřené manuální terapie, funkční silový a mobilizační trénink a pokročilé regenerační strategie – vždy v souladu s nároky jedince.",
+      "skill1": "Prevence a léčba zranění – diagnostika a terapie pohybových dysbalancí.",
+      "skill2": "Tvorba individuálních cvičebních plánů – zaměřených na rehabilitaci i výkon.",
+      "skill3": "Masáže a manuální terapie – uvolnění svalového napětí, mobilizace kloubů.",
+      "skill4": "Diagnostika a hodnocení pohybového aparátu – biomechanická analýza pohybu.",
+      "skill5": "Monitoring trendů a inovací – aplikace nejnovějších metod v rehabilitaci."
+    }
+  },
+  "blog": {
+    "title": "Fyzioterapie Marek Cón Blog",
+    "description": "Blogy Marka Cóna o bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
+    "category": {
+      "musculoskeletal": "Pohybový aparát"
+    },
+    "krcniPater": {
+      "title": "Bolest krční páteře - akutní x chronická",
+      "description": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
+      "mainTitle": "Bolest Krční Páteře: Příčiny a Projevy",
+      "intro": {
+        "p1": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat širokou škálu příznaků:",
+        "symptoms": {
+          "item1": "Bolest svalů",
+          "item2": "Svalové křeče",
+          "item3": "Bolest hlavy",
+          "item4": "Bolest fasetových kloubů",
+          "item5": "Neurogenní (nervová) bolest",
+          "item6": "Přenesená bolest"
+        }
+      },
+      "acute": {
+        "title": "Akutní případy",
+        "p1": "V akutních případech se svaly při nevhodném pohybu či prochladnutí svým bolestivým stahem snaží ochránit samotnou páteř a nervové struktury s ní související. S dodržením režimových opatření a intervencí fyzioterapeuta se stav často do 10 dnů upraví.",
+        "p2": "Akutní postižení je také velmi často spojeno se sportem. Mezi nejčastější mechanismy úrazu patří kolize, při níž dojde k prudkému záklonu a následně předklonu krku – tzv. whiplash injury. Tento pohyb si můžete představit jako prudké švihnutí bičem. Dochází při něm k natažení měkkých tkání a je potřeba postupnými kroky pracovat na obnově plné funkce krční páteře."
+      },
+      "chronic": {
+        "title": "Déletrvající potíže",
+        "p1": "Při déletrvajících potížích je potřeba zapátrat po příčině. Jedna z hlavních funkcí krční páteře je podpora držení hlavy a zároveň umožnění jejího pohybu. Existuje mnoho důvodů, které se mohou podílet na chronických bolestech.",
+        "dysbalance": {
+          "title": "Svalové dysbalance",
+          "p1": "Nejčastěji se jedná o svalové přetížení způsobené nadměrnou nebo jednostrannou aktivitou, jako je například dlouhodobá práce u počítače. S tím je spojena svalová nerovnováha, kdy část svalů je oslabena a druhá naopak přetížena. Pokud se podaří docílit svalové rovnováhy, bolest obvykle ustupuje."
+        },
+        "degeneration": {
+          "title": "Opotřebení (Degenerativní změny)",
+          "p1": "S narůstajícím věkem roste opotřebení kloubů. Osteoartróza vede ke zhoršení stavu kloubní chrupavky obratlů, což často vede k tvorbě tzv. osteofytů – kostních výrůstků (zobáčků), které zhoršují hybnost páteře a způsobují bolest."
+        },
+        "radiculopathy": {
+          "title": "Kořenové dráždění (Radikulopatie)",
+          "p1": "Osteofyty nebo vyhřezlá ploténka mohou mechanicky dráždit nerv vystupující z páteře. V tomto případě dochází ke kořenovému dráždění a bolest se často propaguje do horních končetin. Projevy jsou typicky:",
+          "symptoms": {
+            "item1": "Necitlivost",
+            "item2": "Brnění nebo mravenčení",
+            "item3": "Svalová slabost horní končetiny"
+          },
+          "p2_strong": "Tyto příznaky často reagují na pohyby krční páteře.",
+          "p2": "Je důležité mít na paměti, že původ bolesti není v horní končetině, ale v krční páteři."
+        }
+      }
+    }
   }
 }

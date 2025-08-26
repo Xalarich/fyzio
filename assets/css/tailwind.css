@@ -39,9 +39,12 @@
     @apply list-decimal list-inside;
   }
   a {
-    @apply text-indigo-600 hover:text-indigo-700;
+    @apply text-indigo-600 hover:text-indigo-700 scroll-mt-2.5;
   }
-  img {
+  .image {
     @apply rounded-lg shadow-2xl shadow-zinc-900/80;
+  }
+  .container {
+    @apply 2xl:!max-w-7xl;
   }
 }
