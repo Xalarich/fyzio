@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-screen flex flex-col">
       <Header />
-      <!-- blogs listed -->
+      
       <Footer />
     </div>
   </template>

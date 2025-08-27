@@ -93,50 +93,104 @@
   "blog": {
     "title": "Fyzioterapie Marek Cón Blog",
     "description": "Blogy Marka Cóna o bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
-    "category": {
-      "musculoskeletal": "Pohybový aparát"
-    },
-    "krcniPater": {
-      "title": "Bolest krční páteře - akutní x chronická",
-      "description": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
-      "mainTitle": "Bolest Krční Páteře: Příčiny a Projevy",
-      "intro": {
-        "p1": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat širokou škálu příznaků:",
-        "symptoms": {
-          "item1": "Bolest svalů",
-          "item2": "Svalové křeče",
-          "item3": "Bolest hlavy",
-          "item4": "Bolest fasetových kloubů",
-          "item5": "Neurogenní (nervová) bolest",
-          "item6": "Přenesená bolest"
+    "blogs": {
+      "category": {
+        "musculoskeletal": "Pohybový aparát"
+      },
+      "krcniPater": {
+        "title": "Bolest krční páteře - akutní x chronická",
+        "description": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
+        "mainTitle": "Bolest Krční Páteře: Příčiny a Projevy",
+        "intro": {
+          "p1": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat širokou škálu příznaků:",
+          "symptoms": {
+            "item1": "Bolest svalů",
+            "item2": "Svalové křeče",
+            "item3": "Bolest hlavy",
+            "item4": "Bolest fasetových kloubů",
+            "item5": "Neurogenní (nervová) bolest",
+            "item6": "Přenesená bolest"
+          }
+        },
+        "acute": {
+          "title": "Akutní případy",
+          "p1": "V akutních případech se svaly při nevhodném pohybu či prochladnutí svým bolestivým stahem snaží ochránit samotnou páteř a nervové struktury s ní související. S dodržením režimových opatření a intervencí fyzioterapeuta se stav často do 10 dnů upraví.",
+          "p2": "Akutní postižení je také velmi často spojeno se sportem. Mezi nejčastější mechanismy úrazu patří kolize, při níž dojde k prudkému záklonu a následně předklonu krku – tzv. whiplash injury. Tento pohyb si můžete představit jako prudké švihnutí bičem. Dochází při něm k natažení měkkých tkání a je potřeba postupnými kroky pracovat na obnově plné funkce krční páteře."
+        },
+        "chronic": {
+          "title": "Déletrvající potíže",
+          "p1": "Při déletrvajících potížích je potřeba zapátrat po příčině. Jedna z hlavních funkcí krční páteře je podpora držení hlavy a zároveň umožnění jejího pohybu. Existuje mnoho důvodů, které se mohou podílet na chronických bolestech.",
+          "dysbalance": {
+            "title": "Svalové dysbalance",
+            "p1": "Nejčastěji se jedná o svalové přetížení způsobené nadměrnou nebo jednostrannou aktivitou, jako je například dlouhodobá práce u počítače. S tím je spojena svalová nerovnováha, kdy část svalů je oslabena a druhá naopak přetížena. Pokud se podaří docílit svalové rovnováhy, bolest obvykle ustupuje."
+          },
+          "degeneration": {
+            "title": "Opotřebení (Degenerativní změny)",
+            "p1": "S narůstajícím věkem roste opotřebení kloubů. Osteoartróza vede ke zhoršení stavu kloubní chrupavky obratlů, což často vede k tvorbě tzv. osteofytů – kostních výrůstků (zobáčků), které zhoršují hybnost páteře a způsobují bolest."
+          },
+          "radiculopathy": {
+            "title": "Kořenové dráždění (Radikulopatie)",
+            "p1": "Osteofyty nebo vyhřezlá ploténka mohou mechanicky dráždit nerv vystupující z páteře. V tomto případě dochází ke kořenovému dráždění a bolest se často propaguje do horních končetin. Projevy jsou typicky:",
+            "symptoms": {
+              "item1": "Necitlivost",
+              "item2": "Brnění nebo mravenčení",
+              "item3": "Svalová slabost horní končetiny"
+            },
+            "p2_strong": "Tyto příznaky často reagují na pohyby krční páteře.",
+            "p2": "Je důležité mít na paměti, že původ bolesti není v horní končetině, ale v krční páteři."
+          }
         }
       },
-      "acute": {
-        "title": "Akutní případy",
-        "p1": "V akutních případech se svaly při nevhodném pohybu či prochladnutí svým bolestivým stahem snaží ochránit samotnou páteř a nervové struktury s ní související. S dodržením režimových opatření a intervencí fyzioterapeuta se stav často do 10 dnů upraví.",
-        "p2": "Akutní postižení je také velmi často spojeno se sportem. Mezi nejčastější mechanismy úrazu patří kolize, při níž dojde k prudkému záklonu a následně předklonu krku – tzv. whiplash injury. Tento pohyb si můžete představit jako prudké švihnutí bičem. Dochází při něm k natažení měkkých tkání a je potřeba postupnými kroky pracovat na obnově plné funkce krční páteře."
-      },
-      "chronic": {
-        "title": "Déletrvající potíže",
-        "p1": "Při déletrvajících potížích je potřeba zapátrat po příčině. Jedna z hlavních funkcí krční páteře je podpora držení hlavy a zároveň umožnění jejího pohybu. Existuje mnoho důvodů, které se mohou podílet na chronických bolestech.",
-        "dysbalance": {
-          "title": "Svalové dysbalance",
-          "p1": "Nejčastěji se jedná o svalové přetížení způsobené nadměrnou nebo jednostrannou aktivitou, jako je například dlouhodobá práce u počítače. S tím je spojena svalová nerovnováha, kdy část svalů je oslabena a druhá naopak přetížena. Pokud se podaří docílit svalové rovnováhy, bolest obvykle ustupuje."
+      "bezeckeKoleno": {
+        "title": "Běžecké koleno - syndrom iliotibiálního traktu (ITBS)",
+        "description": "Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často označovanou jako iliotibiální syndrom (ITBS). Jedná se o přetížení vazivového pruhu, který je důležitým stabilizátorem kolenního a kyčelního kloubu.",
+        "mainTitle": "Syndrom Iliotibiálního Traktu: Příčiny a Léčba Běžeckého Kolene",
+        "intro": {
+          "p1": "Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často se jedná o takzvaný iliotibiální syndrom (ITBS). Jde o vazivový pruh, kterým se sval jdoucí od pánve po zevní straně stehna upíná pod vnější stranu kolene. Ačkoli jde o poměrně malý sval, je důležitým stabilizátorem kolenního a kyčelního kloubu.",
+          "p2": "Naše kostra má samozřejmě více takových stabilizátorů. Pokud je ale narušena rovnováha mezi jednotlivými svaly, iliotibiální trakt se stává přetíženým, utvoří se zde zánět a to často vyžaduje několik týdnů až měsíců dlouhou rekonvalescenci."
         },
-        "degeneration": {
-          "title": "Opotřebení (Degenerativní změny)",
-          "p1": "S narůstajícím věkem roste opotřebení kloubů. Osteoartróza vede ke zhoršení stavu kloubní chrupavky obratlů, což často vede k tvorbě tzv. osteofytů – kostních výrůstků (zobáčků), které zhoršují hybnost páteře a způsobují bolest."
-        },
-        "radiculopathy": {
-          "title": "Kořenové dráždění (Radikulopatie)",
-          "p1": "Osteofyty nebo vyhřezlá ploténka mohou mechanicky dráždit nerv vystupující z páteře. V tomto případě dochází ke kořenovému dráždění a bolest se často propaguje do horních končetin. Projevy jsou typicky:",
-          "symptoms": {
-            "item1": "Necitlivost",
-            "item2": "Brnění nebo mravenčení",
-            "item3": "Svalová slabost horní končetiny"
+        "causesAndRisks": {
+          "title": "Příčiny vzniku a rizikové faktory",
+          "running": {
+            "title": "Běh a svalová koordinace",
+            "p1": "Jednou z hlavních příčin vzniku může být běh, který je sám o sobě náročný na svalovou koordinaci. Při nedostatečné stabilizaci pánve a trupu dochází k přetížení iliotibiálního traktu.",
+            "p2": "ITBS trpí častěji ženy než muži, což je u žen často způsobeno větší vnitřní rotací kosti stehenní (nohy do “X”)."
           },
-          "p2_strong": "Tyto příznaky často reagují na pohyby krční páteře.",
-          "p2": "Je důležité mít na paměti, že původ bolesti není v horní končetině, ale v krční páteři."
+          "cycling": {
+            "title": "Cyklistika a opakovaný pohyb",
+            "p1": "Poměrně často trpí ITBS cyklisté, kde jde opět o přetížení způsobené nadměrným pokrčováním a natahováním kolene. Reakcí na přetížení je zánět při úponu traktu a následná bolest."
+          }
+        },
+        "symptomsAndManagement": {
+          "title": "Příznaky a první kroky",
+          "p1": "Bolest je nejčastěji vyvolána při pokrčení kolene ve 30°, kdy dochází k útlaku iliotibiálního traktu za zevním epikondylem kosti stehenní.",
+          "p2": "Pokud máte podezření na iliotibiální syndrom, měli byste se v první řadě snažit určit příčinu bolesti a pokud možno vyvarovat se podnětu, který bolest způsobuje. Mějte na paměti, že zánět může dlouho přetrvávat a čím více budete postiženou část přetěžovat, tím delší bude rekonvalescence.",
+          "triggers": {
+            "title": "Co bolest typicky provokuje?",
+            "item1": "Nadměrná délka běhu nebo chůze z kopce.",
+            "item2": "Intenzivní cyklistika a plavání.",
+            "item3": "Chůze ze schodů.",
+            "item4": "Zanožení s pokrčeným kolenem více jak 30°."
+          },
+          "p3": "Po odeznění akutního stádia se bolest při běhu občas vrací (typicky zhruba po 4 km). V takovém případě je na místě aktivitu ukončit a zvolit adekvátní rehabilitační proces, aby se problém nestal chronickým a těžko léčitelným."
+        },
+        "rehabilitation": {
+          "title": "Rehabilitační postupy s našimi klienty",
+          "acutePhase": {
+            "title": "Terapie v akutní a subakutní fázi",
+            "p1": "Po důkladném vyšetření fyzioterapeutem je nutné stanovit příčinu bolesti. Cílem je snížit zánět iliotibiálního traktu, nejlépe omezením aktivit způsobujících problém. Následně pomocí myofasciálních technik, rázové vlny a elektroterapie docílíme snížení svalového napětí.",
+            "steps": {
+              "item1": "Odpočinek od běhu, cyklistiky a dalších aktivit vyvolávajících bolest.",
+              "item2": "V těžších případech omezit pokrčování a natahování kolene; při plavání omezit pohyb nohou s využitím plovací destičky.",
+              "item3": "Podpůrná terapie: ledování, fyzikální terapie, kinesiotaping.",
+              "item4": "Návrat ke sportu je možný po 2 týdnech bez bolesti s pomalou progresí tréninku."
+            }
+          },
+          "recoveryPhase": {
+            "title": "Terapie ve fázi rekonvalescence",
+            "p1": "Základem v této části terapie je bezbolestné provedení cviků, což poukazuje na ústup zánětu. Za důležité považujeme komplexní pohled na pohybový aparát a detailní analýzu svalových dysbalancí, což umožňuje odstranění funkčních poruch pohybového systému.",
+            "p2": "Důraz by měl být kladen především na posílení stabilizátorů kyčle a trupu."
+          }
         }
       }
     }

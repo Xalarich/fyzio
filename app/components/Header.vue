@@ -3,8 +3,8 @@
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <div class="flex-shrink-0 group">
-          <a href="/" class="text-2xl font-bold tracking-wider text-zinc-800 group-hover:text-indigo-600 transition-colors duration-300 ease-in-out text-shadow-sm hover:text-shadow-lg">
-            MAREK<span class="text-indigo-600 group-hover:text-zinc-800 transition-colors duration-300 ease-in-out text-shadow-sm hover:text-shadow-lg">CÓN</span>
+          <a href="/" class="text-2xl font-bold tracking-wider text-zinc-800 group-hover:text-indigo-600 transition-colors duration-300 ease-in-out text-shadow-sm group-hover:text-shadow-lg">
+            MAREK<span class="text-indigo-600 group-hover:text-zinc-800 transition-colors duration-300 ease-in-out text-shadow-sm group-hover:text-shadow-lg">CÓN</span>
           </a>
         </div>
 
