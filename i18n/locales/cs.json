@@ -93,6 +93,28 @@
   "blog": {
     "title": "Fyzioterapie Marek Cón Blog",
     "description": "Blogy Marka Cóna o bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.",
+    "read-more": "Číst více",
+    "read-time": "min čtení",
+    "blogList": [
+      {
+        "id": "neck-pain",
+        "title": "Bolest krční páteře - akutní x chronická",
+        "description": "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
+        "image": "/images/blogs/krcni-pater.jpg",
+        "createdAt": "2024-01-15",
+        "readTime": 8,
+        "category": "Pohybový aparát"
+      },
+      {
+        "id": "running-knee",
+        "title": "Běžecké koleno - syndrom iliotibiálního traktu (ITBS)",
+        "description": "Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často označovanou jako iliotibiální syndrom (ITBS). Jedná se o přetížení vazivového pruhu, který je důležitým stabilizátorem kolenního a kyčelního kloubu.",
+        "image": "/images/blogs/skeleton-legs.png",
+        "createdAt": "2024-01-10",
+        "readTime": 12,
+        "category": "Sportovní medicína"
+      }
+    ],
     "blogs": {
       "category": {
         "musculoskeletal": "Pohybový aparát"

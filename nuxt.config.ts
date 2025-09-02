@@ -11,7 +11,12 @@ export default defineNuxtConfig({
       { code: 'en', language: 'English', file: 'en.json' },
       { code: 'cs', language: 'Czech', file: 'cs.json' }
     ],
+    langDir: 'locales',
+    bundle: {
+      optimizeTranslationDirective: false,
+    },
     defaultLocale: 'cs',
+    runtimeOnly:false,
     detectBrowserLanguage: {
       useCookie: true,
       cookieKey: 'i18n_redirected',

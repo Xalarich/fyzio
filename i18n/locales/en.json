@@ -4,6 +4,33 @@
     "navigation": {
       "home": "Home",
       "about": "About",
-      "contact": "Contact"
+      "contact": "Contact",
+      "blog": "Blog"
+    },
+    "blog": {
+      "title": "Physiotherapy Marek Cón Blog",
+      "description": "Blogs by Marek Cón about back, joint and muscle pain. We specialize in individual approach and long-term results.",
+      "read-more": "Read more",
+      "read-time": "min read",
+      "blogList": [
+        {
+          "id": "neck-pain",
+          "title": "Neck Pain - Acute vs Chronic",
+          "description": "The most commonly reported type of pain is non-specific or mechanical neck pain. Common manifestations may include muscle pain, muscle spasms, headaches and more.",
+          "image": "/images/blogs/krcni-pater.jpg",
+          "createdAt": "2024-01-15",
+          "readTime": 8,
+          "category": "Musculoskeletal"
+        },
+        {
+          "id": "running-knee",
+          "title": "Runner's Knee - Iliotibial Band Syndrome (ITBS)",
+          "description": "Abnormal movement patterns or high training intensity can cause pain on the outer side of the knee, often referred to as iliotibial band syndrome (ITBS). This is an overload of the ligament band that is an important stabilizer of the knee and hip joint.",
+          "image": "/images/blogs/skeleton-legs.png",
+          "createdAt": "2024-01-10",
+          "readTime": 12,
+          "category": "Sports Medicine"
+        }
+      ]
     }
 }
