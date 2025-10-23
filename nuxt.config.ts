@@ -1,27 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', '@nuxtjs/i18n'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
   future: {
     compatibilityVersion: 4,
   },
   compatibilityDate: '2024-04-03',
-  i18n: {
-    locales: [
-      { code: 'en', language: 'English', file: 'en.json' },
-      { code: 'cs', language: 'Czech', file: 'cs.json' }
-    ],
-    langDir: 'locales',
-    bundle: {
-      optimizeTranslationDirective: false,
-    },
-    defaultLocale: 'cs',
-    runtimeOnly:false,
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'i18n_redirected',
-    },
-  },
   tailwindcss: {
     viewer: true,
     cssPath: './assets/css/tailwind.css',

@@ -8,10 +8,10 @@
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
           <div class="text-center">
             <h1 class="text-4xl lg:text-5xl font-extrabold text-zinc-900 tracking-tight">
-              {{ $t('blog.title') }}
+              Fyzioterapie Marek Cón Blog
             </h1>
             <p class="mt-4 text-lg text-zinc-600 max-w-2xl mx-auto">
-              {{ $t('blog.description') }}
+              Blogy Marka Cóna o bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@
                     <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
-                    {{ blog.readTime }} {{ $t('blog.read-time') }}
+                    {{ blog.readTime }} min čtení
                   </span>
                 </div>
                 
@@ -75,7 +75,7 @@
                   :to="`/blogs/${blog.id}`"
                   class="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-colors duration-300"
                 >
-                  {{ $t('blog.read-more') }}
+                  Číst více
                   <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                   </svg>
@@ -102,33 +102,55 @@
 
 <script setup lang="ts">
 import { computed } from 'vue'
-import { useI18n } from 'vue-i18n'
-import csData from '../../../i18n/locales/cs.json'
-import enData from '../../../i18n/locales/en.json'
 
-// 1. Z i18n si stále vezmeme `locale` pro zjištění jazyka
-//    a `t` pro běžné texty (nadpisy, tlačítka atd.).
-const { locale, t } = useI18n()
+// Definujeme blog data přímo zde
+const blogData = [
+  {
+    id: "hip-mobility-exercises",
+    title: "Mobilita kyčlí a bolesti zad – 3 cviky pro zlepšení zdraví",
+    description: "Kyčelní kloub je mnohem méně pohyblivý než ramenní, přesto je jejich mobilita velmi důležitá. Omezený pohyb kyčelních kloubů často souvisí s bolestmi bederní páteře. Naučte se 3 účinné cviky.",
+    image: "/images/blogs/skeleton-legs.png",
+    createdAt: "2021-09-27",
+    readTime: 7,
+    category: "Pohybový aparát"
+  },
+  {
+    id: "patellofemoral-pain",
+    title: "Bolest kolene – syndrom Patellofemorální bolesti",
+    description: "Syndrom patellofemorální bolesti (PFPS) můžete znát jako běžecké koleno, chondromalacie pately, retropatelární bolestivý syndrom. Mluvíme o bolesti na přední straně kolene, která postihuje přibližně 25 % populace.",
+    image: "/images/blogs/skeleton-legs.png",
+    createdAt: "2023-03-30",
+    readTime: 10,
+    category: "Pohybový aparát"
+  },
+  {
+    id: "neck-pain",
+    title: "Bolest krční páteře - akutní x chronická",
+    description: "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
+    image: "/images/blogs/krcni-pater.jpg",
+    createdAt: "2024-01-15",
+    readTime: 8,
+    category: "Pohybový aparát"
+  },
+  {
+    id: "running-knee",
+    title: "Běžecké koleno - syndrom iliotibiálního traktu (ITBS)",
+    description: "Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často označovanou jako iliotibiální syndrom (ITBS). Jedná se o přetížení vazivového pruhu, který je důležitým stabilizátorem kolenního a kyčelního kloubu.",
+    image: "/images/blogs/skeleton-legs.png",
+    createdAt: "2024-01-10",
+    readTime: 12,
+    category: "Sportovní medicína"
+  }
+]
 
-// 2. Naimportujeme si PŘÍMO celé JSON soubory jako datové objekty.
-
-// 3. Vytvoříme computed property, která jednoduše vybere správná data
-//    a sáhne si do nich pro seznam blogů.
 const blogs = computed(() => {
-  // Podle aktuálního jazyka vybereme správný naimportovaný soubor
-  const activeData = locale.value === 'cs' ? csData : enData;
-  
-  // Z dat si vezmeme náš seznam blogů
-  const blogData = activeData.blog.blogList;
-
-  // Pojistka, kdyby seznam v souboru chyběl
   return Array.isArray(blogData) ? blogData : [];
 })
 
-// Funkce pro formátování data zůstává stejná
+// Funkce pro formátování data
 const formatDate = (dateString: string) => {
   const date = new Date(dateString)
-  return date.toLocaleDateString(locale.value, {
+  return date.toLocaleDateString('cs-CZ', {
     year: 'numeric',
     month: 'long',
     day: 'numeric'

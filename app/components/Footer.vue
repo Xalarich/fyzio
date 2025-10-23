@@ -8,7 +8,7 @@
             FYZIO<span class="text-indigo-500">PRO</span>
           </a>
           <p class="mt-4 text-sm">
-              {{ $t('footer.description') }}
+              Pomáháme vám na cestě ke zdravému pohybu a životu bez bolesti.
           </p>
           <ul class="mt-6 space-y-4 text-sm">
             <li class="flex items-start">
@@ -34,27 +34,27 @@
         </div>
 
         <div>
-          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">{{ $t('navigation.services.title') }}</h3>
+          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">Služby</h3>
           <ul class="mt-4 space-y-3">
-            <li><a href="/fyzioterapie/individualni" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.services.individual-therapy') }}</a></li>
-            <li><a href="/fyzioterapie/skupinova" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.services.group-exercises') }}</a></li>
-            <li><a href="/fyzioterapie/masaze" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.services.sports-massages') }}</a></li>
-            <li><a href="/fyzioterapie/prevence" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.services.prevention') }}</a></li>
-            <li><a href="/fyzioterapie/online" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.services.online-consultations') }}</a></li>
+            <li><a href="/fyzioterapie/individualni" class="text-sm hover:text-indigo-400 transition-colors">Individuální fyzioterapie</a></li>
+            <li><a href="/fyzioterapie/skupinova" class="text-sm hover:text-indigo-400 transition-colors">Skupinová cvičení</a></li>
+            <li><a href="/fyzioterapie/masaze" class="text-sm hover:text-indigo-400 transition-colors">Sportovní a rekondiční masáže</a></li>
+            <li><a href="/fyzioterapie/prevence" class="text-sm hover:text-indigo-400 transition-colors">Prevence a ergonomie</a></li>
+            <li><a href="/fyzioterapie/online" class="text-sm hover:text-indigo-400 transition-colors">Online konzultace</a></li>
           </ul>
         </div>
 
         <div>
-          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">{{ $t('footer.quick-links') }}</h3>
+          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">Rychlé odkazy</h3>
           <ul class="mt-4 space-y-3">
-            <li><a href="/blog" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.blog') }}</a></li>
-            <li><a href="/about" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.about') }}</a></li>
-            <li><a href="/kontakt" class="text-sm hover:text-indigo-400 transition-colors">{{ $t('navigation.contact') }}</a></li>
+            <li><a href="/blog" class="text-sm hover:text-indigo-400 transition-colors">Blog</a></li>
+            <li><a href="/about" class="text-sm hover:text-indigo-400 transition-colors">O nás</a></li>
+            <li><a href="/kontakt" class="text-sm hover:text-indigo-400 transition-colors">Kontakt</a></li>
           </ul>
         </div>
         
         <div>
-          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">{{ $t('footer.follow-us') }}</h3>
+          <h3 class="text-sm font-semibold tracking-wider text-white uppercase">Sledujte nás</h3>
           <div class="flex mt-4 space-x-4">
             <a href="#" class="text-zinc-400 hover:text-indigo-400 transition-colors">
               <span class="sr-only">Facebook</span>
@@ -74,11 +74,11 @@
 
       <div class="mt-12 pt-8 border-t border-zinc-800 flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
         <p class="text-sm text-zinc-500">
-          &copy; {{ new Date().getFullYear() }} FyzioPro. {{ $t('footer.all-rights-reserved') }}
+          &copy; {{ new Date().getFullYear() }} FyzioPro. Všechna práva vyhrazena.
         </p>
         <div class="flex space-x-6 text-sm">
-          <a href="/obchodni-podminky" class="text-zinc-400 hover:text-white transition-colors">{{ $t('footer.terms-and-conditions') }}</a>
-          <a href="/ochrana-udaju" class="text-zinc-400 hover:text-white transition-colors">{{ $t('footer.privacy-policy') }}</a>
+          <a href="/obchodni-podminky" class="text-zinc-400 hover:text-white transition-colors">Obchodní podmínky</a>
+          <a href="/ochrana-udaju" class="text-zinc-400 hover:text-white transition-colors">Ochrana údajů</a>
         </div>
       </div>
     </div>

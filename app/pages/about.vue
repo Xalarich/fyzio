@@ -7,24 +7,24 @@
           <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div class="order-2 lg:order-1">
-                <h2 class="text-3xl font-bold text-zinc-900 tracking-tight">{{ $t('about.senior.name') }}</h2>
+                <h2 class="text-3xl font-bold text-zinc-900 tracking-tight">Marek Cón starší</h2>
                 <p class="mt-4 text-base text-zinc-600">
-                  {{ $t('about.senior.bio') }}
+                  Jsem zkušený fyzioterapeut s více než 35 lety praxe, specializující se na rehabilitaci, prevenci a léčbu pohybového aparátu. Během své kariéry jsem působil jak ve vrcholovém sportu, tak ve zdravotnických zařízeních a soukromé praxi.
                 </p>
                 <p class="mt-4 text-base text-zinc-600">
-                  {{ $t('about.senior.experience') }}
+                  Moje odborné zkušenosti zahrnují práci s veslařskou reprezentací Československa, působení v nemocnicích na odděleních chirurgie, ortopedie, traumatologie a neurochirurgie, a více než 15 let praxe v soukromém zdravotnictví.
                 </p>
                 <p class="mt-4 text-base text-zinc-600">
-                  {{ $t('about.senior.practice') }}
+                  Jako vedoucí fyzioterapeut na klinice Medicover (2007–2016) jsem vedl tým odborníků a zaměřoval se na komplexní rehabilitační péči. Od roku 2016 se plně věnuji soukromé praxi, kde spolupracuji s renomovanými firmami a věnuji se také vzdělávací činnosti v oblasti propojení fyzického a psychického zdraví.
                 </p>
   
-                <h3 class="mt-8 text-xl font-bold text-zinc-900">{{ $t('about.skills.title') }}</h3>
+                <h3 class="mt-8 text-xl font-bold text-zinc-900">Dovednosti</h3>
                 <ul class="mt-4 space-y-2 text-zinc-600 list-disc list-inside">
-                  <li>{{ $t('about.senior.skill1') }}</li>
-                  <li>{{ $t('about.senior.skill2') }}</li>
-                  <li>{{ $t('about.senior.skill3') }}</li>
-                  <li>{{ $t('about.senior.skill4') }}</li>
-                  <li>{{ $t('about.senior.skill5') }}</li>
+                  <li>Fyzioterapie a rehabilitace – široké spektrum zkušeností od sportovní medicíny po nemocniční péči.</li>
+                  <li>Manuální terapie a diagnostika – odborné metody k obnovení pohybových funkcí.</li>
+                  <li>Vzdělávání a osvěta – přednášky a školení v oblasti fyzického a psychického zdraví.</li>
+                  <li>Spolupráce s psychology a firmami – komplexní přístup ke zdraví zaměstnanců.</li>
+                  <li>Individuální přístup k pacientům – celostním pohledem na zdraví a prevenci zdravotních potíží.</li>
                 </ul>
                 <div class="mt-10">
                   <a
@@ -32,14 +32,14 @@
                     target="_blank"
                     class="bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white hover:shadow-lg font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105"
                   >
-                    {{ $t('about.ourReviews') }}
+                    Naše recenze
                   </a>
                 </div>
               </div>
               <div class="order-1 lg:order-2">
                 <img
                   src="/images/about/marekConSenior.jpg"
-                  :alt="$t('about.senior.name')"
+                  alt="Marek Cón starší"
                   class="rounded-lg shadow-xl w-full h-auto object-cover"
                 >
               </div>
@@ -51,22 +51,22 @@
           <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div class="order-2 lg:order-2">
-                <h2 class="text-3xl font-bold text-zinc-900 tracking-tight">{{ $t('about.junior.name') }}</h2>
+                <h2 class="text-3xl font-bold text-zinc-900 tracking-tight">Marek Cón mladší</h2>
                 <p class="mt-4 text-base text-zinc-600">
-                  {{ $t('about.junior.bio') }}
+                  Vystudoval jsem magisterské studium fyzioterapie na Univerzitě Karlově. Jsem fyzioterapeut se specializací na muskuloskeletální poruchy a disponuji zkušenostmi v podpoře elitních sportovců v prostředí vrcholového sportu. Pomáhám při rehabilitaci po úrazech, zvyšování výkonu a v rámci individuálně přizpůsobených regeneračních programů.
                 </p>
   
-                <h3 class="mt-8 text-xl font-bold text-zinc-900">{{ $t('about.skills.title') }}</h3>
+                <h3 class="mt-8 text-xl font-bold text-zinc-900">Dovednosti</h3>
                 <ul class="mt-4 space-y-2 text-zinc-600 list-disc list-inside">
-                  <li>{{ $t('about.junior.skill1') }}</li>
-                  <li>{{ $t('about.junior.skill2') }}</li>
-                  <li>{{ $t('about.junior.skill3') }}</li>
-                  <li>{{ $t('about.junior.skill4') }}</li>
-                  <li>{{ $t('about.junior.skill5') }}</li>
+                  <li>Prevence a léčba zranění – diagnostika a terapie pohybových dysbalancí.</li>
+                  <li>Tvorba individuálních cvičebních plánů – zaměřených na rehabilitaci i výkon.</li>
+                  <li>Masáže a manuální terapie – uvolnění svalového napětí, mobilizace kloubů.</li>
+                  <li>Diagnostika a hodnocení pohybového aparátu – biomechanická analýza pohybu.</li>
+                  <li>Monitoring trendů a inovací – aplikace nejnovějších metod v rehabilitaci.</li>
                 </ul>
-                <h3 class="mt-8 text-xl font-bold text-zinc-900">{{ $t('about.junior.practiceTitle') }}</h3>
+                <h3 class="mt-8 text-xl font-bold text-zinc-900">Klinická praxe</h3>
                 <p class="mt-4 text-base text-zinc-600">
-                  {{ $t('about.junior.practice') }}
+                  V mé klinické praxi kombinuji ověřené manuální terapie, funkční silový a mobilizační trénink a pokročilé regenerační strategie – vždy v souladu s nároky jedince.
                 </p>
                 <div class="mt-6 flex flex-row gap-4 w-full overflow-x-auto">
                   <img src="/images/about/FKJablonec.png" alt="FK Jablonec" class="max-h-28 lg:max-h-36 rounded">
@@ -78,7 +78,7 @@
               <div class="order-1 lg:order-1">
                 <img
                   src="/images/about/marekConJunior.png"
-                  :alt="$t('about.junior.name')"
+                  alt="Marek Cón mladší"
                   class="rounded-lg shadow-xl w-full h-auto object-cover"
                 >
               </div>
@@ -92,10 +92,9 @@
   </template>
   
   <script setup lang="ts">
-    const { t } = useI18n()
     useSeoMeta({
-      title: t('about.title'),
-      description: t('about.description')
+      title: 'O nás - Fyzioterapie Marek Cón',
+      description: 'Seznamte se s naším týmem zkušených fyzioterapeutů. Specializujeme se na rehabilitaci, prevenci a léčbu pohybového aparátu s individuálním přístupem.'
     })
 
   </script>
