@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply font-sans;
+  }
   h1 {
     @apply text-4xl lg:text-4xl font-extrabold text-indigo-600 tracking-tight text-shadow-sm;
   }

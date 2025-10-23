@@ -1,7 +1,5 @@
 <template>
     <div class="min-h-screen flex flex-col">
-      <Header />
-      <main>
   
         <section class="bg-zinc-50">
           <div class="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -86,8 +84,6 @@
           </div>
         </section>
   
-      </main>
-      <Footer />
     </div>
   </template>
   

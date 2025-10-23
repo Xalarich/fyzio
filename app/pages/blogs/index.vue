@@ -1,8 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <Header />
     
-    <main class="flex-1">
       <!-- Hero Section -->
       <section class="bg-zinc-50 py-16">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -45,9 +43,13 @@
                 </div>
                 
                 <!-- Blog Title -->
+                <NuxtLink 
+                :to="`/blogs/${blog.id}`"
+              >
                 <h2 class="text-xl font-bold text-zinc-900 mb-3 line-clamp-2">
                   {{ blog.title }}
                 </h2>
+                </NuxtLink>
                 
                 <!-- Blog Description -->
                 <p class="text-zinc-600 text-sm mb-4 line-clamp-3">
@@ -73,7 +75,7 @@
                 <!-- Read More Button -->
                 <NuxtLink 
                   :to="`/blogs/${blog.id}`"
-                  class="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg text-sm transition-colors duration-300"
+                  class="inline-flex items-center bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-semibold py-2 px-4 rounded-lg text-sm transition-colors duration-300"
                 >
                   Číst více
                   <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -94,9 +96,6 @@
           </div>
         </div>
       </section>
-    </main>
-    
-    <Footer />
   </div>
 </template>
 
@@ -109,7 +108,7 @@ const blogData = [
     id: "hip-mobility-exercises",
     title: "Mobilita kyčlí a bolesti zad – 3 cviky pro zlepšení zdraví",
     description: "Kyčelní kloub je mnohem méně pohyblivý než ramenní, přesto je jejich mobilita velmi důležitá. Omezený pohyb kyčelních kloubů často souvisí s bolestmi bederní páteře. Naučte se 3 účinné cviky.",
-    image: "/images/blogs/skeleton-legs.png",
+    image: "/images/blogs/panev.jpg",
     createdAt: "2021-09-27",
     readTime: 7,
     category: "Pohybový aparát"
@@ -119,7 +118,7 @@ const blogData = [
     title: "Bolest kolene – syndrom Patellofemorální bolesti",
     description: "Syndrom patellofemorální bolesti (PFPS) můžete znát jako běžecké koleno, chondromalacie pately, retropatelární bolestivý syndrom. Mluvíme o bolesti na přední straně kolene, která postihuje přibližně 25 % populace.",
     image: "/images/blogs/skeleton-legs.png",
-    createdAt: "2023-03-30",
+    createdAt: "2023-03-20",
     readTime: 10,
     category: "Pohybový aparát"
   },
@@ -128,7 +127,7 @@ const blogData = [
     title: "Bolest krční páteře - akutní x chronická",
     description: "Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.",
     image: "/images/blogs/krcni-pater.jpg",
-    createdAt: "2024-01-15",
+    createdAt: "2023-03-30",
     readTime: 8,
     category: "Pohybový aparát"
   },
@@ -136,7 +135,7 @@ const blogData = [
     id: "running-knee",
     title: "Běžecké koleno - syndrom iliotibiálního traktu (ITBS)",
     description: "Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často označovanou jako iliotibiální syndrom (ITBS). Jedná se o přetížení vazivového pruhu, který je důležitým stabilizátorem kolenního a kyčelního kloubu.",
-    image: "/images/blogs/skeleton-legs.png",
+    image: "/images/blogs/gluteus.jpg",
     createdAt: "2024-01-10",
     readTime: 12,
     category: "Sportovní medicína"

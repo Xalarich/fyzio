@@ -1,7 +1,5 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <Header />
-    <main>
       <section class="bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-20 lg:py-32">
@@ -135,8 +133,6 @@
           </div>
         </div>
       </section>
-    </main>
-    <Footer />
   </div>
 </template>
 

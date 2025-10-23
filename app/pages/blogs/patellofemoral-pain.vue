@@ -1,8 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col bg-zinc-50">
-    <Header />
-    <main>
-      <section class="bg-gradient-to-br from-zinc-800 to-indigo-800 text-white text-center py-40">
+      <section class="bg-gradient-to-br from-zinc-800 to-indigo-800 text-white text-center py-32 w-full">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
           <h1 class="text-4xl lg:text-5xl font-extrabold tracking-tight text-white">
             Bolest kolene – syndrom Patellofemorální bolesti
@@ -22,25 +20,25 @@
           >
           
           <article class="bg-white rounded-t-lg shadow-xl p-8 sm:p-12 mt-8 prose prose-lg lg:prose-xl max-w-none text-zinc-600">
-            <p class="lead text-xl text-zinc-700">
+            <p class="text-xl text-zinc-700 font-medium">
               Syndrom patellofemorální bolesti (PFPS – Patellofemoral pain syndrome) můžete znát jako – běžecké koleno, chondromalacie pately, retropatelární bolestivý syndrom. Mluvíme o bolesti na přední straně kolene, která postihuje přibližně 25 % populace v určité fázi jejich života. Svalová slabost je jednou z hlavních příčinných vzniku PFPS.
             </p>
             
-            <hr>
+            <hr class="my-10 border-zinc-200">
 
-            <h2>Zkušenosti / Osobitý přístup</h2>
+            <h2 class="text-3xl font-bold text-zinc-900 mb-4 mt-12">Zkušenosti / Osobitý přístup</h2>
             <p><strong>Provokující faktory</strong> – prolongovaný sed, dřep, chůze ze schodů, běh.</p>
             <p>Bolest na přední straně kolenního kloubu způsobená nesprávným postavením čéšky, zhoršení přichází po delší nebo opakované zátěži kolenního kloubu. Nejčastěji jsou příznaky zhoršeny při dlouhodobém sedu, dřepu, chůzi ze schodů nebo při delším běhu či turistice.</p>
 
-            <h3>Co musíme rozlišit?</h3>
+            <h3 class="text-2xl font-bold text-zinc-800 mb-4 mt-8">Co musíme rozlišit?</h3>
             <p>Nejčastěji se PFPS zaměňuje s úponovými bolestmi (tendopatie, entezopatie), u mladších jedinců s aseptickou nekrózou tuberositas tibie, naopak u starších osob je pravděpodobnější opotřebení kolenního kloubu ve smyslu artrózy. Bolest na vnitřní straně kolene může znamenat poškození vnitřního menisku.</p>
             
             <p><strong>Diferenciální diagnostika:</strong> ITBS, léze menisku, onemocnění Osgood Schlatter, Patelofemorální artróza, QF tendopatie.</p>
             <p>Pokud se domníváte, že se potýkáte s touto diagnózou, je potřeba zvážit případně další příčiny onemocnění. Některé diagnózy se můžou projevovat současně. Správné pojmenování problému a příčiny je zcela klíčové pro efektivní nastavení léčebného procesu.</p>
 
-            <hr>
+            <hr class="my-10 border-zinc-200">
 
-            <h2>Příčiny vzniku</h2>
+            <h2 class="text-3xl font-bold text-zinc-900 mb-4 mt-12">Příčiny vzniku</h2>
             <p>U tohoto stavu se předpokládá, že k jeho rozvoji přispívá několik faktorů.</p>
             
             <ul>
@@ -54,16 +52,16 @@
             <p>Zvýšení tibiofemorální valgozity/varosity automaticky zvyšuje přítlak čéšky a způsobuje zvýšenou kompresi, zároveň se s tímto mění Q – úhel. Q úhel tvoří průsečík dvou imaginárních čar – ze SIAS do středu pately, z tuberositas tibie do středu pately – zvýšení úhlu vede k subluxaci pately a způsobuje zvýšení patelofemorálního tlaku. Tento úhel bývá zvětšen u hypermobilních jedinců.</p>
 
             <div class="bg-zinc-100 p-6 rounded-lg my-8">
-              <h4 class="font-bold text-zinc-900 mb-4">Q – úhel pately</h4>
+              <h4 class="text-xl font-bold text-zinc-800 mb-3 mt-6">Q – úhel pately</h4>
               <p class="text-sm text-zinc-600 mb-4">Testy: Patellar Apprehension Test, Clarke's Test, Eccentric Step Test, McConnell's Test, Patellar Tilt Test, Tibial Angulation Test</p>
             </div>
 
-            <hr>
+            <hr class="my-10 border-zinc-200">
 
-            <h2>Cíl rehabilitace</h2>
+            <h2 class="text-3xl font-bold text-zinc-900 mb-4 mt-12">Cíl rehabilitace</h2>
             <p>Hlavním úkolem rehabilitace je zlepšit postavení pately, zmírnit její přítlak dosažením většího protažení kvadricepsu, zkvalitnit dynamickou stabilizaci pately posílením svalových skupin v oblasti kolenního kloubu na pánve.</p>
 
-            <h3>Návrh terapeutického plánu</h3>
+            <h3 class="text-2xl font-bold text-zinc-800 mb-4 mt-8">Návrh terapeutického plánu</h3>
             <ul>
               <li>Posílení bočních stabilizátorů pánve</li>
               <li>Posílení vnitřní hlavy kvadricepsu</li>
@@ -94,8 +92,6 @@
         </div>
       </section>
 
-    </main>
-    <Footer />
   </div>
 </template>
 
@@ -107,26 +103,4 @@ useSeoMeta({
 </script>
 
 <style>
-/* Přizpůsobení stylů pro Tailwind Typography plugin pro lepší vizuál */
-.prose h2 {
-  @apply text-3xl font-bold text-zinc-900 mb-4 mt-12;
-}
-.prose h3 {
-  @apply text-2xl font-bold text-zinc-800 mb-4 mt-8;
-}
-.prose h4 {
-  @apply text-xl font-bold text-zinc-800 mb-3 mt-6;
-}
-.prose hr {
-  @apply my-10 border-zinc-200;
-}
-.prose ul > li::before {
-  @apply bg-indigo-500;
-}
-.prose strong {
-    @apply text-zinc-800;
-}
-.prose .lead {
-  @apply text-zinc-700 font-medium;
-}
 </style>
