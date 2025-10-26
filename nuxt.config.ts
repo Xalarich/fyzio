@@ -3,6 +3,16 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
+  runtimeConfig: {
+    mail: {
+      host: process.env.MAIL_HOST,
+      port: process.env.MAIL_PORT ? Number(process.env.MAIL_PORT) : 587,
+      user: process.env.MAIL_USER,
+      pass: process.env.MAIL_PASS,
+      to: process.env.MAIL_TO || 'marekcon@seznam.cz',
+      from: process.env.MAIL_FROM || 'no-reply@fyzio.local'
+    }
+  },
   app: {
     head: {
       link: [

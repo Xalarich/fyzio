@@ -13,7 +13,7 @@
     @apply text-3xl font-extrabold text-white tracking-tight sm:text-4xl;
   }
   h3 {
-    @apply mt-4 text-xl font-bold text-zinc-900;
+    @apply text-xl font-bold text-zinc-900;
   }
   p, li {
     @apply text-base text-zinc-600;
@@ -50,4 +50,43 @@
   .container {
     @apply 2xl:!max-w-7xl;
   }
+  .swiper-button-next {
+    @apply hover:scale-110 transition-all duration-300 ease-in-out;
+  }
+}
+
+.swiper-button-next, .swiper-button-prev {
+  @apply hover:scale-110 transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-20 px-6 py-10 rounded-md;
+}
+
+/* Brand sweep hover effect (global) */
+.brand-sweep {
+  display: inline-block;
+  background-image: linear-gradient(to left, #18181b 0%, #18181b 50%, #4f46e5 50%, #4f46e5 100%);
+  background-size: 200% 100%;
+  background-position: 100% 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 600ms ease;
+}
+.group:hover .brand-sweep,
+.brand-sweep:hover {
+  background-position: 0% 0%;
+}
+
+/* Footer brand sweep: indigo -> white */
+.brand-sweep-footer {
+  display: inline-block;
+  background-image: linear-gradient(to left, #4f46e5 0%, #4f46e5 50%, #ffffff 50%, #ffffff 100%);
+  background-size: 200% 100%;
+  background-position: 0% 0%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transition: background-position 600ms ease;
+}
+.group:hover .brand-sweep-footer,
+.brand-sweep-footer:hover {
+  background-position: 100% 0%;
 }

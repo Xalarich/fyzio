@@ -1,5 +1,10 @@
 <template>
   <div class="min-h-screen flex flex-col">
+    <section class="p-0">
+      <ClientOnly>
+        <HeroSlider />
+      </ClientOnly>
+    </section>
       <section class="bg-white">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-20 lg:py-32">
@@ -9,7 +14,7 @@
                 <span class="block text-indigo-600 mt-2">Bez omezení.</span>
               </h1>
               <p class="mt-6 text-lg text-zinc-600 max-w-xl mx-auto lg:mx-0">
-                Jsme tým certifikovaných fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.
+                Jsme rodina zkušených fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.
               </p>
               <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105">
@@ -101,18 +106,22 @@
               Co o nás říkají naši klienti
             </h2>
           </div>
-          <div class="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
             <blockquote class="bg-zinc-900 p-8 rounded-lg">
-              <p class="text-zinc-300">"Po letech marného boje s bolestí zad jsem konečně našel pomoc. Profesionální přístup a skvělé výsledky. FyzioPro mohu jen doporučit!"</p>
-              <footer class="mt-4 font-bold text-white">- Petr Novák, <span class="text-indigo-400">léčba vyhřezlé ploténky</span></footer>
+              <p class="text-zinc-300">K panu Markovi jsem přišel pro bolest krční páteře a hlavy. Nyní jsem už zhruba dva roky jeho klientem a troufám si říci, že mi za tu dobu hodně pomohl.</p>
+              <footer class="mt-4 font-bold text-white">- Zdeněk</footer>
             </blockquote>
-              <blockquote class="bg-zinc-900 p-8 rounded-lg">
-              <p class="text-zinc-300">"Skupinová cvičení na zdravá záda jsou skvělá. Příjemné prostředí a lektorka, která všemu rozumí a umí poradit. Cítím se mnohem lépe."</p>
-              <footer class="mt-4 font-bold text-white">- Jana Dvořáková, <span class="text-indigo-400">účastnice kurzů</span></footer>
+            <blockquote class="bg-zinc-900 p-8 rounded-lg">
+              <p class="text-zinc-300">Pan Cón je velmi milý a ochotný, při jakémkoliv problému se pokouší vyjít vstříc s termínem vyšetření a vždy se snažít přijít na důvod vašich obtíží. Vždy mi pomohl, jeho péči můžu všem vřele doporučit.</p>
+              <footer class="mt-4 font-bold text-white">- Renata</footer>
             </blockquote>
-              <blockquote class="bg-zinc-900 p-8 rounded-lg"> 
-              <p class="text-zinc-300">"Jako aktivní sportovec oceňuji rychlou a efektivní pomoc po zranění kolene. Díky nim jsem byl zpět na hřišti dříve, než jsem doufal."</p>
-              <footer class="mt-4 font-bold text-white">- Martin Svoboda, <span class="text-indigo-400">sportovní fyzioterapie</span></footer>
+            <blockquote class="bg-zinc-900 p-8 rounded-lg">
+              <p class="text-zinc-300">K Markovi Cónovi chodím již léta. Má velmi profesionální a lidský přístup. Trpím chronickými bolestmi v bedrech způsobených sedavým zaměstnáním. Návštěvy u něj mi velmi pomáhají. Snažím se potížím předcházet, ale protože nejsem schopna pravidelně cvičit, tak raději pravidelně navštěvuji Marka Cóna. Po půl hodině odcházím vždy s pocitem, že jsem zase trochu pohyblivější. Děkuji mu za to.</p>
+              <footer class="mt-4 font-bold text-white">- Monika</footer>
+            </blockquote>
+            <blockquote class="bg-zinc-900 p-8 rounded-lg">
+              <p class="text-zinc-300">Po úrazu ramene jsem obešla spoustu zařízení. Myslím že p. Cón je odborník a léčba, která mi zde byla poskytnuta, je založena na zkušenostech a profesionálním přístupu.</p>
+              <footer class="mt-4 font-bold text-white">- Kateřina</footer>
             </blockquote>
           </div>
         </div>
@@ -136,7 +145,8 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
+import { useSeoMeta } from 'nuxt/app'
 useSeoMeta({
   title: 'Fyzioterapie Marek Cón',
   description: 'Moderní fyzioterapie FyzioPro v centru Prahy vám pomůže zbavit se bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.'

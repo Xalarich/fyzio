@@ -18,6 +18,9 @@ module.exports = {
 		extend: {
 			spacing: {
 				'100': '25rem',
+				'200': '50rem',
+				'300': '75rem',
+				'400': '100rem',
 			},
 			aspectRatio: {
 				'4/5': '4 / 5',
