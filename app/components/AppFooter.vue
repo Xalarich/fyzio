@@ -36,11 +36,8 @@
         <div>
           <h3 class="text-sm font-semibold tracking-wider text-white uppercase">Služby</h3>
           <ul class="mt-4 space-y-3">
-            <li><a href="/fyzioterapie/individualni" class="text-sm hover:text-indigo-400 transition-colors">Individuální fyzioterapie</a></li>
-            <li><a href="/fyzioterapie/skupinova" class="text-sm hover:text-indigo-400 transition-colors">Skupinová cvičení</a></li>
-            <li><a href="/fyzioterapie/masaze" class="text-sm hover:text-indigo-400 transition-colors">Sportovní a rekondiční masáže</a></li>
-            <li><a href="/fyzioterapie/prevence" class="text-sm hover:text-indigo-400 transition-colors">Prevence a ergonomie</a></li>
-            <li><a href="/fyzioterapie/online" class="text-sm hover:text-indigo-400 transition-colors">Online konzultace</a></li>
+            <li><a href="/sluzby/fyzioterapie-dospelych" class="text-sm hover:text-indigo-400 transition-colors">Fyzioterapie dospělých</a></li>
+            <li><a href="/sluzby/chronicke-stavy" class="text-sm hover:text-indigo-400 transition-colors">Chronické stavy</a></li>
           </ul>
         </div>
 

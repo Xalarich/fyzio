@@ -33,14 +33,11 @@
               class="absolute top-full -left-4 mt-3 w-64 bg-white border border-zinc-200 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out transform group-hover:translate-y-0 translate-y-2"
             >
               <div class="p-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                <a href="/fyzioterapie/individualni" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Individuální fyzioterapie</a>
-                <a href="/fyzioterapie/skupinova" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Skupinová cvičení</a>
-                <a href="/fyzioterapie/masaze" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Sportovní a rekondiční masáže</a>
-                <a href="/fyzioterapie/prevence" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Prevence a ergonomie</a>
-                <a href="/fyzioterapie/online" class="block px-4 py-3 text-sm text-zinc-700 bg-zinc-100 hover:bg-zinc-200 hover:text-indigo-600 rounded-md transition-colors duration-200 mt-2">Online konzultace</a>
+                <a href="/sluzby/fyzioterapie-dospelych" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Fyzioterapie dospělých</a>
+                <a href="/sluzby/chronicke-stavy" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Chronické stavy</a>
               </div>
             </div>
-          </div>
+          </div>  
 
           <a href="/blogs" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">Blog</a>
           <a href="/about" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">O nás</a>
