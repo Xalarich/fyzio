@@ -6,7 +6,23 @@
             Bolest Krční Páteře: Příčiny a Projevy
           </h1>
           <p class="mt-4 text-lg text-white">
-            Pohybový aparát </p>
+            Pohybový aparát
+          </p>
+          <div class="mt-6 flex items-center justify-center gap-4 text-indigo-200">
+            <span class="flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+              Marek Cón
+            </span>
+            <span class="text-indigo-300">•</span>
+            <span class="flex items-center gap-2">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              </svg>
+              30. března 2023
+            </span>
+          </div>
         </div>
       </section>
 
@@ -102,8 +118,19 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Bolest Krční Páteře: Příčiny a Projevy',
-  description: 'Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat širokou škálu příznaků:'
+  title: 'Bolest Krční Páteře: Příčiny a Projevy | Fyzioterapie Marek Cón',
+  description: 'Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.',
+  ogTitle: 'Bolest Krční Páteře: Příčiny a Projevy',
+  ogDescription: 'Nespecifická nebo mechanická bolest krční páteře. Běžné projevy zahrnují bolest svalů, svalové křeče, bolest hlavy.',
+  ogType: 'article',
+  ogLocale: 'cs_CZ',
+  ogSiteName: 'Fyzioterapie Marek Cón',
+  ogImage: '/images/blogs/krcni-pater.jpg',
+  articleAuthor: 'Marek Cón',
+  articlePublishedTime: '2023-03-30',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Bolest Krční Páteře: Příčiny a Projevy',
+  twitterDescription: 'Nespecifická nebo mechanická bolest krční páteře. Běžné projevy zahrnují bolest svalů, svalové křeče, bolest hlavy.'
 })
 </script>
 

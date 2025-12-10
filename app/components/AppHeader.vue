@@ -1,25 +1,24 @@
 <template>
-  <header class="w-full bg-white text-zinc-800 shadow-md border-b border-zinc-200 sticky top-0 z-50">
+  <header class="w-full bg-white/95 backdrop-blur-md text-zinc-800 shadow-sm border-b border-zinc-200 sticky top-0 z-50 transition-all duration-300">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
-        <div class="flex-shrink-0 group">
-          <a href="/" class="text-2xl font-bold tracking-wider">
-            <span class="brand-sweep">MAREK&nbsp;CÓN</span>
-          </a>
+        <div class="flex-shrink-0">
+          <NuxtLink to="/" class="group flex items-center gap-2 text-2xl font-bold tracking-wider">
+            <span class="bg-gradient-to-r from-indigo-600 to-indigo-700 bg-clip-text text-transparent group-hover:from-indigo-700 group-hover:to-indigo-800 transition-all duration-300">MAREK&nbsp;CÓN</span>
+          </NuxtLink>
         </div>
 
-        <nav class="hidden md:flex items-center space-x-10">
+        <nav class="hidden md:flex items-center space-x-8">
           <div class="relative group">
             <button
-              class="flex items-center space-x-2 text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out focus:outline-none rounded-md"
+              class="flex items-center gap-1.5 text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out focus:outline-none py-2"
             >
               <span>Služby</span>
               <svg
-                class="w-5 h-5 text-zinc-500 group-hover:text-indigo-600 transition-colors duration-300"
+                class="w-4 h-4 text-zinc-400 group-hover:text-indigo-600 transition-all duration-300 group-hover:rotate-180"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                aria-hidden="true"
               >
                 <path
                   fill-rule="evenodd"
@@ -30,27 +29,40 @@
             </button>
             
             <div
-              class="absolute top-full -left-4 mt-3 w-64 bg-white border border-zinc-200 rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-in-out transform group-hover:translate-y-0 translate-y-2"
+              class="absolute top-full -left-4 mt-2 w-64 bg-white border border-zinc-200 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out transform group-hover:translate-y-0 translate-y-2 overflow-hidden"
             >
-              <div class="p-2" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                <a href="/sluzby/fyzioterapie-dospelych" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Fyzioterapie dospělých</a>
-                <a href="/sluzby/chronicke-stavy" class="block px-4 py-3 text-sm text-zinc-700 hover:bg-zinc-100 hover:text-indigo-600 rounded-md transition-colors duration-200">Chronické stavy</a>
+              <div class="p-2">
+                <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                  <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
+                  Fyzioterapie dospělých
+                </NuxtLink>
+                <NuxtLink to="/sluzby/chronicke-stavy" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                  <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
+                  Chronické stavy
+                </NuxtLink>
+                <NuxtLink to="/sluzby/akutni-stavy" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                  <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
+                  Akutní stavy
+                </NuxtLink>
               </div>
             </div>
           </div>  
 
-          <a href="/blogs" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">Blog</a>
-          <a href="/about" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 ease-in-out">O nás</a>
-          <a href="/kontakt" class="bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-2 px-5 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105">Kontaktujte nás</a>
+          <NuxtLink to="/blogs" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">Blog</NuxtLink>
+          <NuxtLink to="/about" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">O nás</NuxtLink>
+          <NuxtLink to="/kontakt" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-2.5 px-6 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2">
+            Kontaktujte nás
+            <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+          </NuxtLink>
         </nav>
 
         <div class="md:hidden flex items-center">
-          <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="inline-flex items-center justify-center p-2 rounded-md text-zinc-600 hover:text-indigo-600 hover:bg-zinc-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+          <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="inline-flex items-center justify-center p-2 rounded-lg text-zinc-600 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none transition-colors duration-200">
             <span class="sr-only">Otevřít hlavní menu</span>
-            <svg v-show="!isMobileMenuOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <svg v-show="!isMobileMenuOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
-            <svg v-show="isMobileMenuOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+            <svg v-show="isMobileMenuOpen" class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
@@ -60,26 +72,24 @@
 
     <transition
       enter-active-class="transition ease-out duration-200"
-      enter-from-class="transform opacity-0 scale-95"
-      enter-to-class="transform opacity-100 scale-100"
+      enter-from-class="opacity-0 -translate-y-2"
+      enter-to-class="opacity-100 translate-y-0"
       leave-active-class="transition ease-in duration-150"
-      leave-from-class="transform opacity-100 scale-100"
-      leave-to-class="transform opacity-0 scale-95"
+      leave-from-class="opacity-100 translate-y-0"
+      leave-to-class="opacity-0 -translate-y-2"
     >
-      <div v-show="isMobileMenuOpen" class="md:hidden bg-white border-t border-zinc-200" id="mobile-menu">
-        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <div class="px-3 pt-2 pb-1">
-            <h3 class="text-sm font-semibold text-zinc-500 uppercase tracking-wider">Služby</h3>
-            <a href="/fyzioterapie/individualni" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Individuální fyzioterapie</a>
-            <a href="/fyzioterapie/skupinova" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Skupinová cvičení</a>
-            <a href="/fyzioterapie/masaze" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Sportovní a rekondiční masáže</a>
-            <a href="/fyzioterapie/prevence" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Prevence a ergonomie</a>
-             <a href="/fyzioterapie/online" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Online konzultace</a>
+      <div v-show="isMobileMenuOpen" class="md:hidden bg-white border-t border-zinc-200 shadow-xl">
+        <div class="px-4 pt-4 pb-6 space-y-2">
+          <div class="pb-2 mb-2 border-b border-zinc-100">
+            <h3 class="text-xs font-bold text-zinc-400 uppercase tracking-wider px-3 mb-2">Služby</h3>
+            <NuxtLink to="/sluzby/fyzioterapie-dospelych" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Fyzioterapie dospělých</NuxtLink>
+            <NuxtLink to="/sluzby/chronicke-stavy" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Chronické stavy</NuxtLink>
+            <NuxtLink to="/sluzby/akutni-stavy" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Akutní stavy</NuxtLink>
           </div>
           
-          <a href="/blogs" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Blog</a>
-          <a href="/about" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">O nás</a>
-          <a href="/kontakt" class="block px-3 py-2 rounded-md text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-zinc-100">Kontakt</a>
+          <NuxtLink to="/blogs" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Blog</NuxtLink>
+          <NuxtLink to="/about" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">O nás</NuxtLink>
+          <NuxtLink to="/kontakt" @click="isMobileMenuOpen = false" class="block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-center font-bold py-3 px-4 rounded-xl transition-colors">Kontaktujte nás</NuxtLink>
         </div>
       </div>
     </transition>
@@ -91,8 +101,3 @@ import { ref } from 'vue'
 
 const isMobileMenuOpen = ref(false)
 </script>
-
-<style scoped>
-</style>
-
-

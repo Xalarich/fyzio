@@ -6,7 +6,7 @@
     :autoplay="{ delay: 3500, disableOnInteraction: false }"
     :pagination="{ clickable: true }"
     :navigation="true"
-    class="w-full h-[300px] sm:h-[420px] lg:h-[520px]"
+    class="w-full h-[300px] sm:h-[420px] lg:h-[680px]"
   >
     <SwiperSlide>
       <img

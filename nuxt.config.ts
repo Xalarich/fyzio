@@ -3,6 +3,7 @@
 export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
+  srcDir: 'app/',
   runtimeConfig: {
     mail: {
       host: process.env.MAIL_HOST,
@@ -15,15 +16,27 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'cs'
+      },
+      titleTemplate: '%s',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'format-detection', content: 'telephone=no' },
+        { name: 'author', content: 'Marek Cón' },
+        { name: 'robots', content: 'index, follow' },
+        { property: 'og:site_name', content: 'Fyzioterapie Marek Cón' },
+        { property: 'og:locale', content: 'cs_CZ' },
+        { name: 'twitter:site', content: '@fyziomarcon' }
+      ],
       link: [
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' }
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' },
+        { rel: 'canonical', href: 'https://fyziomarcon.cz' }
       ]
     }
-  },
-  future: {
-    compatibilityVersion: 4,
   },
   compatibilityDate: '2024-04-03',
   tailwindcss: {

@@ -4,7 +4,7 @@
 
 @layer base {
   html {
-    @apply font-sans;
+    @apply font-sans scroll-smooth;
   }
   h1 {
     @apply text-4xl lg:text-4xl font-extrabold text-indigo-600 tracking-tight text-shadow-sm;
@@ -55,6 +55,7 @@
   }
 }
 
+/* Swiper navigation styling */
 .swiper-button-next, .swiper-button-prev {
   @apply hover:scale-110 transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-20 px-6 py-10 rounded-md;
 }
@@ -89,4 +90,46 @@
 .group:hover .brand-sweep-footer,
 .brand-sweep-footer:hover {
   background-position: 100% 0%;
+}
+
+/* Selection styling */
+::selection {
+  @apply bg-indigo-600 text-white;
+}
+
+/* Focus ring styling */
+*:focus-visible {
+  @apply outline-none ring-2 ring-indigo-500 ring-offset-2;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-zinc-400 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-zinc-500;
+}
+
+/* Smooth image loading */
+img {
+  @apply transition-opacity duration-300;
+}
+
+img[loading="lazy"] {
+  opacity: 0;
+}
+
+img.loaded,
+img:not([loading="lazy"]) {
+  opacity: 1;
 }

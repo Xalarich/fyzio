@@ -6,7 +6,7 @@
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Služby</p>
         <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight animate-slide-up">
-          Chronické stavy
+          Akutní stavy
         </h1>
         <div class="mt-6 w-24 h-1 bg-indigo-500 mx-auto rounded-full"></div>
       </div>
@@ -19,42 +19,42 @@
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl">
             <img
-              src="/images/fyzio-dospelych/2.jpg"
-              alt="Chronické stavy - terapie"
+              src="/images/fyzio-dospelych/4.jpg"
+              alt="Akutní stavy - terapie"
               class="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-105"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
           <article class="animate-fade-in-right">
             <p class="text-zinc-600 leading-relaxed text-lg">
-              Zabýváme se diagnostikou a terapií chronických bolestivých stavů pohybového aparátu.
+              Na naší fyzioterapii řešíme akutní bolestivé stavy pohybového aparátu.
             </p>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Chronické stavy se vyznačují bolestí či dyskomfortem trvajícím zpravidla déle než 3 měsíce. V mnoha případech jde i o vracející se potíže, zde je důležité odhalit vyvolávající faktor bolesti.
+              Mezi nejčastější potíže, se kterými pacienti přicházejí, jsou blokády páteře, žeber, náhlé svalové spazmy, bolesti kloubů, svalů a to jak po úrazech, tak bez zjevné vnější příčiny.
             </p>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Obecnou příčinou často bývá přetěžování pohybové soustavy, nesprávné hybné stereotypy, vadné držení těla, ale i poúrazové stavy.
+              U těchto diagnóz je důležité včasné vyšetření a následné zvolení vhodné terapie a režimových opatření.
             </p>
             
             <!-- Key points -->
             <div class="mt-8 p-6 bg-indigo-50 rounded-2xl border border-indigo-100">
-              <h3 class="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-4">Co řešíme</h3>
+              <h3 class="text-sm font-bold text-indigo-600 uppercase tracking-widest mb-4">Nejčastější potíže</h3>
               <ul class="space-y-3">
                 <li class="group/item flex items-center text-zinc-600">
                   <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                  Bolesti trvající déle než 3 měsíce
+                  Blokády páteře a žeber
                 </li>
                 <li class="group/item flex items-center text-zinc-600">
                   <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                  Vracející se potíže
+                  Náhlé svalové spazmy
+                </li>
+                <li class="group/item flex items-center text-zinc-600">
+                  <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
+                  Bolesti kloubů a svalů
                 </li>
                 <li class="group/item flex items-center text-zinc-600">
                   <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
                   Poúrazové stavy
-                </li>
-                <li class="group/item flex items-center text-zinc-600">
-                  <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                  Vadné držení těla
                 </li>
               </ul>
             </div>
@@ -90,16 +90,16 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Chronické stavy | Fyzioterapie Marek Cón',
-  description: 'Diagnostika a terapie chronických bolestivých stavů pohybového aparátu. Řešíme bolesti trvající déle než 3 měsíce.',
-  ogTitle: 'Chronické stavy | Fyzioterapie Marek Cón',
-  ogDescription: 'Diagnostika a terapie chronických bolestivých stavů pohybového aparátu. Řešíme bolesti trvající déle než 3 měsíce.',
+  title: 'Akutní stavy | Fyzioterapie Marek Cón',
+  description: 'Řešíme akutní bolestivé stavy pohybového aparátu - blokády páteře, žeber, svalové spazmy, bolesti kloubů a svalů.',
+  ogTitle: 'Akutní stavy | Fyzioterapie Marek Cón',
+  ogDescription: 'Řešíme akutní bolestivé stavy pohybového aparátu - blokády páteře, žeber, svalové spazmy, bolesti kloubů a svalů.',
   ogType: 'website',
   ogLocale: 'cs_CZ',
   ogSiteName: 'Fyzioterapie Marek Cón',
   twitterCard: 'summary',
-  twitterTitle: 'Chronické stavy | Fyzioterapie Marek Cón',
-  twitterDescription: 'Diagnostika a terapie chronických bolestivých stavů pohybového aparátu.'
+  twitterTitle: 'Akutní stavy | Fyzioterapie Marek Cón',
+  twitterDescription: 'Řešíme akutní bolestivé stavy pohybového aparátu - blokády páteře, žeber, svalové spazmy.'
 })
 </script>
 
