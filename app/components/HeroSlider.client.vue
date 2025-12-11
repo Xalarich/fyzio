@@ -10,7 +10,7 @@
   >
     <SwiperSlide>
       <img
-        src="/images/Slider/fyzioterapie-pro-kazdeho.jpg"
+        src="/images/slider/fyzioterapie-pro-kazdeho.jpg"
         alt="Fyzioterapie pro každého"
         class="w-full h-full object-cover"
         loading="lazy"
@@ -18,7 +18,7 @@
     </SwiperSlide>
     <SwiperSlide>
       <img
-        src="/images/Slider/profesionalni-pristup.jpg"
+        src="/images/slider/profesionalni-pristup.jpg"
         alt="Profesionální přístup"
         class="w-full h-full object-cover"
         loading="lazy"
@@ -26,7 +26,7 @@
     </SwiperSlide>
     <SwiperSlide>
       <img
-        src="/images/Slider/resime-akutni-problemy.jpg"
+        src="/images/slider/resime-akutni-problemy.jpg"
         alt="Řešíme akutní problémy"
         class="w-full h-full object-cover"
         loading="lazy"
