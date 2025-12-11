@@ -2,11 +2,11 @@
   <div class="min-h-screen flex flex-col">
     
     <!-- Hero Section -->
-    <section class="relative bg-zinc-900 py-24 overflow-hidden">
+    <section class="relative bg-zinc-900 py-16 sm:py-24 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/80 via-zinc-900/90 to-zinc-900"></div>
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase">Články</p>
-        <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight">
+        <h1 class="mt-4 text-3xl sm:text-4xl lg:text-6xl font-extrabold text-white tracking-tight">
           Blog
         </h1>
         <p class="mt-6 text-lg text-zinc-300 max-w-2xl mx-auto">
@@ -17,9 +17,9 @@
     </section>
 
     <!-- Blog List Section -->
-    <section class="bg-zinc-50 py-20">
+    <section class="bg-zinc-50 py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-10">
           <article 
             v-for="blog in blogs"
             :key="blog.id"
@@ -38,7 +38,7 @@
             </NuxtLink>
             
             <!-- Blog Content -->
-            <div class="p-8">
+            <div class="p-5 sm:p-8">
               <!-- Category Badge -->
               <div class="mb-4">
                 <span class="inline-block bg-indigo-100 text-indigo-700 text-xs font-bold px-3 py-1.5 rounded-full uppercase tracking-wide">

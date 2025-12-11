@@ -99,7 +99,7 @@
 
       <section class="py-20">
         <div class="container mx-auto px-8">
-            <div class="py-12 bg-indigo-600 rounded-lg text-center shadow-2xl">
+            <div class="py-12 px-2 bg-indigo-600 rounded-lg text-center shadow-2xl">
                 <h2 class="text-3xl font-extrabold text-white">
                     Jste připraveni udělat první krok ke zdraví?
                 </h2>

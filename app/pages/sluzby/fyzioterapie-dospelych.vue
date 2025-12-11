@@ -23,7 +23,6 @@
               alt="Fyzioterapeutické vyšetření"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
           <article class="animate-fade-in-right">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapeutické vyšetření</h2>
@@ -47,12 +46,11 @@
               alt="Mobilizační techniky"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
         </div>
 
         <!-- Spiraldynamik: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
+        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
           <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Spiraldynamik®</h2>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
             Koncept Spiraldynamik® vyžaduje důkladnou znalost pohybové kineziologie. Správné spirální nastavení kloubů je základním článkem lidské lokomoce a ekonomického řízení pohybu. Princip konceptu stojí na správném sešroubování trupu, hlavy a končetin. To terapaut provádí nejdříve pasivně a následně se snaží o pacientovo osvojí správného pohybového vzorce. Po úspěšném zvládnutí často dochází k úpravě pohybových potíží.
@@ -67,7 +65,6 @@
               alt="Metoda McKenzie"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
           <article class="animate-fade-in-right">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Metoda McKenzie®</h2>
@@ -85,7 +82,7 @@
           </p>
           <div class="mt-8">
             <h3 class="text-sm font-bold text-indigo-600 uppercase tracking-widest">Hlavní prvky</h3>
-            <ul class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <ul class="lg:mt-4 mt-1 grid grid-cols-1 sm:grid-cols-2 gap-1 lg:gap-4">
               <li class="group/item flex items-center text-zinc-600 p-3 rounded-xl hover:bg-white transition-colors duration-300">
                 <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
                 zlepšení koordinace
@@ -107,7 +104,7 @@
         </div>
 
         <!-- Cvičení dle Ludmily Mojžíšové: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
+        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
           <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Cvičení dle Ludmily Mojžíšové</h2>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
             Metoda se zaměřuje na vertebrogenní obtíže a ženskou sterilitu. Bolesti páteře se pokouší odstranit šetrnými mobilizacemi páteře, žeber, kloubů a to v pozicích kdy dochází k uvolnění svalů zkrácených a protažení svalů oslabených. S tím se pojí omezení hybnosti jednotlivých segmentů páteře. Výhodou cvičení je nenáročnost jednotlivých cviků a široká možnost autoterapeutických modifikací. Důležitá je však četnost cvičení. Cviky by měly být prováděny denně.
@@ -145,7 +142,6 @@
               alt="Předoperační a pooperační stavy"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
           <article class="animate-fade-in-right">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Předoperační a pooperační stavy</h2>
@@ -177,9 +173,9 @@
         </div>
 
         <!-- Relaxační procedury: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
+        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
           <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Relaxační procedury</h2>
-          <ul class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <ul class="mt-1 lg:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-1 lg:gap-4">
             <li class="group/item flex items-center text-zinc-600 text-lg p-3 rounded-xl ">
               <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 "></span>
               Klasické relaxační masáže celkové nebo částečné
@@ -207,7 +203,6 @@
               alt="Fyzioterapie sportovců"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
           </div>
           <article class="animate-fade-in-right">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapie sportovců</h2>

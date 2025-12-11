@@ -10,7 +10,7 @@
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-10">
           <div class="text-center lg:text-left animate-fade-in">
-            <h1 class="text-4xl lg:text-6xl font-extrabold text-zinc-900 tracking-tight">
+            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-zinc-900 tracking-tight">
               Vraťte se do pohybu.
               <span class="block text-indigo-600 mt-2">Bez omezení.</span>
             </h1>
@@ -18,11 +18,11 @@
               Jsme rodina zkušených fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.
             </p>
             <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="/kontakt" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:shadow-indigo-500/25">
+              <a href="/kontakt" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:shadow-indigo-500/25">
                 Objednat se na konzultaci
                 <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
               </a>
-              <a href="#nase-sluzby" class="bg-zinc-100 hover:bg-zinc-200 text-zinc-800 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 hover:shadow-lg">
+              <a href="#nase-sluzby" class="bg-zinc-100 hover:bg-zinc-200 text-zinc-800 font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg transition-all duration-300 hover:shadow-lg">
                 Naše služby
               </a>
             </div>
@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <section id="nase-sluzby" class="bg-zinc-50 py-20">
+    <section id="nase-sluzby" class="bg-zinc-50 py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center animate-fade-in">
           <h2 class="text-base font-semibold text-indigo-600 tracking-wider uppercase">Co nabízíme</h2>
@@ -50,22 +50,22 @@
             Komplexní péče o vaše tělo
           </p>
         </div>
-        <div class="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <div class="group bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+        <div class="mt-8 sm:mt-12 grid gap-4 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
             </div>
             <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Individuální fyzioterapie</h3>
             <p class="mt-3 text-base text-zinc-600">Osobní plán sestavený na míru vašim potřebám pro maximální efektivitu léčby.</p>
           </div>
-          <div class="group bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
             </div>
             <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Skupinová cvičení</h3>
             <p class="mt-3 text-base text-zinc-600">Energetizující lekce pro zdravá záda, správné držení těla a celkovou kondici.</p>
           </div>
-          <div class="group bg-white p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
             </div>
@@ -76,9 +76,9 @@
       </div>
     </section>
 
-    <section class="bg-white py-20">
+    <section class="bg-white py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16 items-center">
           <div class="order-last lg:order-first">
             <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
               <img src="/images/fyzio-dospelych/1.jpg" alt="Naše moderní klinika" class="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-105">
@@ -88,7 +88,7 @@
           <div class="max-w-xl">
             <h2 class="text-base font-semibold text-indigo-600 tracking-wider uppercase">Naše filozofie</h2>
             <p class="mt-2 text-3xl font-extrabold text-zinc-900 tracking-tight sm:text-4xl">Péče, které můžete věřit</p>
-            <dl class="mt-8 space-y-6">
+            <dl class="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
               <div class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
                 <div class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
                   <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -122,7 +122,7 @@
       </div>
     </section>
 
-    <section class="bg-zinc-800 py-20 overflow-hidden">
+    <section class="bg-zinc-800 py-12 sm:py-20 overflow-hidden">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
           <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
@@ -130,8 +130,8 @@
           </h2>
           <div class="mt-2 w-20 h-1 bg-indigo-500 mx-auto rounded-full"></div>
         </div>
-        <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <blockquote class="group bg-zinc-900 p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
+        <div class="mt-8 sm:mt-12 grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8">
+          <blockquote class="group bg-zinc-900 p-5 sm:p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
             <div class="flex items-center gap-1 mb-4">
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -145,7 +145,7 @@
               <span class="font-bold text-white">Zdeněk</span>
             </footer>
           </blockquote>
-          <blockquote class="group bg-zinc-900 p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
+          <blockquote class="group bg-zinc-900 p-5 sm:p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
             <div class="flex items-center gap-1 mb-4">
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -159,7 +159,7 @@
               <span class="font-bold text-white">Renata</span>
             </footer>
           </blockquote>
-          <blockquote class="group bg-zinc-900 p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
+          <blockquote class="group bg-zinc-900 p-5 sm:p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
             <div class="flex items-center gap-1 mb-4">
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -173,7 +173,7 @@
               <span class="font-bold text-white">Monika</span>
             </footer>
           </blockquote>
-          <blockquote class="group bg-zinc-900 p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
+          <blockquote class="group bg-zinc-900 p-5 sm:p-8 rounded-2xl border border-zinc-700 hover:border-indigo-500 transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/10 transform hover:-translate-y-1">
             <div class="flex items-center gap-1 mb-4">
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
               <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -191,12 +191,12 @@
       </div>
     </section>
 
-    <section class="bg-white py-20">
+    <section class="bg-white py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="relative py-16 px-8 bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-3xl text-center overflow-hidden shadow-2xl">
+        <div class="relative py-10 px-5 sm:py-16 sm:px-8 bg-gradient-to-r from-indigo-600 to-indigo-700 rounded-2xl sm:rounded-3xl text-center overflow-hidden shadow-2xl">
           <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRjMC0yLjIgMS44LTQgNC00czQgMS44IDQgNC0xLjggNC00IDQtNC0xLjgtNC00eiIvPjwvZz48L2c+PC9zdmc+')] opacity-30"></div>
           <div class="relative">
-            <h2 class="text-3xl lg:text-4xl font-extrabold text-white">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white">
               Jste připraveni udělat první krok ke zdraví?
             </h2>
             <p class="mt-4 text-lg text-indigo-100 max-w-2xl mx-auto">

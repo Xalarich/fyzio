@@ -65,10 +65,7 @@ const swiperModules = [Navigation, Pagination]
 :deep(.swiper-button-next),
 :deep(.swiper-button-prev) {
   color: #4f46e5;
-  background: rgba(255, 255, 255, 0.9);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+
 }
 
 :deep(.swiper-button-next::after),

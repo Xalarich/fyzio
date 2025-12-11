@@ -1,11 +1,11 @@
 <template>
   <div class="min-h-screen flex flex-col">
     <!-- Hero Section -->
-    <section class="relative bg-zinc-900 py-24 overflow-hidden">
+    <section class="relative bg-zinc-900 py-16 sm:py-24 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/80 via-zinc-900/90 to-zinc-900"></div>
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase">Náš tým</p>
-        <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight">
+        <h1 class="mt-4 text-3xl sm:text-4xl lg:text-6xl font-extrabold text-white tracking-tight">
           O nás
         </h1>
         <div class="mt-6 w-24 h-1 bg-indigo-500 mx-auto rounded-full"></div>
@@ -13,9 +13,9 @@
     </section>
 
     <!-- Marek Cón starší -->
-    <section class="bg-zinc-50 py-20">
+    <section class="bg-zinc-50 py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-center">
           <div class="order-2 lg:order-1 animate-fade-in">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 tracking-tight border-l-4 border-indigo-600 pl-4">Marek Cón starší</h2>
             <p class="mt-6 text-lg text-zinc-600 leading-relaxed">
@@ -28,8 +28,8 @@
               Jako vedoucí fyzioterapeut na klinice Medicover (2007–2016) jsem vedl tým odborníků a zaměřoval se na komplexní rehabilitační péči. Od roku 2016 se plně věnuji soukromé praxi, kde spolupracuji s renomovanými firmami a věnuji se také vzdělávací činnosti v oblasti propojení fyzického a psychického zdraví.
             </p>
 
-            <h3 class="mt-10 text-xl font-bold text-zinc-900">Dovednosti</h3>
-            <ul class="mt-4 space-y-3">
+            <h3 class="mt-6 sm:mt-10 text-xl font-bold text-zinc-900">Dovednosti</h3>
+            <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3">
               <li class="flex items-start gap-3 text-zinc-600">
                 <span class="flex-shrink-0 w-6 h-6 bg-indigo-100 rounded-full flex items-center justify-center mt-0.5">
                   <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -73,7 +73,6 @@
                 alt="Marek Cón starší"
                 class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               >
-              <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
         </div>
@@ -81,9 +80,9 @@
     </section>
 
     <!-- Marek Cón mladší -->
-    <section class="bg-white py-20">
+    <section class="bg-white py-12 sm:py-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-20 items-center">
           <div class="order-1 lg:order-1">
             <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
               <img
@@ -91,7 +90,6 @@
                 alt="Marek Cón mladší"
                 class="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-105"
               >
-              <div class="absolute inset-0 bg-gradient-to-t from-indigo-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
           </div>
           <div class="order-2 lg:order-2 animate-fade-in">
@@ -100,8 +98,8 @@
               Vystudoval jsem magisterské studium fyzioterapie na Univerzitě Karlově. Jsem fyzioterapeut se specializací na muskuloskeletální poruchy a disponuji zkušenostmi v podpoře elitních sportovců v prostředí vrcholového sportu. Pomáhám při rehabilitaci po úrazech, zvyšování výkonu a v rámci individuálně přizpůsobených regeneračních programů.
             </p>
 
-            <h3 class="mt-10 text-xl font-bold text-zinc-900">Dovednosti</h3>
-            <ul class="mt-4 space-y-3">
+            <h3 class="mt-6 sm:mt-10 text-xl font-bold text-zinc-900">Dovednosti</h3>
+            <ul class="mt-3 sm:mt-4 space-y-2 sm:space-y-3">
               <li class="flex items-start gap-3 text-zinc-600">
                 <span class="flex-shrink-0 w-6 h-6 bg-indigo-100 rounded-full flex items-center justify-center mt-0.5">
                   <svg class="w-4 h-4 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
@@ -128,13 +126,13 @@
               </li>
             </ul>
 
-            <h3 class="mt-10 text-xl font-bold text-zinc-900">Klinická praxe</h3>
+            <h3 class="mt-6 sm:mt-10 text-xl font-bold text-zinc-900">Klinická praxe</h3>
             <p class="mt-4 text-lg text-zinc-600 leading-relaxed">
               V mé klinické praxi kombinuji ověřené manuální terapie, funkční silový a mobilizační trénink a pokročilé regenerační strategie – vždy v souladu s nároky jedince.
             </p>
 
             <!-- Logos -->
-            <div class="mt-8 flex flex-wrap gap-4 items-center">
+            <div class="mt-6 sm:mt-8 flex flex-wrap gap-3 sm:gap-4 items-center">
               <div class="group overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                 <img src="/images/about/FKJablonec.png" alt="FK Jablonec" class="h-20 lg:h-24 object-contain bg-white p-2">
               </div>
@@ -154,7 +152,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="bg-indigo-600 py-16">
+    <section class="bg-indigo-600 py-12 sm:py-16">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl lg:text-4xl font-extrabold text-white">
           Chcete se s námi spojit?

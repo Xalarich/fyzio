@@ -21,7 +21,7 @@
 
   section {
     /* Default section styling */
-    @apply bg-white py-20;
+    @apply bg-white py-5 lg:py-20;
   }
   blockquote {
     @apply bg-zinc-900 p-8 rounded-lg;
@@ -57,7 +57,7 @@
 
 /* Swiper navigation styling */
 .swiper-button-next, .swiper-button-prev {
-  @apply hover:scale-110 transition-all duration-300 ease-in-out hover:bg-white hover:bg-opacity-20 px-6 py-10 rounded-md;
+  @apply hover:scale-110 transition-all bg-transparent duration-300 ease-in-out  hover:bg-white hover:bg-opacity-20 px-6 py-10 !rounded-sm lg:rounded-md;
 }
 
 /* Brand sweep hover effect (global) */
@@ -120,16 +120,7 @@
   @apply bg-zinc-500;
 }
 
-/* Smooth image loading */
+/* Smooth image loading - browser handles lazy loading natively */
 img {
   @apply transition-opacity duration-300;
-}
-
-img[loading="lazy"] {
-  opacity: 0;
-}
-
-img.loaded,
-img:not([loading="lazy"]) {
-  opacity: 1;
 }

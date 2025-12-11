@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-zinc-900 text-zinc-300 w-full">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 pt-10 sm:pt-16 pb-6 sm:pb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-10">
         
         <!-- Brand -->
         <div class="md:col-span-2 lg:col-span-1">
@@ -130,7 +130,7 @@
       </div>
 
       <!-- Bottom -->
-      <div class="mt-12 pt-8 border-t border-zinc-800 flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
+      <div class="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-zinc-800 flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
         <p class="text-sm text-zinc-500">
           &copy; {{ new Date().getFullYear() }} Fyzioterapie Marek Cón. Všechna práva vyhrazena.
         </p>
