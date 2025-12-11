@@ -51,27 +51,27 @@
           </p>
         </div>
         <div class="mt-8 sm:mt-12 grid gap-4 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+          <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
             </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Individuální fyzioterapie</h3>
-            <p class="mt-3 text-base text-zinc-600">Osobní plán sestavený na míru vašim potřebám pro maximální efektivitu léčby.</p>
-          </div>
-          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Fyzioterapie pro dospělé</h3>
+            <p class="mt-3 text-base text-zinc-600">Komplexní vyšetření pohybového aparátu, včetně anamnézy se zaměřením na potíže, se kterými klient přichází.</p>
+          </NuxtLink>
+          <NuxtLink to="/sluzby/chronicke-stavy" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
-              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
             </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Skupinová cvičení</h3>
-            <p class="mt-3 text-base text-zinc-600">Energetizující lekce pro zdravá záda, správné držení těla a celkovou kondici.</p>
-          </div>
-          <div class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2">
+            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Chronické stavy</h3>
+            <p class="mt-3 text-base text-zinc-600">Zabýváme se diagnostikou a terapií chronických bolestivých stavů pohybového aparátu.</p>
+          </NuxtLink>
+          <NuxtLink to="/sluzby/akutni-stavy" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
-              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
             </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Sportovní masáže</h3>
-            <p class="mt-3 text-base text-zinc-600">Masáže pro zdraví a relaxaci, které pomáhají zbavit se bolesti a zlepšit pohyb.</p>
-          </div>
+            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Akutní stavy</h3>
+            <p class="mt-3 text-base text-zinc-600">Na naší fyzioterapii řešíme akutní bolestivé stavy pohybového aparátu.</p>
+          </NuxtLink>
         </div>
       </div>
     </section>
