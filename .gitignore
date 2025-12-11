@@ -4,6 +4,7 @@ node_modules/
 # Nuxt build output and generated files
 .output/
 .nuxt/
+.vercel/
 dist/
 
 # Environment variables (contains secrets!) ⚠️

@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
   srcDir: 'app/',
+  nitro: {
+    preset: 'vercel'
+  },
   runtimeConfig: {
     mail: {
       host: process.env.MAIL_HOST,
