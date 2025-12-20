@@ -55,15 +55,9 @@
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/sluzby/chronicke-stavy" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/sluzby/prevence-ergonomie" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
-                Chronické stavy
-              </NuxtLink>
-            </li>
-            <li>
-              <NuxtLink to="/sluzby/akutni-stavy" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
-                <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
-                Akutní stavy
+                Fyzioterapie pro firmy
               </NuxtLink>
             </li>
           </ul>

@@ -36,13 +36,9 @@
                   <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
                   Fyzioterapie dospělých
                 </NuxtLink>
-                <NuxtLink to="/sluzby/chronicke-stavy" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                <NuxtLink to="/sluzby/prevence-ergonomie" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
                   <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
-                  Chronické stavy
-                </NuxtLink>
-                <NuxtLink to="/sluzby/akutni-stavy" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
-                  <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
-                  Akutní stavy
+                  Fyzioterapie pro firmy
                 </NuxtLink>
               </div>
             </div>
@@ -83,10 +79,8 @@
           <div class="pb-2 mb-2 border-b border-zinc-100">
             <h3 class="text-xs font-bold text-zinc-400 uppercase tracking-wider px-3 mb-2">Služby</h3>
             <NuxtLink to="/sluzby/fyzioterapie-dospelych" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Fyzioterapie dospělých</NuxtLink>
-            <NuxtLink to="/sluzby/chronicke-stavy" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Chronické stavy</NuxtLink>
-            <NuxtLink to="/sluzby/akutni-stavy" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Akutní stavy</NuxtLink>
+            <NuxtLink to="/sluzby/prevence-ergonomie" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Fyzioterapie pro firmy</NuxtLink>
           </div>
-          
           <NuxtLink to="/blogs" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Blog</NuxtLink>
           <NuxtLink to="/about" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">O nás</NuxtLink>
           <NuxtLink to="/kontakt" @click="isMobileMenuOpen = false" class="block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-center font-bold py-3 px-4 rounded-xl transition-colors">Kontaktujte nás</NuxtLink>

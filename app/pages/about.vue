@@ -151,6 +151,167 @@
       </div>
     </section>
 
+    <!-- Experience & Courses Section -->
+    <section class="bg-zinc-50 py-12 sm:py-20">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 sm:mb-16">
+          <p class="text-indigo-600 font-semibold tracking-widest uppercase">Profesní rozvoj</p>
+          <h2 class="mt-4 text-3xl lg:text-4xl font-bold text-zinc-900">Zkušenosti</h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
+          <!-- Experience Timeline -->
+          <div class="relative pl-8">
+            <!-- Continuous timeline line -->
+            <div class="absolute left-[9px] top-2 bottom-2 w-0.5 bg-gradient-to-b from-indigo-500 via-indigo-400 to-indigo-300"></div>
+            
+            <div class="space-y-6">
+              <!-- FK Jablonec -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2023–dosud</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – FK Jablonec (ČR)</h3>
+                  <p class="mt-2 text-zinc-600">Péče o hráče 1. ligy včetně prevence a léčby zranění. Vedení rehabilitačního procesu a návratu do zápasového zatížení.</p>
+                </div>
+              </div>
+
+              <!-- Rowing Academy -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2023</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut, výzkumník – Rowing Academy (ČR)</h3>
+                  <p class="mt-2 text-zinc-600">Aplikace poznatků sportovní fyzioterapie.</p>
+                </div>
+              </div>
+
+              <!-- MC Physio -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2021–dosud</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – MC Physio, Praha (ČR)</h3>
+                  <p class="mt-2 text-zinc-600">Soukromá praxe a individuální péče o široké spektrum klientů.</p>
+                </div>
+              </div>
+
+              <!-- Lékařský dům -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2021–2022</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – Lékařský dům, Praha 7 (ČR)</h3>
+                  <p class="mt-2 text-zinc-600">Spolupráce s ortopedií a neurologií. Komplexní péče o pohybový aparát.</p>
+                </div>
+              </div>
+
+              <!-- Klinik Bavaria -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2021</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Stáž – Klinik Bavaria Kreischa (Německo)</h3>
+                  <p class="mt-2 text-zinc-600">Účast v multidisciplinárních rehabilitačních programech. Zaměření na pohybový aparát a neurologii.</p>
+                </div>
+              </div>
+
+              <!-- AON -->
+              <div class="group relative">
+                <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
+                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
+                  <span class="text-sm font-bold text-indigo-600">2019–dosud</span>
+                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – AON a.s. (ČR)</h3>
+                  <p class="mt-2 text-zinc-600">Péče o manažery a vrcholové vedení firmy.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Courses -->
+          <div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-zinc-100">
+              <h3 class="text-2xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4 mb-8">Kurzy a certifikace</h3>
+              <ul class="space-y-6">
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2025</span>
+                    <h4 class="font-bold text-zinc-900">UEFA Medical Symposium</h4>
+                    <p class="text-zinc-500 text-sm">Lugano</p>
+                  </div>
+                </li>
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2025</span>
+                    <h4 class="font-bold text-zinc-900">Diagnostika a terapie kolenního kloubu</h4>
+                    <p class="text-zinc-500 text-sm">Rehalab Academy – Bartosz Rutowicz Ph.D., MS, PT</p>
+                  </div>
+                </li>
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2024</span>
+                    <h4 class="font-bold text-zinc-900">Kurz první pomoci se zaměřením na akutní stavy ve sportu</h4>
+                    <p class="text-zinc-500 text-sm">FAČR</p>
+                  </div>
+                </li>
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2023</span>
+                    <h4 class="font-bold text-zinc-900">Mobilizace v kontextu svalových řetězců</h4>
+                    <p class="text-zinc-500 text-sm">PhDr. Petr Bitnar, Ph.D.</p>
+                  </div>
+                </li>
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2023</span>
+                    <h4 class="font-bold text-zinc-900">Komplexní terapie trigger pointů</h4>
+                    <p class="text-zinc-500 text-sm">PhDr. Petr Bitnar, Ph.D.</p>
+                  </div>
+                </li>
+                <li class="group flex items-start gap-4">
+                  <span class="flex-shrink-0 w-10 h-10 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
+                    <svg class="w-5 h-5 text-indigo-600 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                  </span>
+                  <div>
+                    <span class="text-sm font-bold text-indigo-600">2019</span>
+                    <h4 class="font-bold text-zinc-900">Kinesiotaping</h4>
+                    <p class="text-zinc-500 text-sm">Kinesio Taping Assessments, Fundamental Concepts and Techniques – International</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="bg-indigo-600 py-12 sm:py-16">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

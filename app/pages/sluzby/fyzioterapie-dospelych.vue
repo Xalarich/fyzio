@@ -4,7 +4,7 @@
     <section class="relative bg-zinc-900 py-28 overflow-hidden">
       <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/80 via-zinc-900/90 to-zinc-900"></div>
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Služby</p>
+        <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Fyzio postupy</p>
         <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight animate-slide-up">
           Fyzioterapie dospělých
         </h1>
@@ -15,201 +15,88 @@
     <section class="py-20 bg-white">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8 space-y-24">
 
-        <!-- Fyzioterapeutické vyšetření: Image 1.jpg left, text right -->
+        <!-- K 2.1 Kloubní mobilizace: Image 2.jpg left, text right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/1.jpg"
-              alt="Fyzioterapeutické vyšetření"
+              src="/images/fyzio-dospelych/2.jpg"
+              alt="Kloubní mobilizace"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
           <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapeutické vyšetření</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Kloubní mobilizace</h2>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Komplexní vyšetření pohybového aparátu, včetně anamnézy se zaměřením na potíže, se kterými klient přichází. Na základě vstupního vyšetření je stanoven krátkodobý plán fyzioterapie.
+              Mobilizační techniky jsou fyzioterapeutické postupy k obnovení hybnosti kloubů při funkčních blokádách. Terapie zahrnuje i přípravu terénu (např. uvolnění měkkých tkání, trakci, teplo) a navazuje na přesnou diagnostiku.
             </p>
           </article>
         </div>
 
-        <!-- Mobilizační techniky: Text left, Image 2.jpg right -->
+        <!-- K 2.2 Manuální techniky: Text left, Image 6.jpg right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <article class="order-2 lg:order-1 animate-fade-in-left">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Mobilizační techniky a techniky měkkých tkání</h2>
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Manuální techniky</h2>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Mobilizace se týkají všech pohyblivých struktur těla, nejde tedy pouze o kloubní struktury, ale i o měkké tkáně, fascie a vnitřní orgány. Nejčastěji se ale opravdu mobilizují klouby a to hlavně páteře a končetin. Takzvané blokády bývají velmi často spojeny se spoušťovými body (trigger point), ty omezují pohyblivost a současně působí bolest. Správně cílenou terapií dochází k odstranění blokád a odeznění bolesti.
+              Nabízíme široké spektrum technik včetně pooperační péče o jizvu, myofasciální terapie k uvolnění různých partií těla a ošetření trigger pointů (spoušťových bodů).
             </p>
           </article>
           <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/2.jpg"
-              alt="Mobilizační techniky"
+              src="/images/fyzio-dospelych/6.jpg"
+              alt="Manuální techniky"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
 
-        <!-- Spiraldynamik: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Spiraldynamik®</h2>
+        <!-- K 2.3 Sportovní fyzioterapie a trénink: Image 9.jpg left, text right -->
+        <div class="grid gap-12 lg:grid-cols-2 items-center group">
+          <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
+            <img
+              src="/images/fyzio-dospelych/9.jpg"
+              alt="Sportovní fyzioterapie a trénink"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          </div>
+          <article class="animate-fade-in-right">
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Sportovní fyzioterapie a trénink</h2>
+            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
+              Poskytujeme funkční diagnostiku, individuální nastavení rehabilitačního a rekondičního plánu a také specializovanou sportovní regeneraci.
+            </p>
+          </article>
+        </div>
+
+        <!-- K 2.4 Masáže: Styled card -->
+        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
+          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Masáže</h2>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
-            Koncept Spiraldynamik® vyžaduje důkladnou znalost pohybové kineziologie. Správné spirální nastavení kloubů je základním článkem lidské lokomoce a ekonomického řízení pohybu. Princip konceptu stojí na správném sešroubování trupu, hlavy a končetin. To terapaut provádí nejdříve pasivně a následně se snaží o pacientovo osvojí správného pohybového vzorce. Po úspěšném zvládnutí často dochází k úpravě pohybových potíží.
+            Sportovní, relaxační, reflexní typy masáží.
           </p>
         </div>
 
-        <!-- Metoda McKenzie: Image 3.jpg left, text right -->
+        <!-- K 2.5 Metoda McKenzie: Text left, Image 3.jpg right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
-          <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
+          <article class="order-2 lg:order-1 animate-fade-in-left">
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Metoda McKenzie</h2>
+            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
+              Mechanická diagnostika a terapie (MDT) je vysoce strukturovaný terapeutický přístup zaměřený na diagnostiku a léčbu bolestí páteře a periferních kloubů. Cílem je nejen úleva od bolesti, ale i prevence recidiv pomocí edukace a samostatného cvičení pacienta.
+            </p>
+          </article>
+          <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
             <img
               src="/images/fyzio-dospelych/3.jpg"
               alt="Metoda McKenzie"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
-          <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Metoda McKenzie®</h2>
-            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              McKenzie® se využívá jako terapeutický a diagnostický koncept. Často je terapie touto metodou úspěšná u pacientů trpících chronickými bolestmi zad déle než 3 měsíce. Koncept je narozdíl od jiných metod snadno aplikovatelný jako autoterapie, můžete ho cvičit ve volných chvílích a proaktivním přístupem přispět pozitivním výsledkům terapie.
-            </p>
-          </article>
         </div>
 
-        <!-- Senzomotorická stimulace: No image, styled card -->
+        <!-- K 2.6 Spiraldynamik: Styled card -->
         <div class="group bg-gradient-to-r from-indigo-50 to-zinc-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Senzomotorická stimulace</h2>
+          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Spiraldynamik®</h2>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
-            Senzomotorická stimulace je metoda se stimulačním vlivem a osvědčuje se především při terapii nestabilních kolen a kotníků. Dále je vhodnou metodou pro úpravu plochonoží, při propadu příčné a podélné klenby.
+            Spiraldynamik® je fyzioterapeutický koncept pohybové terapie, který vychází z přirozených spirálních pohybových principů lidského těla. Jeho hlavní myšlenkou je, že zdravý a efektivní pohyb se odehrává ve spirálních strukturách – od chodidel až po hlavu.
           </p>
-          <div class="mt-8">
-            <h3 class="text-sm font-bold text-indigo-600 uppercase tracking-widest">Hlavní prvky</h3>
-            <ul class="lg:mt-4 mt-1 grid grid-cols-1 sm:grid-cols-2 gap-1 lg:gap-4">
-              <li class="group/item flex items-center text-zinc-600 p-3 rounded-xl hover:bg-white transition-colors duration-300">
-                <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                zlepšení koordinace
-              </li>
-              <li class="group/item flex items-center text-zinc-600 p-3 rounded-xl hover:bg-white transition-colors duration-300">
-                <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                úprava chůze
-              </li>
-              <li class="group/item flex items-center text-zinc-600 p-3 rounded-xl hover:bg-white transition-colors duration-300">
-                <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                tvorba nových pohybových programů
-              </li>
-              <li class="group/item flex items-center text-zinc-600 p-3 rounded-xl hover:bg-white transition-colors duration-300">
-                <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 group-hover/item:scale-125 transition-transform"></span>
-                zlepšení držení těla
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Cvičení dle Ludmily Mojžíšové: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Cvičení dle Ludmily Mojžíšové</h2>
-          <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
-            Metoda se zaměřuje na vertebrogenní obtíže a ženskou sterilitu. Bolesti páteře se pokouší odstranit šetrnými mobilizacemi páteře, žeber, kloubů a to v pozicích kdy dochází k uvolnění svalů zkrácených a protažení svalů oslabených. S tím se pojí omezení hybnosti jednotlivých segmentů páteře. Výhodou cvičení je nenáročnost jednotlivých cviků a široká možnost autoterapeutických modifikací. Důležitá je však četnost cvičení. Cviky by měly být prováděny denně.
-          </p>
-        </div>
-
-        <!-- Kineziotapeing: Text left, Slider right -->
-        <div class="grid gap-12 lg:grid-cols-2 items-center">
-          <article class="order-2 lg:order-1 animate-fade-in-left">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Kineziotapeing</h2>
-            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Správnou aplikací tejpu dochází k aktivaci autoregulačních procesů organismu. Regulační změny mají za cíl odstranit patologické změny a obnovit funkčnost tkáně. Aplikací tejpu jsou osloveny kožní receptory, což je dosaženo zvrásněním dekompresí kůže. Dále dochází ke snížení městnání krve a lymfy, podpoře svalů pomocí regulace svalového tonu a v neposlední řádě k optimalizaci kloubní funkce díky stimulaci proprioreceptorů.
-            </p>
-          </article>
-          <div class="order-1 lg:order-2">
-            <ClientOnly>
-              <ImageSlider :images="kineziotapeingImages" />
-            </ClientOnly>
-          </div>
-        </div>
-
-        <!-- Instruktáž: No image, styled card -->
-        <div class="group bg-gradient-to-r from-indigo-50 to-zinc-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Instruktáž správných pohybových stereotypů</h2>
-          <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
-            Nápravu správné ergonomie řízení pohybu provádím nejčastěji s lidmi, kteří mají sedavé zaměstnání. Dále u lidí s fyzicky monotónní prací, při které dochází k přetížení pohybové soustavy.
-          </p>
-        </div>
-
-        <!-- Předoperační a pooperační stavy: Image 6.jpg left, text right -->
-        <div class="grid gap-12 lg:grid-cols-2 items-center group">
-          <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
-            <img
-              src="/images/fyzio-dospelych/6.jpg"
-              alt="Předoperační a pooperační stavy"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-          </div>
-          <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Předoperační a pooperační stavy</h2>
-            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Předoperační péče je příprava pacienta na daný výkon, ať už po fyzické nebo psychické stránce. Celkově přispívá lepšímu zvládání operačního výkonu a hlavně následné rekonvalescenci.
-            </p>
-            <p class="mt-4 text-zinc-600 leading-relaxed text-lg">
-              V pooperační péči stojí v popředí obnovení funkčnosti pohybového systému. Patří sem péče o jizvu, uvolnění měkkých tkání, optimalizace svalového napětí, obnovení kloubních rozsahů pohybu a svalové síly. Dále se uplatňují prvky fyzikální terapie – chlad, teplo, elektroterapie, ultrazvuk. Cílem je návrat pacienta k běžným aktivitám a to v plném rozsahu.
-            </p>
-          </article>
-        </div>
-
-        <!-- Elektroterapie a ultrazvuk: Text left, Slider right -->
-        <div class="grid gap-12 lg:grid-cols-2 items-center">
-          <article class="order-2 lg:order-1 animate-fade-in-left">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Elektroterapie a ultrazvuk</h2>
-            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Na našem pracovišti aplikujeme jako součást terapie elektroléčbu a terapeutický ultrazvuk.
-            </p>
-            <p class="mt-4 text-zinc-600 leading-relaxed text-lg">
-              Tyto procedury nejsou hrazeny zvlášť a jsou v ceně terapie.
-            </p>
-          </article>
-          <div class="order-1 lg:order-2">
-            <ClientOnly>
-              <ImageSlider :images="elektroterapieImages" />
-            </ClientOnly>
-          </div>
-        </div>
-
-        <!-- Relaxační procedury: No image, styled card -->
-        <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-5 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Relaxační procedury</h2>
-          <ul class="mt-1 lg:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-1 lg:gap-4">
-            <li class="group/item flex items-center text-zinc-600 text-lg p-3 rounded-xl ">
-              <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 "></span>
-              Klasické relaxační masáže celkové nebo částečné
-            </li>
-            <li class="group/item flex items-center text-zinc-600 text-lg p-3 rounded-xl ">
-              <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 "></span>
-              Reflexní masáže
-            </li> 
-            <li class="group/item flex items-center text-zinc-600 text-lg p-3 rounded-xl ">
-              <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 "></span>
-              Baňkování
-            </li>
-            <li class="group/item flex items-center text-zinc-600 text-lg p-3 rounded-xl ">
-              <span class="w-3 h-3 bg-indigo-500 rounded-full mr-4 "></span>
-              Horká role
-            </li>
-          </ul>
-        </div>
-
-        <!-- Fyzioterapie sportovců: Image 9.jpg left, text right -->
-        <div class="grid gap-12 lg:grid-cols-2 items-center group">
-          <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
-            <img
-              src="/images/fyzio-dospelych/9.jpg"
-              alt="Fyzioterapie sportovců"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-          </div>
-          <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapie sportovců</h2>
-            <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Přístup je volen individuálně dle specializace sportovce. Kompenzace jednostranné zátěže, zlepšení výkonu.
-            </p>
-          </article>
         </div>
 
       </div>
@@ -242,26 +129,16 @@
 <script setup>
 useSeoMeta({
   title: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
-  description: 'Vyšetření, mobilizační techniky, Spiraldynamik, McKenzie, senzomotorika, kineziotapeing a další procedury pro dospělé klienty.',
+  description: 'Kloubní mobilizace, manuální techniky, sportovní fyzioterapie, masáže, McKenzie a Spiraldynamik pro dospělé klienty.',
   ogTitle: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
-  ogDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Vyšetření, mobilizační techniky, Spiraldynamik, McKenzie a další.',
+  ogDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Kloubní mobilizace, manuální techniky, sportovní fyzioterapie a další.',
   ogType: 'website',
   ogLocale: 'cs_CZ',
   ogSiteName: 'Fyzioterapie Marek Cón',
   twitterCard: 'summary_large_image',
   twitterTitle: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
-  twitterDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Vyšetření, mobilizační techniky, Spiraldynamik, McKenzie a další.'
+  twitterDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Kloubní mobilizace, manuální techniky, sportovní fyzioterapie a další.'
 })
-
-const kineziotapeingImages = [
-  { src: '/images/fyzio-dospelych/4.jpg', alt: 'Kineziotapeing' },
-  { src: '/images/fyzio-dospelych/5.jpg', alt: 'Kineziotapeing aplikace' }
-]
-
-const elektroterapieImages = [
-  { src: '/images/fyzio-dospelych/7.jpg', alt: 'Elektroterapie' },
-  { src: '/images/fyzio-dospelych/8.jpg', alt: 'Ultrazvuk' }
-]
 </script>
 
 <style scoped>
