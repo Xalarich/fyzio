@@ -50,27 +50,20 @@
             Komplexní péče o vaše tělo
           </p>
         </div>
-        <div class="mt-8 sm:mt-12 grid gap-4 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div class="mt-8 sm:mt-12 grid gap-4 sm:gap-8 grid-cols-1 md:grid-cols-2">
           <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
             </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Fyzioterapie pro dospělé</h3>
+            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Ambulantní fyzioterapie</h3>
             <p class="mt-3 text-base text-zinc-600">Komplexní vyšetření pohybového aparátu, včetně anamnézy se zaměřením na potíže, se kterými klient přichází.</p>
           </NuxtLink>
-          <NuxtLink to="/sluzby/chronicke-stavy" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
-            <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
-              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          <NuxtLink to="/sluzby/prevence-ergonomie" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-emerald-100 transform hover:-translate-y-2 block">
+            <div class="flex-shrink-0 w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center group-hover:bg-emerald-600 transition-colors duration-300">
+              <svg class="h-7 w-7 text-emerald-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
             </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Chronické stavy</h3>
-            <p class="mt-3 text-base text-zinc-600">Zabýváme se diagnostikou a terapií chronických bolestivých stavů pohybového aparátu.</p>
-          </NuxtLink>
-          <NuxtLink to="/sluzby/akutni-stavy" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
-            <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
-              <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-            </div>
-            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Akutní stavy</h3>
-            <p class="mt-3 text-base text-zinc-600">Na naší fyzioterapii řešíme akutní bolestivé stavy pohybového aparátu.</p>
+            <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-emerald-600 transition-colors duration-300">Fyzioterapie pro firmy</h3>
+            <p class="mt-3 text-base text-zinc-600">Nabízíme fyzioterapii přímo na pracovišti, workshopy ergonomie a přednášky pro zdravější zaměstnance.</p>
           </NuxtLink>
         </div>
       </div>

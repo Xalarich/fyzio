@@ -51,8 +51,8 @@
               <a href="tel:+420602479648" class="flex items-center gap-3 text-lg text-zinc-600 hover:text-indigo-600 transition-colors group/link">
                 <span class="font-semibold text-indigo-600">+420 602 479 648</span>
               </a>
-              <a href="mailto:marekcon@seznam.cz" class="flex items-center gap-3 text-lg text-zinc-600 hover:text-indigo-600 transition-colors group/link">
-                <span class="font-semibold text-indigo-600">marekcon@seznam.cz</span>
+              <a href="mailto:marek.con77@gmail.com" class="flex items-center gap-3 text-lg text-zinc-600 hover:text-indigo-600 transition-colors group/link">
+                <span class="font-semibold text-indigo-600">marek.con77@gmail.com</span>
               </a>
             </div>
           </div>

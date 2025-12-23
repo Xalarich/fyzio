@@ -6,7 +6,7 @@
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Fyzio postupy</p>
         <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight animate-slide-up">
-          Fyzioterapie dospělých
+          Ambulantní fyzioterapie
         </h1>
         <div class="mt-6 w-24 h-1 bg-indigo-500 mx-auto rounded-full"></div>
       </div>
@@ -19,7 +19,7 @@
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/2.jpg"
+              src="/images/fyzio-dospelych/1.jpg"
               alt="Kloubní mobilizace"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -42,27 +42,87 @@
           </article>
           <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/6.jpg"
+              src="/images/fyzio-dospelych/2.jpg"
               alt="Manuální techniky"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
           </div>
         </div>
 
-        <!-- K 2.3 Sportovní fyzioterapie a trénink: Image 9.jpg left, text right -->
+        <!-- K 2.3 Sportovní fyzioterapie a trénink: Carousel left, text right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
-            <img
-              src="/images/fyzio-dospelych/9.jpg"
-              alt="Sportovní fyzioterapie a trénink"
-              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-            />
+            <!-- Carousel -->
+            <div class="relative w-full h-full">
+              <transition-group name="carousel-fade">
+                <img
+                  v-for="(image, index) in sportCarouselImages"
+                  v-show="currentSlide === index"
+                  :key="image.src"
+                  :src="image.src"
+                  :alt="image.alt"
+                  class="absolute inset-0 w-full h-full object-cover"
+                />
+              </transition-group>
+              
+              <!-- Navigation Arrows -->
+              <button
+                @click="prevSlide"
+                class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100 z-10"
+                aria-label="Předchozí obrázek"
+              >
+                <svg class="w-5 h-5 text-zinc-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button
+                @click="nextSlide"
+                class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-all duration-300 opacity-0 group-hover:opacity-100 z-10"
+                aria-label="Další obrázek"
+              >
+                <svg class="w-5 h-5 text-zinc-700" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+              
+              <!-- Dots Indicator -->
+              <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+                <button
+                  v-for="(image, index) in sportCarouselImages"
+                  :key="index"
+                  @click="currentSlide = index"
+                  :class="[
+                    'w-2.5 h-2.5 rounded-full transition-all duration-300',
+                    currentSlide === index ? 'bg-indigo-600 w-6' : 'bg-white/70 hover:bg-white'
+                  ]"
+                  :aria-label="`Přejít na obrázek ${index + 1}`"
+                />
+              </div>
+            </div>
           </div>
           <article class="animate-fade-in-right">
             <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Sportovní fyzioterapie a trénink</h2>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
               Poskytujeme funkční diagnostiku, individuální nastavení rehabilitačního a rekondičního plánu a také specializovanou sportovní regeneraci.
             </p>
+            <ul class="mt-6 space-y-3 text-zinc-600 text-lg">
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 bg-indigo-600 rounded-full flex-shrink-0"></span>
+                Tahová dynamometrie
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 bg-indigo-600 rounded-full flex-shrink-0"></span>
+                Elektrostimulace Compex
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 bg-indigo-600 rounded-full flex-shrink-0"></span>
+                Přístrojová terapie BTL
+              </li>
+              <li class="flex items-center gap-3">
+                <span class="w-2 h-2 bg-indigo-600 rounded-full flex-shrink-0"></span>
+                Fasciální nože
+              </li>
+            </ul>
           </article>
         </div>
 
@@ -127,16 +187,55 @@
 </template>
 
 <script setup>
+import { ref, onMounted, onUnmounted } from 'vue'
+
+// Sport Carousel
+const sportCarouselImages = [
+  { src: '/images/fyzio-dospelych/7.jpg', alt: 'Přístrojová terapie - ultrazvuk' },
+  { src: '/images/fyzio-dospelych/8.jpg', alt: 'Elektroterapie BTL' },
+  { src: '/images/fyzio-dospelych/9.jpg', alt: 'Sportovní fyzioterapie a trénink' }
+]
+
+const currentSlide = ref(0)
+let autoplayInterval = null
+
+const nextSlide = () => {
+  currentSlide.value = (currentSlide.value + 1) % sportCarouselImages.length
+}
+
+const prevSlide = () => {
+  currentSlide.value = (currentSlide.value - 1 + sportCarouselImages.length) % sportCarouselImages.length
+}
+
+const startAutoplay = () => {
+  autoplayInterval = setInterval(nextSlide, 5000)
+}
+
+const stopAutoplay = () => {
+  if (autoplayInterval) {
+    clearInterval(autoplayInterval)
+    autoplayInterval = null
+  }
+}
+
+onMounted(() => {
+  startAutoplay()
+})
+
+onUnmounted(() => {
+  stopAutoplay()
+})
+
 useSeoMeta({
-  title: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
+  title: 'Ambulantní fyzioterapie | Fyzioterapie Marek Cón',
   description: 'Kloubní mobilizace, manuální techniky, sportovní fyzioterapie, masáže, McKenzie a Spiraldynamik pro dospělé klienty.',
-  ogTitle: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
+  ogTitle: 'Ambulantní fyzioterapie | Fyzioterapie Marek Cón',
   ogDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Kloubní mobilizace, manuální techniky, sportovní fyzioterapie a další.',
   ogType: 'website',
   ogLocale: 'cs_CZ',
   ogSiteName: 'Fyzioterapie Marek Cón',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Fyzioterapie dospělých | Fyzioterapie Marek Cón',
+  twitterTitle: 'Ambulantní fyzioterapie | Fyzioterapie Marek Cón',
   twitterDescription: 'Komplexní fyzioterapeutické služby pro dospělé. Kloubní mobilizace, manuální techniky, sportovní fyzioterapie a další.'
 })
 </script>
@@ -176,5 +275,21 @@ useSeoMeta({
 
 .animate-fade-in-left {
   animation: fadeInLeft 0.8s ease-out;
+}
+
+/* Carousel transitions */
+.carousel-fade-enter-active,
+.carousel-fade-leave-active {
+  transition: opacity 0.7s ease-in-out;
+}
+
+.carousel-fade-enter-from,
+.carousel-fade-leave-to {
+  opacity: 0;
+}
+
+.carousel-fade-enter-to,
+.carousel-fade-leave-from {
+  opacity: 1;
 }
 </style>

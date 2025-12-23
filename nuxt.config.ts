@@ -13,7 +13,7 @@ export default defineNuxtConfig({
       port: process.env.MAIL_PORT ? Number(process.env.MAIL_PORT) : 587,
       user: process.env.MAIL_USER,
       pass: process.env.MAIL_PASS,
-      to: process.env.MAIL_TO || 'marekcon@seznam.cz',
+      to: process.env.MAIL_TO || 'marek.con77@gmail.com',
       from: process.env.MAIL_FROM || 'no-reply@fyzio.local'
     }
   },

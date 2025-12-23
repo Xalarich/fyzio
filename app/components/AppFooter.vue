@@ -33,12 +33,12 @@
               </a>
             </li>
             <li>
-              <a href="mailto:marekcon@seznam.cz" class="group flex items-center gap-3 hover:text-indigo-400 transition-colors duration-300">
+              <a href="mailto:marek.con77@gmail.com" class="group flex items-center gap-3 hover:text-indigo-400 transition-colors duration-300">
                 <svg class="h-5 w-5 flex-shrink-0 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span class="group-hover:underline">marekcon@seznam.cz</span>
+                <span class="group-hover:underline">marek.con77@gmail.com</span>
               </a>
             </li>
           </ul>
@@ -51,7 +51,7 @@
             <li>
               <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
-                Fyzioterapie dospělých
+                Ambulantní fyzioterapie
               </NuxtLink>
             </li>
             <li>
