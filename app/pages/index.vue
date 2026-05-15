@@ -56,7 +56,7 @@
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
             </div>
             <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Ambulantní fyzioterapie</h3>
-            <p class="mt-3 text-base text-zinc-600">Komplexní vyšetření pohybového aparátu, včetně anamnézy se zaměřením na potíže, se kterými klient přichází.</p>
+            <p class="mt-3 text-base text-zinc-600">Specializujeme se na sportovní fyzioterapii a <strong class="text-zinc-900">RTP (return to play) protokol</strong> – řízený návrat sportovce do plné zátěže. Komplexní vyšetření pohybového aparátu, manuální techniky a funkční trénink.</p>
           </NuxtLink>
           <NuxtLink to="/sluzby/prevence-ergonomie" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-emerald-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center group-hover:bg-emerald-600 transition-colors duration-300">
@@ -210,16 +210,16 @@
 
 <script setup>
 useSeoMeta({
-  title: 'Fyzioterapie Marek Cón | Rehabilitace Praha',
-  description: 'Moderní fyzioterapie v centru Prahy. Pomůžeme vám zbavit se bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.',
-  ogTitle: 'Fyzioterapie Marek Cón | Rehabilitace Praha',
-  ogDescription: 'Moderní fyzioterapie v centru Prahy. Pomůžeme vám zbavit se bolesti zad, kloubů i svalů. Specializujeme se na individuální přístup a dlouhodobé výsledky.',
+  title: 'Fyzioterapie Marek Cón | Sportovní fyzio & RTP – Praha',
+  description: 'Sportovní fyzioterapie a RTP (return to play) protokol v Praze. Zkušenosti z FK Jablonec, FC Red Bull Salzburg Academy a parahokejové reprezentace. Individuální přístup a dlouhodobé výsledky.',
+  ogTitle: 'Fyzioterapie Marek Cón | Sportovní fyzio & RTP – Praha',
+  ogDescription: 'Sportovní fyzioterapie a RTP (return to play) protokol v Praze. Zkušenosti z FK Jablonec, FC Red Bull Salzburg Academy a parahokejové reprezentace.',
   ogType: 'website',
   ogLocale: 'cs_CZ',
   ogSiteName: 'Fyzioterapie Marek Cón',
   twitterCard: 'summary_large_image',
-  twitterTitle: 'Fyzioterapie Marek Cón | Rehabilitace Praha',
-  twitterDescription: 'Moderní fyzioterapie v centru Prahy. Pomůžeme vám zbavit se bolesti zad, kloubů i svalů.'
+  twitterTitle: 'Fyzioterapie Marek Cón | Sportovní fyzio & RTP – Praha',
+  twitterDescription: 'Sportovní fyzioterapie a RTP protokol v Praze. Zkušenosti z elitního sportu.'
 })
 </script>
 

@@ -25,7 +25,12 @@
             />
           </div>
           <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Kloubní mobilizace</h2>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0 w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center p-3">
+                <img src="/images/fyzio-postupy/kloubni-mobilizace.png" alt="Kloubní mobilizace ikona" class="w-full h-full object-contain" />
+              </div>
+              <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Kloubní mobilizace</h2>
+            </div>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
               Mobilizační techniky jsou fyzioterapeutické postupy k obnovení hybnosti kloubů při funkčních blokádách. Terapie zahrnuje i přípravu terénu (např. uvolnění měkkých tkání, trakci, teplo) a navazuje na přesnou diagnostiku.
             </p>
@@ -35,7 +40,12 @@
         <!-- K 2.2 Manuální techniky: Text left, Image 6.jpg right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <article class="order-2 lg:order-1 animate-fade-in-left">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Manuální techniky</h2>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0 w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center p-3">
+                <img src="/images/fyzio-postupy/manualni-techniky.png" alt="Manuální techniky ikona" class="w-full h-full object-contain" />
+              </div>
+              <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Manuální techniky</h2>
+            </div>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
               Nabízíme široké spektrum technik včetně pooperační péče o jizvu, myofasciální terapie k uvolnění různých partií těla a ošetření trigger pointů (spoušťových bodů).
             </p>
@@ -101,9 +111,18 @@
             </div>
           </div>
           <article class="animate-fade-in-right">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Sportovní fyzioterapie a trénink</h2>
+            <span class="inline-flex items-center gap-2 px-3 py-1 bg-indigo-100 text-indigo-700 text-xs font-bold uppercase tracking-widest rounded-full">Naše specializace</span>
+            <div class="mt-3 flex items-center gap-4">
+              <div class="flex-shrink-0 w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center p-3">
+                <img src="/images/fyzio-postupy/sportovni-fyzio.png" alt="Sportovní fyzioterapie ikona" class="w-full h-full object-contain" />
+              </div>
+              <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Sportovní fyzioterapie a RTP protokol</h2>
+            </div>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
-              Poskytujeme funkční diagnostiku, individuální nastavení rehabilitačního a rekondičního plánu a také specializovanou sportovní regeneraci.
+              Poskytujeme funkční diagnostiku a individuální nastavení rehabilitačního a rekondičního plánu v rámci <strong class="text-zinc-900">return to play (RTP) protokolu</strong> – řízeného návratu zraněného sportovce do plné zátěže a soutěžního výkonu.
+            </p>
+            <p class="mt-4 text-zinc-600 leading-relaxed text-lg">
+              Specificky zacílený funkční trénink stavíme na zkušenostech z elitního sportu – FK Jablonec, FC Red Bull Salzburg Academy, parahokejová reprezentace, Rowing Academy.
             </p>
             <ul class="mt-6 space-y-3 text-zinc-600 text-lg">
               <li class="flex items-center gap-3">
@@ -128,7 +147,12 @@
 
         <!-- K 2.4 Masáže: Styled card -->
         <div class="group bg-gradient-to-r from-zinc-50 to-indigo-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Masáže</h2>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 w-16 h-16 bg-white rounded-2xl flex items-center justify-center p-3 shadow-sm">
+              <img src="/images/fyzio-postupy/masaze.png" alt="Masáže ikona" class="w-full h-full object-contain" />
+            </div>
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Masáže</h2>
+          </div>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
             Sportovní, relaxační, reflexní typy masáží.
           </p>
@@ -137,7 +161,12 @@
         <!-- K 2.5 Metoda McKenzie: Text left, Image 3.jpg right -->
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <article class="order-2 lg:order-1 animate-fade-in-left">
-            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Metoda McKenzie</h2>
+            <div class="flex items-center gap-4">
+              <div class="flex-shrink-0 w-16 h-16 bg-indigo-50 rounded-2xl flex items-center justify-center p-3">
+                <img src="/images/fyzio-postupy/mckenzie.png" alt="Metoda McKenzie ikona" class="w-full h-full object-contain" />
+              </div>
+              <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Metoda McKenzie</h2>
+            </div>
             <p class="mt-6 text-zinc-600 leading-relaxed text-lg">
               Mechanická diagnostika a terapie (MDT) je vysoce strukturovaný terapeutický přístup zaměřený na diagnostiku a léčbu bolestí páteře a periferních kloubů. Cílem je nejen úleva od bolesti, ale i prevence recidiv pomocí edukace a samostatného cvičení pacienta.
             </p>
@@ -153,7 +182,12 @@
 
         <!-- K 2.6 Spiraldynamik: Styled card -->
         <div class="group bg-gradient-to-r from-indigo-50 to-zinc-50 rounded-3xl p-10 lg:p-14 shadow-sm border border-zinc-200 hover:shadow-xl hover:border-indigo-200 transition-all duration-500">
-          <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Spiraldynamik®</h2>
+          <div class="flex items-center gap-4">
+            <div class="flex-shrink-0 w-16 h-16 bg-white rounded-2xl flex items-center justify-center p-3 shadow-sm">
+              <img src="/images/fyzio-postupy/spiraldynamik.png" alt="Spiraldynamik ikona" class="w-full h-full object-contain" />
+            </div>
+            <h2 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Spiraldynamik®</h2>
+          </div>
           <p class="mt-6 text-zinc-600 leading-relaxed text-lg max-w-4xl">
             Spiraldynamik® je fyzioterapeutický koncept pohybové terapie, který vychází z přirozených spirálních pohybových principů lidského těla. Jeho hlavní myšlenkou je, že zdravý a efektivní pohyb se odehrává ve spirálních strukturách – od chodidel až po hlavu.
           </p>

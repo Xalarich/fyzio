@@ -60,6 +60,48 @@
       </div>
     </section>
 
+    <!-- Ceník -->
+    <section class="bg-zinc-100 pb-12 sm:pb-16">
+      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-8 sm:mb-12">
+            <p class="text-indigo-600 font-semibold tracking-widest uppercase">Ceník</p>
+            <h2 class="mt-3 text-3xl lg:text-4xl font-bold text-zinc-900">Naše služby</h2>
+          </div>
+
+          <div class="grid gap-4 sm:gap-6 md:grid-cols-3">
+            <div class="group bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-200 hover:border-indigo-200 transform hover:-translate-y-1 flex flex-col">
+              <h3 class="text-lg font-bold text-zinc-900">Individuální fyzioterapie</h3>
+              <p class="mt-1 text-sm text-zinc-500">45–60 minut</p>
+              <div class="mt-6 pt-6 border-t border-zinc-100 flex items-baseline gap-1">
+                <span class="text-3xl sm:text-4xl font-extrabold text-indigo-600">1 000</span>
+                <span class="text-lg font-semibold text-zinc-600">Kč</span>
+              </div>
+            </div>
+
+            <div class="group bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-200 hover:border-indigo-200 transform hover:-translate-y-1 flex flex-col">
+              <h3 class="text-lg font-bold text-zinc-900">Individuální fyzioterapie</h3>
+              <p class="mt-1 text-sm text-zinc-500">25–30 minut</p>
+              <div class="mt-6 pt-6 border-t border-zinc-100 flex items-baseline gap-1">
+                <span class="text-3xl sm:text-4xl font-extrabold text-indigo-600">600</span>
+                <span class="text-lg font-semibold text-zinc-600">Kč</span>
+              </div>
+            </div>
+
+            <div class="group bg-white p-6 sm:p-8 rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border-2 border-indigo-200 hover:border-indigo-400 transform hover:-translate-y-1 flex flex-col relative">
+              <span class="absolute -top-3 left-6 bg-indigo-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">RTP protokol</span>
+              <h3 class="text-lg font-bold text-zinc-900">Funkční trénink / RTP</h3>
+              <p class="mt-1 text-sm text-zinc-500">5 jednotek</p>
+              <div class="mt-6 pt-6 border-t border-zinc-100 flex items-baseline gap-1">
+                <span class="text-3xl sm:text-4xl font-extrabold text-indigo-600">4 500</span>
+                <span class="text-lg font-semibold text-zinc-600">Kč</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Form -->
     <section class="bg-zinc-100 pb-12 sm:pb-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
