@@ -29,9 +29,9 @@ import { Autoplay, Navigation, Pagination } from 'swiper/modules'
 const swiperModules = [Autoplay, Navigation, Pagination]
 
 const images = [
-  { src: '/images/home/podkresleni-1.jpg', alt: 'Cvičení a fyzioterapie' },
-  { src: '/images/home/podkresleni-2.jpg', alt: 'Sportovní fyzioterapie' },
-  { src: '/images/home/podkresleni-3.jpg', alt: 'Individuální terapie' }
+  { src: '/images/prevence-ergonomie/mobilizace.jpg', alt: 'Mobilizace a individuální terapie' },
+  { src: '/images/prevence-ergonomie/sportovni-fyzio.jpg', alt: 'Kinesiotaping a sportovní fyzioterapie' },
+  { src: '/images/prevence-ergonomie/manualni-techniky.jpg', alt: 'Manuální a přístrojové techniky' }
 ]
 </script>
 

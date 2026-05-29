@@ -10,22 +10,13 @@
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-10">
           <div class="text-center lg:text-left animate-fade-in">
-            <h1 class="text-3xl sm:text-4xl lg:text-6xl font-extrabold text-zinc-900 tracking-tight">
-              Vraťte se do pohybu.
-              <span class="block text-indigo-600 mt-2">Bez omezení.</span>
-            </h1>
+            <h2 class="text-base font-semibold text-indigo-600 tracking-wider uppercase">Kdo jsme</h2>
+            <p class="mt-2 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-zinc-900 tracking-tight">
+              Rodina fyzioterapeutů, která vás vrátí do pohybu
+            </p>
             <p class="mt-6 text-lg text-zinc-600 max-w-xl mx-auto lg:mx-0">
               Jsme rodina zkušených fyzioterapeutů, kteří vám pomocí moderních technik a individuálního přístupu pomohou zbavit se bolesti a dosáhnout vašich cílů. Specializujeme se na individuální přístup a dlouhodobé výsledky.
             </p>
-            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <a href="/kontakt" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-xl hover:shadow-indigo-500/25">
-                Objednat se na konzultaci
-                <span class="inline-block transition-transform duration-300 group-hover:translate-x-1">→</span>
-              </a>
-              <a href="#nase-sluzby" class="bg-zinc-100 hover:bg-zinc-200 text-zinc-800 font-bold py-3 px-6 sm:py-4 sm:px-8 rounded-lg text-base sm:text-lg transition-all duration-300 hover:shadow-lg">
-                Naše služby
-              </a>
-            </div>
           </div>
           
           <div class="hidden lg:block animate-slide-in-right">
@@ -77,7 +68,7 @@
               <ClientOnly>
                 <KlinikaSlider />
                 <template #fallback>
-                  <img src="/images/home/podkresleni-1.jpg" alt="Naše moderní klinika" class="w-full h-96 object-cover">
+                  <img src="/images/prevence-ergonomie/mobilizace.jpg" alt="Naše moderní klinika" class="w-full h-96 object-cover">
                 </template>
               </ClientOnly>
               <div class="absolute inset-0 bg-gradient-to-t from-zinc-900/30 to-transparent pointer-events-none"></div>
