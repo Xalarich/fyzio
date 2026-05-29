@@ -73,9 +73,14 @@
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-16 items-center">
           <div class="order-last lg:order-first">
-            <div class="relative group overflow-hidden rounded-2xl shadow-2xl">
-              <img src="/images/fyzio-dospelych/1.jpg" alt="Naše moderní klinika" class="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-105">
-              <div class="absolute inset-0 bg-gradient-to-t from-zinc-900/30 to-transparent"></div>
+            <div class="relative overflow-hidden rounded-2xl shadow-2xl">
+              <ClientOnly>
+                <KlinikaSlider />
+                <template #fallback>
+                  <img src="/images/home/podkresleni-1.jpg" alt="Naše moderní klinika" class="w-full h-96 object-cover">
+                </template>
+              </ClientOnly>
+              <div class="absolute inset-0 bg-gradient-to-t from-zinc-900/30 to-transparent pointer-events-none"></div>
             </div>
           </div>
           <div class="max-w-xl">

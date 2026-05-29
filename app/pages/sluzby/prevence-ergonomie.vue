@@ -2,7 +2,8 @@
   <div class="min-h-screen flex flex-col bg-white">
     <!-- Hero Section -->
     <section class="relative bg-zinc-900 py-28 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/80 via-zinc-900/90 to-zinc-900"></div>
+      <img src="/images/prevence-ergonomie/hero.jpg" alt="Fyzioterapie a cvičení" class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/85 via-zinc-900/90 to-zinc-900/95"></div>
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Prevence a ergonomie</p>
         <h1 class="mt-4 text-4xl lg:text-6xl font-extrabold text-white tracking-tight animate-slide-up">
@@ -38,15 +39,8 @@
 
           <!-- Program 1: Fyzioterapie na pracovišti -->
           <div class="grid gap-12 lg:grid-cols-2 items-center group">
-            <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3] bg-gradient-to-br from-indigo-100 to-indigo-200 flex items-center justify-center">
-              <div class="text-center p-8">
-                <div class="w-20 h-20 mx-auto bg-indigo-600 rounded-2xl flex items-center justify-center mb-4">
-                  <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                  </svg>
-                </div>
-                <span class="text-6xl font-bold text-indigo-600">01</span>
-              </div>
+            <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
+              <img src="/images/prevence-ergonomie/mobilizace.jpg" alt="Fyzioterapie na pracovišti – individuální terapie" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <article class="animate-fade-in-right">
               <h3 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapie na pracovišti</h3>
@@ -108,29 +102,15 @@
                 </p>
               </div>
             </article>
-            <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3] bg-gradient-to-br from-emerald-100 to-emerald-200 flex items-center justify-center">
-              <div class="text-center p-8">
-                <div class="w-20 h-20 mx-auto bg-emerald-600 rounded-2xl flex items-center justify-center mb-4">
-                  <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <span class="text-6xl font-bold text-emerald-600">02</span>
-              </div>
+            <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
+              <img src="/images/prevence-ergonomie/sportovni-fyzio.jpg" alt="Workshop pracovní ergonomie – praktická cvičení" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </div>
 
           <!-- Program 3: Přednáška Tělo a duše -->
           <div class="grid gap-12 lg:grid-cols-2 items-center group">
-            <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3] bg-gradient-to-br from-amber-100 to-amber-200 flex items-center justify-center">
-              <div class="text-center p-8">
-                <div class="w-20 h-20 mx-auto bg-amber-600 rounded-2xl flex items-center justify-center mb-4">
-                  <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
-                  </svg>
-                </div>
-                <span class="text-6xl font-bold text-amber-600">03</span>
-              </div>
+            <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
+              <img src="/images/prevence-ergonomie/manualni-techniky.jpg" alt="Přednáška Tělo a duše – manuální techniky" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <article class="animate-fade-in-right">
               <h3 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Přednáška „Tělo a duše"</h3>

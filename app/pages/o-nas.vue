@@ -132,32 +132,7 @@
             </p>
 
             <!-- Logos & sport photos -->
-            <div class="mt-6 sm:mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-5">
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/RedBullSalzburg.png" alt="FC Red Bull Salzburg" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/FKJablonec.png" alt="FK Jablonec" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/marekJablonec.jpg" alt="Marek Cón – FK Jablonec" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/ParaIceHockey.jpg" alt="Český para hokej" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/marekParaHockey.jpg" alt="Marek Cón – parahokejová reprezentace" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/ParaIceHockeyCard.png" alt="Paralympics ice hockey card" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/UEFA.jpg" alt="Marek Cón UEFA" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-              <div class="group relative aspect-square overflow-hidden rounded-2xl shadow-md hover:shadow-2xl transition-all duration-500 border border-zinc-100 bg-white">
-                <img src="/images/about/RedBullSalzburgStadium.jpg" alt="FC Red Bull Salzburg stadion" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-              </div>
-            </div>
+            <GalleryGrid :images="galleryImages" />
           </div>
         </div>
       </div>
@@ -181,30 +156,39 @@
               <!-- FC Red Bull Salzburg Academy -->
               <div class="group relative">
                 <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
-                  <span class="text-sm font-bold text-indigo-600">2026</span>
-                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – FC Red Bull Salzburg Academy</h3>
-                  <p class="mt-2 text-zinc-600">Týmový fyzioterapeut v rámci fotbalové akademie pro rezervu A-týmu. Krátkodobé a dlouhodobé RTP (return to play) strategie.</p>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300 overflow-hidden">
+                  <img src="/images/about/exp-redbull-salzburg.jpg" alt="Red Bull Arena Salzburg" class="w-full h-80 object-cover object-bottom" />
+                  <div class="p-6">
+                    <span class="text-sm font-bold text-indigo-600">2026</span>
+                    <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – FC Red Bull Salzburg Academy</h3>
+                    <p class="mt-2 text-zinc-600">Týmový fyzioterapeut v rámci fotbalové akademie pro rezervu A-týmu. Krátkodobé a dlouhodobé RTP (return to play) strategie.</p>
+                  </div>
                 </div>
               </div>
 
               <!-- Parahokejový olympijský výběr -->
               <div class="group relative">
                 <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
-                  <span class="text-sm font-bold text-indigo-600">2025</span>
-                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – parahokejový olympijský výběr</h3>
-                  <p class="mt-2 text-zinc-600">Péče o reprezentační tým na mistrovství světa v Buffalu.</p>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300 overflow-hidden">
+                  <img src="/images/about/exp-parahokej.jpg" alt="Parahokejový olympijský výběr – mistrovství světa v Buffalu" class="w-full h-80 object-cover" />
+                  <div class="p-6">
+                    <span class="text-sm font-bold text-indigo-600">2025</span>
+                    <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – parahokejový olympijský výběr</h3>
+                    <p class="mt-2 text-zinc-600">Péče o reprezentační tým na mistrovství světa v Buffalu.</p>
+                  </div>
                 </div>
               </div>
 
               <!-- FK Jablonec -->
               <div class="group relative">
                 <div class="absolute -left-8 top-6 w-5 h-5 bg-indigo-600 rounded-full border-4 border-zinc-50 shadow-lg z-10 group-hover:scale-125 group-hover:bg-indigo-500 group-hover:shadow-indigo-500/50 transition-all duration-300"></div>
-                <div class="bg-white p-6 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300">
-                  <span class="text-sm font-bold text-indigo-600">2023–2026</span>
-                  <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – FK Jablonec (ČR)</h3>
-                  <p class="mt-2 text-zinc-600">Fyzioterapeut A-týmu v nejvyšší české fotbalové soutěži. Péče o hráče 1. ligy včetně prevence a léčby zranění, vedení rehabilitačního procesu a návratu do zápasového zatížení.</p>
+                <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-zinc-100 hover:border-indigo-300 overflow-hidden">
+                  <img src="/images/about/exp-jablonec.jpg" alt="Marek Cón – FK Jablonec, nejvyšší česká fotbalová soutěž" class="w-full h-80 object-cover object-top" />
+                  <div class="p-6">
+                    <span class="text-sm font-bold text-indigo-600">2023–2026</span>
+                    <h3 class="mt-2 text-lg font-bold text-zinc-900">Fyzioterapeut – FK Jablonec (ČR)</h3>
+                    <p class="mt-2 text-zinc-600">Fyzioterapeut A-týmu v nejvyšší české fotbalové soutěži. Péče o hráče 1. ligy včetně prevence a léčby zranění, vedení rehabilitačního procesu a návratu do zápasového zatížení.</p>
+                  </div>
                 </div>
               </div>
 
@@ -368,6 +352,17 @@
 </template>
 
 <script setup lang="ts">
+const galleryImages = [
+  { src: '/images/about/RedBullSalzburg.png', alt: 'FC Red Bull Salzburg' },
+  { src: '/images/about/FKJablonec.png', alt: 'FK Jablonec' },
+  { src: '/images/about/exp-jablonec.jpg', alt: 'Marek Cón – FK Jablonec' },
+  { src: '/images/about/ParaIceHockey.jpg', alt: 'Český para hokej' },
+  { src: '/images/about/exp-parahokej.jpg', alt: 'Marek Cón – parahokejová reprezentace' },
+  { src: '/images/about/ParaIceHockeyCard.png', alt: 'Paralympics ice hockey card' },
+  { src: '/images/about/UEFA.jpg', alt: 'Marek Cón UEFA' },
+  { src: '/images/about/exp-redbull-salzburg.jpg', alt: 'FC Red Bull Salzburg stadion' }
+]
+
 useSeoMeta({
   title: 'O nás | Fyzioterapie Marek Cón',
   description: 'Seznamte se s naším týmem zkušených fyzioterapeutů. Specializujeme se na rehabilitaci, prevenci a léčbu pohybového aparátu s individuálním přístupem.',

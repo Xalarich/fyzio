@@ -17,9 +17,10 @@ Nuxt 3 site for a Czech physiotherapy practice (Fyzioterapie Marek Cón). All us
 
 **Source layout uses `srcDir: 'app/'`** (Nuxt 4-style). Pages, components, and layouts live under `app/`, not the repo root — keep this in mind when adding files or referencing Nuxt auto-import paths. `app/public/` is the static assets root (images under `app/public/images/`, videos under `app/public/videos/`).
 
-**Routing is file-based** from `app/pages/`:
-- Top-level pages: `index.vue`, `about.vue`, `kontakt.vue`
-- `sluzby/` (services) and `blogs/` are static page directories — each `.vue` file is its own route, not driven by markdown content.
+**Routing is file-based** from `app/pages/`. **All public URLs are Czech** (English route slugs were renamed; redirects were intentionally not added):
+- Top-level pages: `index.vue`, `o-nas.vue` (`/o-nas`), `kontakt.vue`
+- `sluzby/` (services) and `clanky/` (blog/articles, `/clanky`) are static page directories — each `.vue` file is its own route, not driven by markdown content. Blog post slugs are Czech (e.g. `bezecke-koleno`, `bolest-krcni-patere`); the article list + slugs are defined in the `blogData` array in `clanky/index.vue`, which must stay in sync with the filenames.
+- Note: `app/public/images/blogs/` and `app/public/videos/blogs/` are asset folders, **not** routes — they kept their English names.
 
 **`@nuxt/content` is installed and configured** (`content.config.ts` defines a single `content` collection of type `page` sourcing `**`), and `.data/content/contents.sqlite` exists, but there is currently **no `content/` directory** — pages are hand-authored Vue components rather than markdown. If adding content-driven pages, create `content/` at the repo root (Nuxt Content sources from there, not from `app/`).
 
@@ -37,3 +38,9 @@ Nuxt 3 site for a Czech physiotherapy practice (Fyzioterapie Marek Cón). All us
 The Tailwind CSS entry is `assets/css/tailwind.css` (at repo root, not under `app/`).
 
 **Deployment**: `nitro.preset = 'vercel'`. Set the `MAIL_*` env vars in the Vercel project before the contact form will work in production.
+
+## Images / assets
+
+- Source/original photos (from the practice's Google Drive) are kept in `drive-images/` at the repo root, which is **gitignored** (originals are 12–17 MB each). Only web-optimized copies belong under `app/public/images/`.
+- **No ImageMagick or `sharp` is installed.** To resize/compress images, use .NET `System.Drawing` via PowerShell (load `System.Drawing`, draw onto a smaller `Bitmap` with `HighQualityBicubic`, save with a JPEG quality `EncoderParameter`). Typical web target: max dimension ~1600 px, JPEG quality ~82 → 80–200 KB.
+- Sliders use Swiper and must be **client-only** (`*.client.vue`, wrapped in `<ClientOnly>`): `HeroSlider` (homepage top), `KlinikaSlider` (homepage "Naše filozofie" box, autoplay loop). `ImageSlider.client.vue` exists but is currently unused.

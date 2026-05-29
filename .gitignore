@@ -24,3 +24,11 @@ pnpm-debug.log*
 .idea/
 .DS_Store
 Thumbs.db
+
+# Source/original photos from Drive (large, optimized copies live in app/public/images/)
+drive-images/
+fyzio-*.zip
+Úpravy - formatted.docx
+Úpravy.docx
+Zadání od marka - formatted.docx
+Zadání od marka.docx

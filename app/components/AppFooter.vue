@@ -68,13 +68,13 @@
           <h3 class="text-sm font-bold tracking-wider text-white uppercase">Rychlé odkazy</h3>
           <ul class="mt-4 space-y-3 list-none">
             <li>
-              <NuxtLink to="/blogs" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/clanky" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 Blog
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/about" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/o-nas" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 O nás
               </NuxtLink>
