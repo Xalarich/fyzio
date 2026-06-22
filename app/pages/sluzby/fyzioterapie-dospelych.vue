@@ -19,7 +19,7 @@
         <div class="grid gap-12 lg:grid-cols-2 items-center group">
           <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/1.jpg"
+              src="/images/prevence-ergonomie/mobilizace.jpg"
               alt="Kloubní mobilizace"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -52,7 +52,7 @@
           </article>
           <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/2.jpg"
+              src="/images/prevence-ergonomie/manualni-techniky.jpg"
               alt="Manuální techniky"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -173,7 +173,7 @@
           </article>
           <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
             <img
-              src="/images/fyzio-dospelych/3.jpg"
+              src="/images/prevence-ergonomie/sportovni-fyzio.jpg"
               alt="Metoda McKenzie"
               class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
             />
@@ -225,9 +225,8 @@ import { ref, onMounted, onUnmounted } from 'vue'
 
 // Sport Carousel
 const sportCarouselImages = [
-  { src: '/images/fyzio-dospelych/7.jpg', alt: 'Přístrojová terapie - ultrazvuk' },
-  { src: '/images/fyzio-dospelych/8.jpg', alt: 'Elektroterapie BTL' },
-  { src: '/images/fyzio-dospelych/9.jpg', alt: 'Sportovní fyzioterapie a trénink' }
+  { src: '/images/prevence-ergonomie/sportovni-dynamometrie.jpg', alt: 'Tahová dynamometrie – test síly sportovce' },
+  { src: '/images/prevence-ergonomie/hero.jpg', alt: 'Sportovní fyzioterapie – individuální terapie' }
 ]
 
 const currentSlide = ref(0)

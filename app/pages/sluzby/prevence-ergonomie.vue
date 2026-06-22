@@ -2,7 +2,7 @@
   <div class="min-h-screen flex flex-col bg-white">
     <!-- Hero Section -->
     <section class="relative bg-zinc-900 py-28 overflow-hidden">
-      <img src="/images/prevence-ergonomie/hero.jpg" alt="Fyzioterapie a cvičení" class="absolute inset-0 w-full h-full object-cover" />
+      <img src="/images/fyzio-dospelych/8.jpg" alt="Fyzioterapie a cvičení" class="absolute inset-0 w-full h-full object-cover" />
       <div class="absolute inset-0 bg-gradient-to-br from-indigo-900/85 via-zinc-900/90 to-zinc-900/95"></div>
       <div class="relative container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <p class="text-indigo-400 font-semibold tracking-widest uppercase animate-fade-in">Prevence a ergonomie</p>
@@ -40,7 +40,7 @@
           <!-- Program 1: Fyzioterapie na pracovišti -->
           <div class="grid gap-12 lg:grid-cols-2 items-center group">
             <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
-              <img src="/images/prevence-ergonomie/mobilizace.jpg" alt="Fyzioterapie na pracovišti – individuální terapie" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/images/fyzio-dospelych/1.jpg" alt="Fyzioterapie na pracovišti – individuální terapie" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <article class="animate-fade-in-right">
               <h3 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Fyzioterapie na pracovišti</h3>
@@ -103,14 +103,14 @@
               </div>
             </article>
             <div class="relative overflow-hidden rounded-2xl shadow-2xl order-1 lg:order-2 aspect-[4/3]">
-              <img src="/images/prevence-ergonomie/sportovni-fyzio.jpg" alt="Workshop pracovní ergonomie – praktická cvičení" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/images/fyzio-dospelych/9.jpg" alt="Workshop pracovní ergonomie – praktická cvičení" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
           </div>
 
           <!-- Program 3: Přednáška Tělo a duše -->
           <div class="grid gap-12 lg:grid-cols-2 items-center group">
             <div class="relative overflow-hidden rounded-2xl shadow-2xl aspect-[4/3]">
-              <img src="/images/prevence-ergonomie/manualni-techniky.jpg" alt="Přednáška Tělo a duše – manuální techniky" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+              <img src="/images/fyzio-dospelych/3.jpg" alt="Přednáška Tělo a duše – individuální péče" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" />
             </div>
             <article class="animate-fade-in-right">
               <h3 class="text-3xl lg:text-4xl font-bold text-zinc-900 border-l-4 border-indigo-600 pl-4">Přednáška „Tělo a duše"</h3>

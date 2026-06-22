@@ -1,20 +1,22 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss'],
   devtools: { enabled: true },
   srcDir: 'app/',
+  ssr: true,
   nitro: {
-    preset: 'vercel'
+    prerender: {
+      crawlLinks: true,
+      // These pages are not linked in the nav, so the crawler can't find them.
+      // List them explicitly or they won't be generated.
+      routes: ['/sluzby/akutni-stavy', '/sluzby/chronicke-stavy']
+    }
   },
   runtimeConfig: {
-    mail: {
-      host: process.env.MAIL_HOST,
-      port: process.env.MAIL_PORT ? Number(process.env.MAIL_PORT) : 587,
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
-      to: process.env.MAIL_TO || 'marek.con77@gmail.com',
-      from: process.env.MAIL_FROM || 'no-reply@fyzio.local'
+    public: {
+      // Single source of truth for the production URL (canonical, sitemap, OG).
+      siteUrl: 'https://marekcon.cz'
     }
   },
   app: {
@@ -42,8 +44,8 @@ export default defineNuxtConfig({
         { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' },
-        { rel: 'canonical', href: 'https://fyziomarcon.cz' }
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' }
+        // Canonical is set per-route in app/app.vue (was wrongly global → homepage)
       ]
     }
   },
@@ -57,7 +59,6 @@ export default defineNuxtConfig({
         './layouts/**/*.vue',
         './pages/**/*.vue',
         './plugins/**/*.{js,ts}',
-        './content/**/*.md',
         './app.vue',
         './error.vue',
       ],

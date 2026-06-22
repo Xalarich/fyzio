@@ -102,94 +102,29 @@
       </div>
     </section>
 
-    <!-- Contact Form -->
+    <!-- Contact CTA -->
     <section class="bg-zinc-100 pb-12 sm:pb-20">
       <div class="container mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-2xl mx-auto">
-          <div class="bg-white p-6 sm:p-8 lg:p-12 rounded-2xl shadow-xl border border-zinc-200">
-            <h3 class="text-2xl font-bold text-zinc-900 mb-2">Napište nám</h3>
-            <p class="text-zinc-600 mb-8">Rádi vám odpovíme na vaše dotazy.</p>
-            <form class="space-y-4 sm:space-y-6" @submit.prevent="submit">
-              <div>
-                <label class="block text-sm font-semibold text-zinc-700 mb-2">Celé jméno *</label>
-                <input 
-                  v-model="form.name" 
-                  required 
-                  type="text" 
-                  class="block w-full rounded-xl border border-zinc-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-300 hover:border-zinc-400" 
-                  placeholder="Jan Novák"
-                />
-              </div>
-              <div>
-                <label class="block text-sm font-semibold text-zinc-700 mb-2">E-mail *</label>
-                <input 
-                  v-model="form.email" 
-                  required 
-                  type="email" 
-                  class="block w-full rounded-xl border border-zinc-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-300 hover:border-zinc-400" 
-                  placeholder="jan@email.cz"
-                />
-              </div>
-              <div>
-                <label class="block text-sm font-semibold text-zinc-700 mb-2">Telefonní číslo *</label>
-                <input 
-                  v-model="form.phone" 
-                  required 
-                  type="tel" 
-                  class="block w-full rounded-xl border border-zinc-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-300 hover:border-zinc-400" 
-                  placeholder="+420 123 456 789"
-                />
-              </div>
-              <div>
-                <label class="block text-sm font-semibold text-zinc-700 mb-2">Vaše zpráva *</label>
-                <textarea 
-                  v-model="form.message" 
-                  required 
-                  rows="6" 
-                  class="block w-full rounded-xl border border-zinc-300 px-4 py-3 shadow-sm focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/20 transition-all duration-300 hover:border-zinc-400 resize-none"
-                  placeholder="Popište vaše potíže nebo dotaz..."
-                ></textarea>
-              </div>
-              <div>
-                <button 
-                  :disabled="loading" 
-                  type="submit" 
-                  class="w-full bg-indigo-600 hover:bg-indigo-700 disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold py-4 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:shadow-indigo-500/25 flex items-center justify-center gap-2"
-                >
-                  <svg v-if="loading" class="animate-spin h-5 w-5" fill="none" viewBox="0 0 24 24">
-                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
-                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  {{ loading ? 'Odesílám...' : 'Odeslat zprávu' }}
-                </button>
-              </div>
-              <transition
-                enter-active-class="transition ease-out duration-300"
-                enter-from-class="opacity-0 transform -translate-y-2"
-                enter-to-class="opacity-100 transform translate-y-0"
-                leave-active-class="transition ease-in duration-200"
-                leave-from-class="opacity-100"
-                leave-to-class="opacity-0"
+          <div class="bg-white p-6 sm:p-8 lg:p-12 rounded-2xl shadow-xl border border-zinc-200 text-center">
+            <h3 class="text-2xl font-bold text-zinc-900 mb-2">Napište nebo zavolejte</h3>
+            <p class="text-zinc-600 mb-8">Máte dotaz nebo se chcete objednat? Ozvěte se nám – rádi vám odpovíme.</p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="mailto:marek.con77@gmail.com?subject=Dotaz%20z%20webu"
+                class="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:shadow-indigo-500/25"
               >
-                <div v-if="success" class="flex items-center gap-3 p-4 bg-green-50 border border-green-200 rounded-xl">
-                  <svg class="w-6 h-6 text-green-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  <p class="text-green-700 font-medium">Děkujeme, zpráva byla úspěšně odeslána!</p>
-                </div>
-              </transition>
-              <transition
-                enter-active-class="transition ease-out duration-300"
-                enter-from-class="opacity-0 transform -translate-y-2"
-                enter-to-class="opacity-100 transform translate-y-0"
-                leave-active-class="transition ease-in duration-200"
-                leave-from-class="opacity-100"
-                leave-to-class="opacity-0"
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                Napsat e-mail
+              </a>
+              <a
+                href="tel:+420602479648"
+                class="inline-flex items-center justify-center gap-2 bg-white border-2 border-indigo-200 hover:border-indigo-400 text-indigo-700 font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg"
               >
-                <div v-if="error" class="flex items-center gap-3 p-4 bg-red-50 border border-red-200 rounded-xl">
-                  <svg class="w-6 h-6 text-red-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  <p class="text-red-700 font-medium">Omlouváme se, nepodařilo se odeslat zprávu. Zkuste to prosím později.</p>
-                </div>
-              </transition>
-            </form>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                Zavolat +420 602 479 648
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -207,8 +142,6 @@
 </template>
 
 <script setup>
-import { reactive, ref } from 'vue'
-
 useSeoMeta({
   title: 'Kontakt | Fyzioterapie Marek Cón',
   description: 'Kontaktujte nás pro více informací o našich službách. Budějovická 1126/9, Praha 4-Michle. Tel: +420 602 479 648.',
@@ -221,34 +154,4 @@ useSeoMeta({
   twitterTitle: 'Kontakt | Fyzioterapie Marek Cón',
   twitterDescription: 'Kontaktujte nás pro více informací o našich službách. Budějovická 1126/9, Praha 4-Michle.'
 })
-
-const form = reactive({ name: '', email: '', phone: '', message: '' })
-const loading = ref(false)
-const success = ref(false)
-const error = ref(false)
-
-async function submit() {
-  success.value = false
-  error.value = false
-  loading.value = true
-  try {
-    const res = await $fetch('/api/contact', {
-      method: 'POST',
-      body: { ...form },
-    })
-    if (res && res.ok) {
-      success.value = true
-      form.name = ''
-      form.email = ''
-      form.phone = ''
-      form.message = ''
-    } else {
-      error.value = true
-    }
-  } catch (e) {
-    error.value = true
-  } finally {
-    loading.value = false
-  }
-}
 </script>

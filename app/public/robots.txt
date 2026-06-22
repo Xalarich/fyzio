@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marekcon.cz/sitemap.xml

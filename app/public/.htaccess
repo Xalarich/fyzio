@@ -1,0 +1,29 @@
+# Static site (Nuxt generate) on Apache — endora.cz
+# Modules are wrapped in <IfModule> so missing modules never cause a 500.
+
+# Serve the branded 404 page generated from app/error.vue
+ErrorDocument 404 /404.html
+
+# Redirect all traffic to HTTPS (enable the SSL certificate in endora first!)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+</IfModule>
+
+# Gzip compression for text assets
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/javascript application/json image/svg+xml
+</IfModule>
+
+# Cache hashed build assets (/_nuxt/*) for a long time; images a month
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/webp "access plus 1 month"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/x-icon "access plus 1 month"
+</IfModule>

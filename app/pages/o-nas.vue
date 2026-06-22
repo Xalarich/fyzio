@@ -358,7 +358,7 @@ const galleryImages = [
   { src: '/images/about/exp-jablonec.jpg', alt: 'Marek Cón – FK Jablonec' },
   { src: '/images/about/ParaIceHockey.jpg', alt: 'Český para hokej' },
   { src: '/images/about/exp-parahokej.jpg', alt: 'Marek Cón – parahokejová reprezentace' },
-  { src: '/images/about/ParaIceHockeyCard.png', alt: 'Paralympics ice hockey card' },
+  { src: '/images/about/ParaIceHockeyCard.jpg', alt: 'Paralympics ice hockey card' },
   { src: '/images/about/UEFA.jpg', alt: 'Marek Cón UEFA' },
   { src: '/images/about/exp-redbull-salzburg.jpg', alt: 'FC Red Bull Salzburg stadion' }
 ]
