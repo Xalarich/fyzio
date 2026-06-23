@@ -69,9 +69,12 @@
 
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">6. Cookies a vložený obsah</h2>
           <p>
-            Web používá pouze technicky nezbytné soubory. Stránka Kontakt obsahuje vloženou mapu
-            (Mapy.cz), která může ukládat vlastní cookies třetí strany. Odkazy na sociální sítě
-            (Instagram, LinkedIn) se otevírají až po kliknutí na příslušném externím webu.
+            Web standardně používá pouze technicky nezbytné soubory cookie potřebné pro jeho provoz.
+            Stránka Kontakt obsahuje vloženou mapu (Mapy.cz), která může ukládat vlastní cookies třetí
+            strany — z tohoto důvodu se mapa načte až po vašem souhlasu uděleném prostřednictvím cookie
+            lišty. Svůj souhlas můžete kdykoli změnit nebo odvolat odkazem „Nastavení cookies" v patičce
+            webu. Odkazy na sociální sítě (Instagram, LinkedIn) se otevírají až po kliknutí na příslušném
+            externím webu.
           </p>
 
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">7. Vaše práva</h2>

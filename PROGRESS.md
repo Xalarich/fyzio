@@ -23,12 +23,17 @@ DONE — site builds statically to .output/public (12.7 MB), verified ready for 
 Added legal pages (ochrana-udaju, obchodni-podminky) as templates w/ [DOPLŇTE] placeholders.
 
 ## Open items for user
-- **[NEXT — 2026-06-23] Mapy.cz cookie consent on `/kontakt`.** The map is a bare
-  `<iframe src="https://frame.mapy.cz/s/mobunosopa">` in `app/pages/kontakt.vue` (~line 135)
-  that loads on page open and sets third-party cookies before consent (GDPR/§89 ZEK).
-  User chose to handle it tomorrow. Recommended fix: **click-to-load** — replace the iframe
-  with a placeholder + "Zobrazit mapu" button; load the iframe only on click (no banner needed).
-  Alternatives considered: full cookie-consent banner, or leave as-is (disclosed in privacy policy).
+- **[DONE — 2026-06-23] Mapy.cz cookie consent on `/kontakt`.** User chose a **full
+  consent banner with category settings** (over click-to-load). Implemented as a
+  hand-rolled component (no dependency), approach in
+  `docs/superpowers/specs/2026-06-23-cookie-consent-design.md`:
+  `app/composables/useCookieConsent.ts` (shared `useState` + localStorage, key
+  `fyzio-cookie-consent`), `app/components/CookieConsent.client.vue` (banner +
+  settings panel, in `default.vue`), map on `kontakt.vue` gated behind `has('maps')`
+  with a "Zobrazit mapu" placeholder, footer "Nastavení cookies" link (`AppFooter.vue`),
+  and `ochrana-udaju.vue` §6 updated. Verified in browser via `npm run preview`:
+  no `frame.mapy.cz` request before consent (static HTML has no iframe), map loads on
+  Accept, choice persists across reload, settings reopen from footer, no console/hydration errors.
 - Legal pages filled (Bc. Marek Cón, IČO 47281821); confirm storno/payment/retention match real practice.
 - Orphaned pages akutni-stavy / chronicke-stavy: kept + prerendered but unlinked —
   decide whether to link in menu or remove.

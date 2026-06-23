@@ -24,6 +24,8 @@ Nuxt 3 site for a Czech physiotherapy practice (Fyzioterapie Marek Cón). All us
 
 **No CMS.** Pages are hand-authored Vue components. `@nuxt/content` was removed (it was configured but completely unused — no `content/` dir, no `queryContent` calls). Don't reintroduce it unless you actually add markdown-driven pages.
 
+**Cookie consent**: GDPR consent is hand-rolled (no library). `app/composables/useCookieConsent.ts` holds shared state via `useState` + `localStorage` (key `fyzio-cookie-consent`, shape `{necessary:true, maps:bool, ts}`); `hydrate()` runs client-side `onMounted` (SSR/prerender always renders the "not decided, maps off" state, so static HTML never embeds third-party iframes before consent). `app/components/CookieConsent.client.vue` is the banner + category-settings panel (mounted once in `default.vue`). The only optional category is **`maps`** — the Mapy.cz iframe on `kontakt.vue` renders only behind `has('maps')`, otherwise a "Zobrazit mapu" placeholder. Footer has a "Nastavení cookies" button (`openSettings()`) so consent is re-changeable. To add a new optional category (e.g. analytics): extend `ConsentState`, add a toggle row in the component, gate the script behind `has('<cat>')`. Design doc: `docs/superpowers/specs/2026-06-23-cookie-consent-design.md`.
+
 **No server API — the site is fully static.** The former `POST /api/contact` (zod + nodemailer) endpoint and the whole `server/` dir were removed when the contact form was dropped; the Kontakt page now offers `mailto:`/`tel:` links only. `nodemailer` and `zod` deps were removed. There is no Node/PHP backend — everything is prerendered HTML.
 
 **Components** (`app/components/`, auto-imported):

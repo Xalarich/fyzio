@@ -128,11 +128,16 @@
         <p class="text-sm text-zinc-500">
           &copy; {{ new Date().getFullYear() }} Fyzioterapie Marek Cón. Všechna práva vyhrazena.
         </p>
-        <div class="flex items-center gap-6 text-sm">
+        <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
           <NuxtLink to="/obchodni-podminky" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</NuxtLink>
           <NuxtLink to="/ochrana-udaju" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</NuxtLink>
+          <button type="button" @click="openSettings" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Nastavení cookies</button>
         </div>
       </div>
     </div>
   </footer>
 </template>
+
+<script setup>
+const { openSettings } = useCookieConsent()
+</script>

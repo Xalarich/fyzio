@@ -130,18 +130,44 @@
       </div>
     </section>
 
-    <!-- Map -->
+    <!-- Map (loaded only after cookie consent) -->
     <section class="w-full">
-      <iframe 
-        class="w-full h-[350px] sm:h-[500px] grayscale hover:grayscale-0 transition-all duration-700" 
-        src="https://frame.mapy.cz/s/mobunosopa" 
+      <iframe
+        v-if="hasMaps"
+        class="w-full h-[350px] sm:h-[500px] grayscale hover:grayscale-0 transition-all duration-700"
+        src="https://frame.mapy.cz/s/mobunosopa"
+        title="Mapa — Budějovická 1126/9, Praha 4-Michle"
         frameborder="0"
       ></iframe>
+      <div
+        v-else
+        class="w-full h-[350px] sm:h-[500px] bg-zinc-100 border-t border-zinc-200 flex flex-col items-center justify-center text-center px-6"
+      >
+        <svg class="h-10 w-10 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+        </svg>
+        <p class="mt-3 max-w-md text-sm text-zinc-600">
+          Mapa Mapy.cz se načítá až po vašem souhlasu, protože může ukládat cookies třetí strany.
+        </p>
+        <button
+          type="button"
+          @click="showMap"
+          class="mt-4 inline-flex items-center justify-center gap-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 px-5 py-2.5 text-sm font-semibold text-white transition-colors"
+        >
+          Zobrazit mapu
+        </button>
+      </div>
     </section>
   </div>
 </template>
 
 <script setup>
+const { has, hydrate, save } = useCookieConsent()
+const hasMaps = computed(() => has('maps'))
+const showMap = () => save({ maps: true })
+onMounted(hydrate)
+
 useSeoMeta({
   title: 'Kontakt | Fyzioterapie Marek Cón',
   description: 'Kontaktujte nás pro více informací o našich službách. Budějovická 1126/9, Praha 4-Michle. Tel: +420 602 479 648.',
