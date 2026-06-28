@@ -5,6 +5,7 @@ node_modules/
 .output/
 .nuxt/
 .vercel/
+.data/
 dist/
 
 # Environment variables (contains secrets!) ⚠️

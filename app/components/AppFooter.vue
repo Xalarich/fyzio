@@ -129,8 +129,9 @@
           &copy; {{ new Date().getFullYear() }} Fyzioterapie Marek Cón. Všechna práva vyhrazena.
         </p>
         <div class="flex items-center gap-6 text-sm">
-          <a href="/obchodni-podminky" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</a>
-          <a href="/ochrana-udaju" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</a>
+          <NuxtLink to="/obchodni-podminky" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</NuxtLink>
+          <NuxtLink to="/ochrana-udaju" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</NuxtLink>
+          <NuxtLink to="/zasady-cookies" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Cookies</NuxtLink>
         </div>
       </div>
     </div>

@@ -1,20 +1,37 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/sitemap', '@nuxtjs/robots'],
   devtools: { enabled: true },
   srcDir: 'app/',
+  // Static hosting (Endora, upload of .output/public via FTP). No Node server runtime is used —
+  // `npm run generate` prerenders every route, sitemap.xml and robots.txt into .output/public.
+  ssr: true,
   nitro: {
-    preset: 'vercel'
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    }
+  },
+  // Base URL used by @nuxtjs/sitemap and @nuxtjs/robots to build absolute URLs.
+  site: {
+    url: process.env.NUXT_PUBLIC_SITE_URL || 'https://marekcon.cz',
+    name: 'Fyzioterapie Marek Cón'
+  },
+  // Keep the cookie policy out of the sitemap (it is noindex anyway).
+  sitemap: {
+    exclude: ['/zasady-cookies']
+  },
+  robots: {
+    // Disallow nothing public-facing; just point crawlers at the sitemap.
+    disallow: ['/zasady-cookies']
   },
   runtimeConfig: {
-    mail: {
-      host: process.env.MAIL_HOST,
-      port: process.env.MAIL_PORT ? Number(process.env.MAIL_PORT) : 587,
-      user: process.env.MAIL_USER,
-      pass: process.env.MAIL_PASS,
-      to: process.env.MAIL_TO || 'marek.con77@gmail.com',
-      from: process.env.MAIL_FROM || 'no-reply@fyzio.local'
+    public: {
+      // Used to build absolute canonical / og:image URLs. Override at build time via NUXT_PUBLIC_SITE_URL.
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://marekcon.cz',
+      // GA4 Measurement ID (e.g. G-XXXXXXXXXX). Empty = analytics disabled. Set via NUXT_PUBLIC_GTAG_ID.
+      gtagId: process.env.NUXT_PUBLIC_GTAG_ID || ''
     }
   },
   app: {
@@ -42,8 +59,8 @@ export default defineNuxtConfig({
         { rel: 'manifest', href: '/site.webmanifest' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' },
-        { rel: 'canonical', href: 'https://fyziomarcon.cz' }
+        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap' }
+        // canonical is set per-route in app/app.vue (the previous hardcoded value pointed every page at the homepage)
       ]
     }
   },
@@ -57,7 +74,6 @@ export default defineNuxtConfig({
         './layouts/**/*.vue',
         './pages/**/*.vue',
         './plugins/**/*.{js,ts}',
-        './content/**/*.md',
         './app.vue',
         './error.vue',
       ],
