@@ -131,6 +131,7 @@
         <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
           <NuxtLink to="/obchodni-podminky" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</NuxtLink>
           <NuxtLink to="/ochrana-udaju" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</NuxtLink>
+          <NuxtLink to="/zasady-cookies" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Zásady cookies</NuxtLink>
           <button type="button" @click="openSettings" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Nastavení cookies</button>
         </div>
       </div>

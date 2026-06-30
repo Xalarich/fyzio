@@ -21,8 +21,8 @@
           <h2 class="text-base font-bold text-white">Používáme cookies</h2>
           <p class="mt-2 text-sm leading-relaxed text-zinc-400">
             Tento web používá technicky nezbytné cookies pro svůj provoz a volitelně cookies
-            vloženého obsahu (mapa Mapy.cz). Více v
-            <NuxtLink to="/ochrana-udaju" class="text-indigo-400 underline hover:text-indigo-300">zásadách ochrany osobních údajů</NuxtLink>.
+            vloženého obsahu (mapa Mapy.cz) a anonymní statistiky (Google Analytics). Více v
+            <NuxtLink to="/zasady-cookies" class="text-indigo-400 underline hover:text-indigo-300">zásadách používání cookies</NuxtLink>.
           </p>
           <div class="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-end gap-2 sm:gap-3">
             <button type="button" @click="openSettingsPanel" class="order-3 sm:order-1 text-sm font-semibold text-zinc-300 hover:text-white underline-offset-4 hover:underline px-2 py-2.5">
@@ -68,6 +68,19 @@
                 <span class="absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white transition-transform peer-checked:translate-x-5"></span>
               </span>
             </label>
+
+            <!-- Analytics (optional) -->
+            <label class="flex items-start justify-between gap-4 rounded-xl bg-white/5 p-4 cursor-pointer">
+              <div>
+                <p class="text-sm font-semibold text-white">Statistika / analytika</p>
+                <p class="mt-1 text-xs text-zinc-400">Anonymní měření návštěvnosti (Google Analytics), abychom web mohli vylepšovat. Bez vašeho souhlasu se nenačítá.</p>
+              </div>
+              <span class="relative mt-0.5 inline-flex shrink-0">
+                <input v-model="analyticsChoice" type="checkbox" class="peer sr-only" />
+                <span class="h-6 w-11 rounded-full bg-zinc-600 peer-checked:bg-indigo-600 transition-colors"></span>
+                <span class="absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-white transition-transform peer-checked:translate-x-5"></span>
+              </span>
+            </label>
           </div>
 
           <div class="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-end gap-2 sm:gap-3">
@@ -94,21 +107,27 @@ const visible = computed(() => !decided.value || showSettings.value)
 
 // Local toggle state for the settings panel, synced from saved consent.
 const mapsChoice = ref(consent.value.maps)
+const analyticsChoice = ref(consent.value.analytics)
+
+const syncChoices = () => {
+  mapsChoice.value = consent.value.maps
+  analyticsChoice.value = consent.value.analytics
+}
 
 const openSettingsPanel = () => {
-  mapsChoice.value = consent.value.maps
+  syncChoices()
   showSettings.value = true
 }
 const closeSettings = () => { showSettings.value = false }
-const saveChoice = () => save({ maps: mapsChoice.value })
+const saveChoice = () => save({ maps: mapsChoice.value, analytics: analyticsChoice.value })
 
-// Keep the toggle in sync whenever the panel is (re)opened (e.g. from the footer link).
+// Keep the toggles in sync whenever the panel is (re)opened (e.g. from the footer link).
 watch(showSettings, (open) => {
-  if (open) mapsChoice.value = consent.value.maps
+  if (open) syncChoices()
 })
 
 onMounted(() => {
   hydrate()
-  mapsChoice.value = consent.value.maps
+  syncChoices()
 })
 </script>

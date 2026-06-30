@@ -16,7 +16,12 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       // Single source of truth for the production URL (canonical, sitemap, OG).
-      siteUrl: 'https://marekcon.cz'
+      // Overridable at generate time via NUXT_PUBLIC_SITE_URL.
+      siteUrl: 'https://marekcon.cz',
+      // GA4 Measurement ID (e.g. G-XXXXXXXXXX). Empty = analytics disabled.
+      // Set via NUXT_PUBLIC_GTAG_ID before `npm run generate`. The gtag plugin
+      // only loads when this is non-empty, and only tracks after cookie opt-in.
+      gtagId: ''
     }
   },
   app: {
