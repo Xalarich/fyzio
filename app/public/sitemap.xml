@@ -6,67 +6,67 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/o-nas</loc>
+    <loc>https://marekcon.cz/o-nas/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/kontakt</loc>
+    <loc>https://marekcon.cz/kontakt/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/sluzby/fyzioterapie-dospelych</loc>
+    <loc>https://marekcon.cz/sluzby/fyzioterapie-dospelych/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/sluzby/prevence-ergonomie</loc>
+    <loc>https://marekcon.cz/sluzby/prevence-ergonomie/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/sluzby/akutni-stavy</loc>
+    <loc>https://marekcon.cz/sluzby/akutni-stavy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/sluzby/chronicke-stavy</loc>
+    <loc>https://marekcon.cz/sluzby/chronicke-stavy/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/clanky</loc>
+    <loc>https://marekcon.cz/clanky/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/ochrana-udaju</loc>
+    <loc>https://marekcon.cz/ochrana-udaju/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/obchodni-podminky</loc>
+    <loc>https://marekcon.cz/obchodni-podminky/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/clanky/bezecke-koleno</loc>
+    <loc>https://marekcon.cz/clanky/bezecke-koleno/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/clanky/bolest-krcni-patere</loc>
+    <loc>https://marekcon.cz/clanky/bolest-krcni-patere/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/clanky/patelofemoralni-bolest</loc>
+    <loc>https://marekcon.cz/clanky/patelofemoralni-bolest/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://marekcon.cz/clanky/cviky-na-mobilitu-kycli</loc>
+    <loc>https://marekcon.cz/clanky/cviky-na-mobilitu-kycli/</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -168,6 +168,8 @@ const hasMaps = computed(() => has('maps'))
 const showMap = () => save({ maps: true })
 onMounted(hydrate)
 
+useBusinessSchema()
+
 useSeoMeta({
   title: 'Kontakt | Fyzioterapie Marek Cón',
   description: 'Kontaktujte nás pro více informací o našich službách. Budějovická 1126/9, Praha 4-Michle. Tel: +420 602 479 648.',

@@ -107,7 +107,7 @@
                     Neodkládejte úlevu od bolesti. Objednejte se na vstupní konzultaci a společně najdeme řešení vašich potíží.
                 </p>
                 <div class="mt-8">
-                    <a href="/kontakt" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
+                    <a href="/kontakt/" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
                         Chci se objednat
                     </a>
                 </div>
@@ -120,8 +120,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Bolest kolene – syndrom Patellofemorální bolesti | Fyzioterapie Marek Cón',
-  description: 'Syndrom patellofemorální bolesti (PFPS) můžete znát jako běžecké koleno, chondromalacie pately, retropatelární bolestivý syndrom. Mluvíme o bolesti na přední straně kolene, která postihuje přibližně 25 % populace.',
+  title: 'Patellofemorální bolest kolene (PFPS) | Marek Cón',
+  description: 'Syndrom patellofemorální bolesti (PFPS), známý i jako běžecké koleno: bolest na přední straně kolene postihuje asi 25 % populace.',
   ogTitle: 'Bolest kolene – syndrom Patellofemorální bolesti',
   ogDescription: 'Syndrom patellofemorální bolesti (PFPS) - běžecké koleno, chondromalacie pately. Bolest na přední straně kolene postihuje přibližně 25 % populace.',
   ogType: 'article',

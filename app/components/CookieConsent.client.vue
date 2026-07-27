@@ -22,7 +22,7 @@
           <p class="mt-2 text-sm leading-relaxed text-zinc-400">
             Tento web používá technicky nezbytné cookies pro svůj provoz a volitelně cookies
             vloženého obsahu (mapa Mapy.cz) a anonymní statistiky (Google Analytics). Více v
-            <NuxtLink to="/zasady-cookies" class="text-indigo-400 underline hover:text-indigo-300">zásadách používání cookies</NuxtLink>.
+            <NuxtLink to="/zasady-cookies/" class="text-indigo-400 underline hover:text-indigo-300">zásadách používání cookies</NuxtLink>.
           </p>
           <div class="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-end gap-2 sm:gap-3">
             <button type="button" @click="openSettingsPanel" class="order-3 sm:order-1 text-sm font-semibold text-zinc-300 hover:text-white underline-offset-4 hover:underline px-2 py-2.5">

@@ -12,7 +12,15 @@
 const route = useRoute()
 const { siteUrl } = useRuntimeConfig().public
 
-const canonical = computed(() => `${siteUrl}${route.path}`)
+// Apache (endora.cz) appends a trailing slash to directory URLs: a request for
+// /o-nas 301s to /o-nas/. Canonicals therefore have to carry the slash too,
+// otherwise every canonical points at a URL that immediately redirects — which
+// Search Console reports as "Page with redirect". Internal links and
+// public/sitemap.xml use the same trailing-slash form for the same reason.
+const canonical = computed(() => {
+  const path = route.path.endsWith('/') ? route.path : `${route.path}/`
+  return `${siteUrl}${path}`
+})
 
 useHead({
   link: [{ rel: 'canonical', href: canonical }],

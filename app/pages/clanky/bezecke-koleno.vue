@@ -122,7 +122,7 @@
                       Neodkládejte úlevu od bolesti. Objednejte se na vstupní konzultaci a společně najdeme řešení vašich potíží.
                   </p>
                   <div class="mt-8">
-                      <a href="/kontakt" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
+                      <a href="/kontakt/" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
                           Chci se objednat
                       </a>
                   </div>
@@ -134,8 +134,10 @@
   
   <script setup lang="ts">
 useSeoMeta({
-  title: 'Syndrom Iliotibiálního Traktu: Běžecké Koleno | Fyzioterapie Marek Cón',
-  description: 'Abnormální pohybové vzorce či vysoká intenzita tréninku mohou vyvolat bolest na zevní straně kolene, často označovanou jako iliotibiální syndrom (ITBS). Jedná se o přetížení vazivového pruhu, který je důležitým stabilizátorem kolenního a kyčelního kloubu.',
+  // Article titles use the short "| Marek Cón" suffix: the full brand name ate
+  // 24 of the ~60 chars Google shows before truncating.
+  title: 'Běžecké koleno: syndrom iliotibiálního traktu | Marek Cón',
+  description: 'Bolest na zevní straně kolene, tzv. iliotibiální syndrom (ITBS): příčiny, projevy a jak ho řešit fyzioterapií.',
   ogTitle: 'Syndrom Iliotibiálního Traktu: Příčiny a Léčba Běžeckého Kolene',
   ogDescription: 'Iliotibiální syndrom (ITBS) - bolest na zevní straně kolene. Přetížení vazivového pruhu, stabilizátoru kolenního a kyčelního kloubu.',
   ogType: 'article',

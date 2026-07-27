@@ -32,11 +32,11 @@
               class="absolute top-full -left-4 mt-2 w-64 bg-white border border-zinc-200 rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-out transform group-hover:translate-y-0 translate-y-2 overflow-hidden"
             >
               <div class="p-2">
-                <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                <NuxtLink to="/sluzby/fyzioterapie-dospelych/" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
                   <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
                   Ambulantní fyzioterapie
                 </NuxtLink>
-                <NuxtLink to="/sluzby/prevence-ergonomie" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
+                <NuxtLink to="/sluzby/prevence-ergonomie/" class="group/item flex items-center gap-3 px-4 py-3 text-sm text-zinc-700 hover:bg-indigo-50 hover:text-indigo-600 rounded-lg transition-all duration-200">
                   <span class="w-2 h-2 bg-indigo-400 rounded-full group-hover/item:scale-125 transition-transform"></span>
                   Fyzioterapie pro firmy
                 </NuxtLink>
@@ -44,9 +44,9 @@
             </div>
           </div>  
 
-          <NuxtLink to="/clanky" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">Blog</NuxtLink>
-          <NuxtLink to="/o-nas" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">O nás</NuxtLink>
-          <NuxtLink to="/kontakt" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-2.5 px-6 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2">
+          <NuxtLink to="/clanky/" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">Blog</NuxtLink>
+          <NuxtLink to="/o-nas/" class="text-base font-medium text-zinc-700 hover:text-indigo-600 transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-indigo-600 hover:after:w-full after:transition-all after:duration-300">O nás</NuxtLink>
+          <NuxtLink to="/kontakt/" class="group bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-bold py-2.5 px-6 rounded-full transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/25 flex items-center gap-2">
             Kontaktujte nás
             <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
           </NuxtLink>
@@ -78,12 +78,12 @@
         <div class="px-4 pt-4 pb-6 space-y-2">
           <div class="pb-2 mb-2 border-b border-zinc-100">
             <h3 class="text-xs font-bold text-zinc-400 uppercase tracking-wider px-3 mb-2">Služby</h3>
-            <NuxtLink to="/sluzby/fyzioterapie-dospelych" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Ambulantní fyzioterapie</NuxtLink>
-            <NuxtLink to="/sluzby/prevence-ergonomie" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Fyzioterapie pro firmy</NuxtLink>
+            <NuxtLink to="/sluzby/fyzioterapie-dospelych/" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Ambulantní fyzioterapie</NuxtLink>
+            <NuxtLink to="/sluzby/prevence-ergonomie/" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Fyzioterapie pro firmy</NuxtLink>
           </div>
-          <NuxtLink to="/clanky" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Blog</NuxtLink>
-          <NuxtLink to="/o-nas" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">O nás</NuxtLink>
-          <NuxtLink to="/kontakt" @click="isMobileMenuOpen = false" class="block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-center font-bold py-3 px-4 rounded-xl transition-colors">Kontaktujte nás</NuxtLink>
+          <NuxtLink to="/clanky/" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">Blog</NuxtLink>
+          <NuxtLink to="/o-nas/" @click="isMobileMenuOpen = false" class="block px-3 py-2.5 rounded-lg text-base font-medium text-zinc-700 hover:text-indigo-600 hover:bg-indigo-50 transition-colors">O nás</NuxtLink>
+          <NuxtLink to="/kontakt/" @click="isMobileMenuOpen = false" class="block mt-4 bg-indigo-600 hover:bg-indigo-700 text-white text-center font-bold py-3 px-4 rounded-xl transition-colors">Kontaktujte nás</NuxtLink>
         </div>
       </div>
     </transition>

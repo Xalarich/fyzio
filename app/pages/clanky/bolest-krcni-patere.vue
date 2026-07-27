@@ -105,7 +105,7 @@
                     Neodkládejte úlevu od bolesti. Objednejte se na vstupní konzultaci a společně najdeme řešení vašich potíží.
                 </p>
                 <div class="mt-8">
-                    <a href="/kontakt" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
+                    <a href="/kontakt/" class="bg-white hover:bg-zinc-100 text-indigo-700 font-bold py-4 px-8 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 inline-block">
                         Chci se objednat
                     </a>
                 </div>
@@ -118,8 +118,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Bolest Krční Páteře: Příčiny a Projevy | Fyzioterapie Marek Cón',
-  description: 'Nejčastěji uváděným typem bolesti je nespecifická nebo mechanická bolest krční páteře. Běžné projevy mohou zahrnovat bolest svalů, svalové křeče, bolest hlavy a další.',
+  title: 'Bolest krční páteře: příčiny a projevy | Marek Cón',
+  description: 'Nespecifická a mechanická bolest krční páteře: bolest svalů, svalové křeče i bolest hlavy. Přehled příčin, projevů a možností léčby.',
   ogTitle: 'Bolest Krční Páteře: Příčiny a Projevy',
   ogDescription: 'Nespecifická nebo mechanická bolest krční páteře. Běžné projevy zahrnují bolest svalů, svalové křeče, bolest hlavy.',
   ogType: 'article',

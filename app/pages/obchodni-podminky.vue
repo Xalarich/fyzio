@@ -42,7 +42,7 @@
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">3. Ceny a platební podmínky</h2>
           <p>
             Aktuální ceny služeb jsou uvedeny v ceníku na stránce
-            <NuxtLink to="/kontakt" class="text-indigo-600 hover:text-indigo-700">Kontakt</NuxtLink>.
+            <NuxtLink to="/kontakt/" class="text-indigo-600 hover:text-indigo-700">Kontakt</NuxtLink>.
             Platba probíhá v hotovosti nebo platební kartou po poskytnutí služby,
             není-li dohodnuto jinak.
           </p>
@@ -70,7 +70,7 @@
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">7. Ochrana osobních údajů</h2>
           <p>
             Zpracování osobních údajů se řídí samostatným dokumentem
-            <NuxtLink to="/ochrana-udaju" class="text-indigo-600 hover:text-indigo-700">Ochrana osobních údajů</NuxtLink>.
+            <NuxtLink to="/ochrana-udaju/" class="text-indigo-600 hover:text-indigo-700">Ochrana osobních údajů</NuxtLink>.
           </p>
 
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">8. Závěrečná ustanovení</h2>

@@ -133,7 +133,7 @@
               Objednejte se na konzultaci a naučte se cviky, které jsou vhodné právě pro vás. Individuální přístup zaručuje nejlepší výsledky.
             </p>
             <div class="mt-8">
-              <NuxtLink to="/kontakt" class="group inline-flex items-center bg-white hover:bg-zinc-50 text-indigo-700 font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-xl hover:shadow-2xl">
+              <NuxtLink to="/kontakt/" class="group inline-flex items-center bg-white hover:bg-zinc-50 text-indigo-700 font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-xl hover:shadow-2xl">
                 Chci se objednat
                 <svg class="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </NuxtLink>
@@ -148,8 +148,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Mobilita kyčlí a bolesti zad – 3 cviky | Fyzioterapie Marek Cón',
-  description: 'Kyčelní kloub je mnohem méně pohyblivý než ramenní, přesto je jejich mobilita velmi důležitá. Omezený pohyb kyčelních kloubů často souvisí s bolestmi bederní páteře. Naučte se 3 účinné cviky.',
+  title: 'Mobilita kyčlí a bolesti zad – 3 cviky | Marek Cón',
+  description: 'Omezená pohyblivost kyčelních kloubů často souvisí s bolestmi bederní páteře. Naučte se 3 účinné cviky na zlepšení mobility kyčlí.',
   ogTitle: 'Mobilita kyčlí a bolesti zad – 3 cviky pro zlepšení zdraví',
   ogDescription: 'Omezený pohyb kyčelních kloubů často souvisí s bolestmi bederní páteře. Naučte se 3 účinné cviky pro zlepšení mobility.',
   ogType: 'article',

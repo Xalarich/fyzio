@@ -16,7 +16,7 @@
               <a 
                 href="https://www.google.com/maps/place/Bud%C4%9Bjovick%C3%A1+1126%2F9,+140+00+Praha+4-Michle" 
                 target="_blank" 
-                class="group flex items-start gap-3 hover:text-indigo-400 transition-colors duration-300"
+                class="group flex items-start gap-3 text-zinc-300 hover:text-indigo-400 transition-colors duration-300"
               >
                 <svg class="h-5 w-5 mt-0.5 flex-shrink-0 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
                   <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
@@ -25,7 +25,7 @@
               </a>
             </li>
             <li>
-              <a href="tel:+420602479648" class="group flex items-center gap-3 hover:text-indigo-400 transition-colors duration-300">
+              <a href="tel:+420602479648" class="group flex items-center gap-3 text-zinc-300 hover:text-indigo-400 transition-colors duration-300">
                 <svg class="h-5 w-5 flex-shrink-0 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
@@ -33,7 +33,7 @@
               </a>
             </li>
             <li>
-              <a href="mailto:marek.con77@gmail.com" class="group flex items-center gap-3 hover:text-indigo-400 transition-colors duration-300">
+              <a href="mailto:marek.con77@gmail.com" class="group flex items-center gap-3 text-zinc-300 hover:text-indigo-400 transition-colors duration-300">
                 <svg class="h-5 w-5 flex-shrink-0 text-indigo-500" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -49,13 +49,13 @@
           <h3 class="text-sm font-bold tracking-wider text-white uppercase">Služby</h3>
           <ul class="mt-4 space-y-3 list-none">
             <li>
-              <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/sluzby/fyzioterapie-dospelych/" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 Ambulantní fyzioterapie
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/sluzby/prevence-ergonomie" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/sluzby/prevence-ergonomie/" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 Fyzioterapie pro firmy
               </NuxtLink>
@@ -68,19 +68,19 @@
           <h3 class="text-sm font-bold tracking-wider text-white uppercase">Rychlé odkazy</h3>
           <ul class="mt-4 space-y-3 list-none">
             <li>
-              <NuxtLink to="/clanky" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/clanky/" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 Blog
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/o-nas" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/o-nas/" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 O nás
               </NuxtLink>
             </li>
             <li>
-              <NuxtLink to="/kontakt" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
+              <NuxtLink to="/kontakt/" class="group flex items-center gap-2 text-sm text-zinc-400 hover:text-indigo-400 transition-colors duration-300">
                 <span class="w-1.5 h-1.5 bg-indigo-500 rounded-full group-hover:scale-125 transition-transform"></span>
                 Kontakt
               </NuxtLink>
@@ -113,7 +113,7 @@
           <!-- CTA -->
           <div class="mt-8">
             <NuxtLink 
-              to="/kontakt" 
+              to="/kontakt/" 
               class="group inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white hover:text-white font-semibold py-3 px-5 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/25"
             >
               Objednat se
@@ -125,13 +125,14 @@
 
       <!-- Bottom -->
       <div class="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-zinc-800 flex flex-col-reverse items-center gap-4 sm:flex-row sm:justify-between">
-        <p class="text-sm text-zinc-500">
+        <!-- zinc-400, not zinc-500: on bg-zinc-900 the latter is 3.67:1 and fails WCAG AA (needs 4.5:1). -->
+        <p class="text-sm text-zinc-400">
           &copy; {{ new Date().getFullYear() }} Fyzioterapie Marek Cón. Všechna práva vyhrazena.
         </p>
         <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm">
-          <NuxtLink to="/obchodni-podminky" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</NuxtLink>
-          <NuxtLink to="/ochrana-udaju" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</NuxtLink>
-          <NuxtLink to="/zasady-cookies" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Zásady cookies</NuxtLink>
+          <NuxtLink to="/obchodni-podminky/" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Obchodní podmínky</NuxtLink>
+          <NuxtLink to="/ochrana-udaju/" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Ochrana údajů</NuxtLink>
+          <NuxtLink to="/zasady-cookies/" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Zásady cookies</NuxtLink>
           <button type="button" @click="openSettings" class="text-zinc-400 hover:text-indigo-400 transition-colors duration-300">Nastavení cookies</button>
         </div>
       </div>

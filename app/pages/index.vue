@@ -3,6 +3,23 @@
     <section class="p-0">
       <ClientOnly>
         <HeroSlider />
+        <!--
+          Prerendered stand-in for the Swiper hero. Without it the static HTML
+          shipped no hero at all — no <h1>, no copy, no image — and the whole
+          page jumped on hydration (CLS 0.77). The wrapper height and the
+          overlay markup match HeroSlider exactly, so the swap is invisible.
+        -->
+        <template #fallback>
+          <div class="relative w-full h-[calc(100vh-5rem)]">
+            <img
+              src="/images/home/podkresleni-1.jpg"
+              alt="Funkční a kondiční trénink"
+              class="w-full h-full object-cover"
+              fetchpriority="high"
+            >
+            <HeroOverlay />
+          </div>
+        </template>
       </ClientOnly>
     </section>
 
@@ -42,14 +59,14 @@
           </p>
         </div>
         <div class="mt-8 sm:mt-12 grid gap-4 sm:gap-8 grid-cols-1 md:grid-cols-2">
-          <NuxtLink to="/sluzby/fyzioterapie-dospelych" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
+          <NuxtLink to="/sluzby/fyzioterapie-dospelych/" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-indigo-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-indigo-100 rounded-xl flex items-center justify-center group-hover:bg-indigo-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-indigo-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
             </div>
             <h3 class="mt-6 text-xl font-bold text-zinc-900 group-hover:text-indigo-600 transition-colors duration-300">Ambulantní fyzioterapie</h3>
             <p class="mt-3 text-base text-zinc-600">Specializujeme se na sportovní fyzioterapii a <strong class="text-zinc-900">RTP (return to play) protokol</strong> – řízený návrat sportovce do plné zátěže. Komplexní vyšetření pohybového aparátu, manuální techniky a funkční trénink.</p>
           </NuxtLink>
-          <NuxtLink to="/sluzby/prevence-ergonomie" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-emerald-100 transform hover:-translate-y-2 block">
+          <NuxtLink to="/sluzby/prevence-ergonomie/" class="group bg-white p-5 sm:p-8 rounded-xl shadow-md hover:shadow-2xl transition-all duration-500 border border-transparent hover:border-emerald-100 transform hover:-translate-y-2 block">
             <div class="flex-shrink-0 w-14 h-14 bg-emerald-100 rounded-xl flex items-center justify-center group-hover:bg-emerald-600 transition-colors duration-300">
               <svg class="h-7 w-7 text-emerald-600 group-hover:text-white transition-colors duration-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" /></svg>
             </div>
@@ -77,35 +94,41 @@
           <div class="max-w-xl">
             <h2 class="text-base font-semibold text-indigo-600 tracking-wider uppercase">Naše filozofie</h2>
             <p class="mt-2 text-3xl font-extrabold text-zinc-900 tracking-tight sm:text-4xl">Péče, které můžete věřit</p>
-            <dl class="mt-6 sm:mt-8 space-y-4 sm:space-y-6">
-              <div class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
+            <!--
+              A <ul>, not a <dl>: each item is an icon + heading + text, and the
+              HTML spec only allows dl > div > (dt, dd) with nothing else in the
+              group — the icon <div> made the list invalid (axe: definition-list
+              / dlitem). A feature list is a plain list anyway.
+            -->
+            <ul class="mt-6 sm:mt-8 space-y-4 sm:space-y-6 list-none">
+              <li class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
                 <div class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
                   <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <div>
-                  <dt class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Moderní vybavení a techniky</dt>
-                  <dd class="mt-1 text-zinc-600">Využíváme nejnovější diagnostické a terapeutické přístroje pro vaši rychlou úlevu.</dd>
+                  <p class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Moderní vybavení a techniky</p>
+                  <p class="mt-1 text-zinc-600">Využíváme nejnovější diagnostické a terapeutické přístroje pro vaši rychlou úlevu.</p>
                 </div>
-              </div>
-              <div class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
+              </li>
+              <li class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
                 <div class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
                   <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <div>
-                  <dt class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Zkušení a certifikovaní terapeuti</dt>
-                  <dd class="mt-1 text-zinc-600">Náš tým se neustále vzdělává, abychom vám mohli nabídnout tu nejlepší péči.</dd>
+                  <p class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Zkušení a certifikovaní terapeuti</p>
+                  <p class="mt-1 text-zinc-600">Náš tým se neustále vzdělává, abychom vám mohli nabídnout tu nejlepší péči.</p>
                 </div>
-              </div>
-              <div class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
+              </li>
+              <li class="group flex items-start gap-4 p-4 rounded-xl transition-all duration-300 hover:bg-indigo-50">
                 <div class="flex-shrink-0 w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center">
                   <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
                 </div>
                 <div>
-                  <dt class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Důraz na dlouhodobé výsledky</dt>
-                  <dd class="mt-1 text-zinc-600">Neléčíme jen symptomy, ale hledáme příčinu vašich potíží a učíme vás, jak jim předcházet.</dd>
+                  <p class="font-bold text-zinc-900 text-lg group-hover:text-indigo-600 transition-colors">Důraz na dlouhodobé výsledky</p>
+                  <p class="mt-1 text-zinc-600">Neléčíme jen symptomy, ale hledáme příčinu vašich potíží a učíme vás, jak jim předcházet.</p>
                 </div>
-              </div>
-            </dl>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -192,7 +215,7 @@
               Neodkládejte úlevu od bolesti. Objednejte se na vstupní konzultaci a společně najdeme řešení vašich potíží.
             </p>
             <div class="mt-8">
-              <a href="/kontakt" class="group inline-flex items-center bg-white hover:bg-zinc-50 text-indigo-700 font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-xl hover:shadow-2xl">
+              <a href="/kontakt/" class="group inline-flex items-center bg-white hover:bg-zinc-50 text-indigo-700 font-bold py-4 px-8 rounded-xl text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-xl hover:shadow-2xl">
                 Chci se objednat
                 <svg class="ml-2 w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
               </a>
@@ -205,9 +228,12 @@
 </template>
 
 <script setup>
+useBusinessSchema()
+
 useSeoMeta({
   title: 'Fyzioterapie Marek Cón | Sportovní fyzio & RTP – Praha',
-  description: 'Sportovní fyzioterapie a RTP (return to play) protokol v Praze. Zkušenosti z FK Jablonec, FC Red Bull Salzburg Academy a parahokejové reprezentace. Individuální přístup a dlouhodobé výsledky.',
+  // Kept under ~155 chars — Google truncates the snippet past that.
+  description: 'Sportovní fyzioterapie a RTP protokol v Praze. Zkušenosti z FK Jablonec, FC Red Bull Salzburg a parahokejové reprezentace. Objednejte se.',
   ogTitle: 'Fyzioterapie Marek Cón | Sportovní fyzio & RTP – Praha',
   ogDescription: 'Sportovní fyzioterapie a RTP (return to play) protokol v Praze. Zkušenosti z FK Jablonec, FC Red Bull Salzburg Academy a parahokejové reprezentace.',
   ogType: 'website',

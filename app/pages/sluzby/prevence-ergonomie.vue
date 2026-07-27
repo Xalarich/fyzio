@@ -260,7 +260,7 @@
         </p>
         <div class="mt-8">
           <NuxtLink
-            to="/kontakt"
+            to="/kontakt/"
             class="group inline-flex items-center bg-white hover:bg-zinc-50 text-indigo-700 font-bold py-4 px-10 rounded-xl text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-xl hover:shadow-2xl"
           >
             Kontaktujte nás
