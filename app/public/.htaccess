@@ -4,9 +4,23 @@
 # Serve the branded 404 page generated from app/error.vue
 ErrorDocument 404 /404.html
 
-# Redirect all traffic to HTTPS (enable the SSL certificate in endora first!)
+# Canonical host + HTTPS.
+# Both www.marekcon.cz and marekcon.cz used to answer 200 with identical
+# content, so every page existed under two URLs and inbound links split
+# between them. The canonical tag already pointed at the non-www form; these
+# rules enforce it.
+#
+# ORDER MATTERS: the www rule must come FIRST. That way http://www.example
+# reaches https://example in a single 301 instead of hopping through
+# https://www.example. %1 is the host captured without the leading "www.".
 <IfModule mod_rewrite.c>
   RewriteEngine On
+
+  # www -> non-www (and straight to HTTPS in the same hop)
+  RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+  RewriteRule ^ https://%1%{REQUEST_URI} [L,R=301]
+
+  # Redirect remaining plain HTTP to HTTPS (enable the SSL cert in endora first!)
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>

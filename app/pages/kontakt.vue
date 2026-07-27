@@ -102,33 +102,6 @@
       </div>
     </section>
 
-    <!-- Contact CTA -->
-    <section class="bg-zinc-100 pb-12 sm:pb-20">
-      <div class="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="max-w-2xl mx-auto">
-          <div class="bg-white p-6 sm:p-8 lg:p-12 rounded-2xl shadow-xl border border-zinc-200 text-center">
-            <h3 class="text-2xl font-bold text-zinc-900 mb-2">Napište nebo zavolejte</h3>
-            <p class="text-zinc-600 mb-8">Máte dotaz nebo se chcete objednat? Ozvěte se nám – rádi vám odpovíme.</p>
-            <div class="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
-                href="mailto:marek.con77@gmail.com?subject=Dotaz%20z%20webu"
-                class="inline-flex items-center justify-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-xl hover:shadow-indigo-500/25"
-              >
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
-                Napsat e-mail
-              </a>
-              <a
-                href="tel:+420602479648"
-                class="inline-flex items-center justify-center gap-2 bg-white border-2 border-indigo-200 hover:border-indigo-400 text-indigo-700 font-bold py-4 px-8 rounded-xl transition-all duration-300 transform hover:scale-[1.02] hover:shadow-lg"
-              >
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
-                Zavolat +420 602 479 648
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!-- Map (loaded only after cookie consent) -->
     <section class="w-full">
