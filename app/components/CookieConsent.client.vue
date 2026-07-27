@@ -21,7 +21,7 @@
           <h2 class="text-base font-bold text-white">Používáme cookies</h2>
           <p class="mt-2 text-sm leading-relaxed text-zinc-400">
             Tento web používá technicky nezbytné cookies pro svůj provoz a volitelně cookies
-            vloženého obsahu (mapa Mapy.cz) a anonymní statistiky (Google Analytics). Více v
+            vloženého obsahu (mapa Google Maps) a anonymní statistiky (Google Analytics). Více v
             <NuxtLink to="/zasady-cookies/" class="text-indigo-400 underline hover:text-indigo-300">zásadách používání cookies</NuxtLink>.
           </p>
           <div class="mt-5 flex flex-col sm:flex-row sm:items-center sm:justify-end gap-2 sm:gap-3">
@@ -60,7 +60,7 @@
             <label class="flex items-start justify-between gap-4 rounded-xl bg-white/5 p-4 cursor-pointer">
               <div>
                 <p class="text-sm font-semibold text-white">Mapy / vložený obsah</p>
-                <p class="mt-1 text-xs text-zinc-400">Načtení vložené mapy Mapy.cz na stránce Kontakt. Může ukládat cookies třetí strany.</p>
+                <p class="mt-1 text-xs text-zinc-400">Načtení vložené mapy Google Maps na stránce Kontakt. Může ukládat cookies třetí strany.</p>
               </div>
               <span class="relative mt-0.5 inline-flex shrink-0">
                 <input v-model="mapsChoice" type="checkbox" class="peer sr-only" />

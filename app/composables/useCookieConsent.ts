@@ -1,6 +1,6 @@
 // Cookie consent — shared reactive state + localStorage persistence.
 // Two optional categories exist:
-//   "maps"      = embedded Mapy.cz iframe on /kontakt
+//   "maps"      = embedded Google Maps iframe on /kontakt
 //   "analytics" = Google Analytics 4 (loaded by app/plugins/gtag.client.js,
 //                 which is a no-op until NUXT_PUBLIC_GTAG_ID is set).
 // Adding another category means extending ConsentState + the settings UI.

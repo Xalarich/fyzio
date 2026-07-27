@@ -63,14 +63,14 @@
           <p>Vaše údaje mohou být zpřístupněny následujícím kategoriím příjemců:</p>
           <ul class="list-disc pl-6 space-y-2">
             <li>poskytovatel webhostingu (provoz tohoto webu),</li>
-            <li>poskytovatelé technických služeb třetích stran využitých na webu (např. Google Fonts pro načítání písem, mapový podklad Mapy.cz),</li>
+            <li>poskytovatelé technických služeb třetích stran využitých na webu (např. Google Fonts pro načítání písem, mapový podklad Google Maps),</li>
             <li>orgány veřejné moci, vyžadují-li to právní předpisy.</li>
           </ul>
 
           <h2 class="text-2xl font-bold text-zinc-900 pt-4">6. Cookies a vložený obsah</h2>
           <p>
             Web standardně používá pouze technicky nezbytné soubory cookie potřebné pro jeho provoz.
-            Stránka Kontakt obsahuje vloženou mapu (Mapy.cz), která může ukládat vlastní cookies třetí
+            Stránka Kontakt obsahuje vloženou mapu (Google Maps), která může ukládat vlastní cookies třetí
             strany — z tohoto důvodu se mapa načte až po vašem souhlasu uděleném prostřednictvím cookie
             lišty. Svůj souhlas můžete kdykoli změnit nebo odvolat odkazem „Nastavení cookies" v patičce
             webu. Odkazy na sociální sítě (Instagram, LinkedIn) se otevírají až po kliknutí na příslušném

@@ -105,11 +105,20 @@
 
     <!-- Map (loaded only after cookie consent) -->
     <section class="w-full">
+      <!--
+        Google Maps, ne Mapy.cz. Původní embed https://frame.mapy.cz/s/mobunosopa
+        je zastaralý zkrácený odkaz: frame.mapy.cz je zrušené a odkaz dnes projde
+        čtyřmi přesměrováními do plné aplikace mapy.com (~171 requestů uvnitř
+        iframu). To v běžném Chrome zablokuje renderer stránky — mapa zůstane
+        bílá a nejde s ní hýbat. Nevracet zpět.
+      -->
       <iframe
         v-if="hasMaps"
-        class="w-full h-[350px] sm:h-[500px] grayscale hover:grayscale-0 transition-all duration-700"
-        src="https://frame.mapy.cz/s/mobunosopa"
+        class="w-full h-[350px] sm:h-[500px]"
+        src="https://www.google.com/maps?q=Bud%C4%9Bjovick%C3%A1%201126%2F9,%20140%2000%20Praha%204-Michle&z=16&output=embed"
         title="Mapa — Budějovická 1126/9, Praha 4-Michle"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
         frameborder="0"
       ></iframe>
       <div
@@ -121,7 +130,7 @@
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
         </svg>
         <p class="mt-3 max-w-md text-sm text-zinc-600">
-          Mapa Mapy.cz se načítá až po vašem souhlasu, protože může ukládat cookies třetí strany.
+          Mapa Google se načítá až po vašem souhlasu, protože může ukládat cookies třetí strany.
         </p>
         <button
           type="button"

@@ -34,7 +34,7 @@
               </li>
               <li>
                 <strong class="text-zinc-800">Mapy / vložený obsah</strong> – načtení vložené
-                mapy Mapy.cz na stránce Kontakt. Aktivuje se pouze s vaším souhlasem a může
+                mapy Google Maps na stránce Kontakt. Aktivuje se pouze s vaším souhlasem a může
                 ukládat cookies třetí strany.
               </li>
               <li>
