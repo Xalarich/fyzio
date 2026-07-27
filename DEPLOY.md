@@ -86,3 +86,19 @@ obvyklé hodnoty — ověřte, že odpovídají reálné praxi. Nejde o právní
 
 1. `npm run generate`
 2. Nahrát obsah `.output/public/` do `marekcon.cz/web/` (přepsat existující)
+
+---
+
+## ⚠️ Nikdy nemazat obsah `web/` před nahráním
+
+Ve složce `web/` leží soubor **`googlec82021907f047f22.html`**, kterým je web
+ověřený v Google Search Console. Tento soubor **není součástí buildu** — leží
+v kořeni repozitáře, ne v `app/public/`, takže se do `.output/public`
+negeneruje a při nahrání se neobnoví.
+
+Proto vždy jen **přepisuj** existující soubory, nikdy nemaž celý obsah `web/`.
+Kdyby se soubor přesto ztratil, Google ověření zruší; obnovíš ho nahráním
+téhož souboru z kořene repozitáře zpět do `web/`.
+
+(Trvalé řešení, kdyby bylo někdy potřeba: přesunout ho do `app/public/`,
+odkud ho build vezme automaticky.)
